@@ -1,0 +1,12 @@
+ html,body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,fieldset,legend,figure,figcaption,form,input,i{margin:0;padding:0;}
+                    ol,ul,li{list-style: none;}
+                    a{text-decoration: none;}
+                    h1,h2,h3,h4,h5,h6{font-size: 16px; font-weight: normal;}
+                    em,i{font-style: normal;}
+                    b,strong{font-weight: 500}
+                    img{display: block;border:0;}
+                    input{outline: none;}
+                    .clear_fix:after{content: ".";display: block;clear:both;height: 0;visibility: hidden;overflow: hidden;}
+                    .clear_fix{*zoom:1;}
+                    .lf{float: left;}
+                    .lr{float: right;}

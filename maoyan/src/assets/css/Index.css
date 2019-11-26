@@ -1,0 +1,35 @@
+.top{
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+.pageTitle{
+    height: 51px;
+    width: 100%;
+    background-color: rgb(229, 72, 71);
+    text-align: center;
+    line-height: 51px;
+    color: #fff;
+    font-size: 1.1em;
+}
+.topNav{
+    height: 44px;
+    line-height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.topNav li{
+    height: 100%;
+    cursor: pointer;
+}
+.active{
+    color: rgb(229, 72, 71);
+    border-bottom: 2px solid rgb(229, 72, 71);
+}
+.main{
+    padding-top: 100px;
+}
