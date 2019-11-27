@@ -1,5 +1,7 @@
 import React from 'react';
 import CommonHeader from "../../components/common/CommonHeader";
+import axios from 'axios'
+import '../../assets/css/myOrder.css';
 export default class MyOrder extends React.Component{
     render() {
         return (
@@ -31,5 +33,9 @@ export default class MyOrder extends React.Component{
                 </div>
             </div>
         )
+    }
+     async componentDidMount() {
+        const orderlist =  await axios.get("/ajax/myOrderList?t=34")
+         console.log(111111,orderlist)
     }
 }

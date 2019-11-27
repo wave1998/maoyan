@@ -35,11 +35,11 @@ export default class My extends React.Component{
                             <span>></span>
                         </li>
                         <li>
-                            <span>在线观影</span>
+                            <span>优惠券</span>
                             <span>></span>
                         </li>
                         <li>
-                            <span>在线观影</span>
+                            <span>折扣卡</span>
                             <span>></span>
                         </li>
                     </ul>
