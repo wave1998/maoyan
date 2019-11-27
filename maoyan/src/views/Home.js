@@ -5,23 +5,37 @@ import {
     Route,
     Switch,
 } from 'react-router-dom'
-import Index from "./Index";
-import My from "./My";
-import Ciname from './Ciname'
+import CommonFooter from '../components/common/CommonFooter'
+import Movie from './Movie';
+import Cinema from "./cinema";
+import My from "./my";
+
 class Home extends React.Component{
-    render() {
+    render(props) {
+        console.log(this.props)
         return (
             <div>
-                <nav>
-                    <NavLink className={"App-link"} activeClassName={"App-active"} exact  to={"/"}>电影</NavLink>
-                    <NavLink className={"App-link"} activeClassName={"App-active"} to={"/ciname"}>影院</NavLink>
-                    <NavLink className={"App-link"} activeClassName={"App-active"} to={"/my"}>我的</NavLink>
-                </nav>
-                <Switch>
-                    <Route path={"/ciname"} component={Ciname}></Route>
-                    <Route path={"/my"} component={My}></Route>
-                    <Route path={"/"} component={Index}></Route>
-                </Switch>
+                <CommonFooter></CommonFooter>
+               <Switch>
+                   <Route path={"/"} component={Movie} exact></Route>
+                   <Route path={"/cinema"} component={Cinema} exact></Route>
+                   <Route path={"/my"} component={My} exact></Route>
+               </Switch>
+                {/*<Switch>*/}
+                {/*    {*/}
+                {/*        homeRouter.children.map(v=>{*/}
+                {/*            return (*/}
+                {/*                <Route*/}
+                {/*                    path={v.pathname}*/}
+                {/*                    component={v.component}*/}
+                {/*                    exact={v.exact}*/}
+                {/*                    key={v.pathname}*/}
+                {/*                ></Route>*/}
+                {/*            )*/}
+                {/*            }*/}
+                {/*        )*/}
+                {/*    }*/}
+                {/*</Switch>*/}
             </div>
         )
     }

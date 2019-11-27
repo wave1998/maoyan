@@ -1,8 +1,8 @@
 import React from 'react';
 import '../assets/css/Index.css';
-import Hoting from "../components/index/Hoting";
-import Comming from "../components/index/Comming";
-class Index extends React.Component {
+import Hoting from "../components/movie/Hoting";
+import Comming from "../components/movie/Comming";
+class Movie extends React.Component {
     constructor(){
         super();
         this.state={
@@ -28,4 +28,4 @@ class Index extends React.Component {
         )
     }
 }
-export default Index
+export default Movie

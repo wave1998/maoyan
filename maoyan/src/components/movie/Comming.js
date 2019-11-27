@@ -15,10 +15,10 @@ export default class Comming extends React.Component{
     }
 
     async componentDidMount() {
-        const {data} = await axios.get("/ajax/comingList")
-        console.log(data.movieList) 
+        const coming = await axios.get("/ajax/comingList")
+        console.log(coming)
         this.setState({
-            movieList:data.movieList,
+            movieList:coming.coming,
         })
     }
 }
