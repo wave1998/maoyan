@@ -1,7 +1,6 @@
-import React from 'react';
+import React from 'react'
 import MovieList from "./MovieList";
 import axios from 'axios'
-import Swiper from './Swiper';
 export default class Comming extends React.Component{
     constructor(){
         super();
@@ -11,18 +10,16 @@ export default class Comming extends React.Component{
     }
     render() {
         return (
-            <>
-            <Swiper></Swiper>
             <MovieList movieList={this.state.movieList}></MovieList>
-            </>
         )
     }
 
+
     async componentDidMount() {
-        const coming = await axios.get("/ajax/comingList")
-        
+        const {data} = await axios.get("/ajax/comingList")
+        console.log(data)
         this.setState({
-            movieList:coming.coming,
+            movieList:data.coming,
         })
     }
 }

@@ -51,7 +51,6 @@ class MovieList extends React.Component {
                         </div>
                     </div>
             ):null
-
     )
 }
 }
