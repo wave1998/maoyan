@@ -15,12 +15,13 @@ class Home extends React.Component{
         console.log(this.props)
         return (
             <div>
-                <CommonFooter></CommonFooter>
+                
                <Switch>
                    <Route path={"/"} component={Movie} exact></Route>
                    <Route path={"/cinema"} component={Cinema} exact></Route>
                    <Route path={"/my"} component={My} exact></Route>
                </Switch>
+               <CommonFooter class="homeFooter"></CommonFooter>
                 {/*<Switch>*/}
                 {/*    {*/}
                 {/*        homeRouter.children.map(v=>{*/}
