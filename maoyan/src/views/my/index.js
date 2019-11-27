@@ -1,9 +1,8 @@
 import React from 'react';
-import  '../../assets/css/my.css'
+import '../../assets/css/my.css'
 export default class My extends React.Component{
     render() {
         return (
-
             <div className="body">
                 <div className="body_top">
                     <img
@@ -12,15 +11,18 @@ export default class My extends React.Component{
                     />
                 </div>
                 <div className="orders">
-                    <p>我的订单</p>
+                    <p className={"title"}>我的订单</p>
+                    <div className="title-line"></div>
                     <ul>
-                        <li>
-                            <i />
-                            <p>电影</p>
+                        <li className={"order-li"}>
+                            <div className={"order-movie"}>
+                                <p className={"order-p"}>电影</p>
+                            </div>
                         </li>
-                        <li>
-                            <i />
-                            <p>商城</p>
+                        <li className={"order-li"}>
+                            <div className={"order-movie"} style={{backgroundImage:"url('https://s0.meituan.net/bs/file/?f=myfe/canary:static/deploy/dpmmweb/client/dpmmweb/component/mycenter/img/store.png')"}}>
+                                <p className={"order-p"}>商城</p>
+                            </div>
                         </li>
                     </ul>
                 </div>

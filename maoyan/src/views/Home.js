@@ -1,7 +1,5 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
-    NavLink,
     Route,
     Switch,
 } from 'react-router-dom'
@@ -21,21 +19,6 @@ class Home extends React.Component{
                    <Route path={"/cinema"} component={Cinema} exact></Route>
                    <Route path={"/my"} component={My} exact></Route>
                </Switch>
-                {/*<Switch>*/}
-                {/*    {*/}
-                {/*        homeRouter.children.map(v=>{*/}
-                {/*            return (*/}
-                {/*                <Route*/}
-                {/*                    path={v.pathname}*/}
-                {/*                    component={v.component}*/}
-                {/*                    exact={v.exact}*/}
-                {/*                    key={v.pathname}*/}
-                {/*                ></Route>*/}
-                {/*            )*/}
-                {/*            }*/}
-                {/*        )*/}
-                {/*    }*/}
-                {/*</Switch>*/}
             </div>
         )
     }
