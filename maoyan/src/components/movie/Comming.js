@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import MovieList from "./MovieList";
 import axios from 'axios'
 export default class Comming extends React.Component{
@@ -13,6 +13,7 @@ export default class Comming extends React.Component{
             <MovieList movieList={this.state.movieList}></MovieList>
         )
     }
+
 
     async componentDidMount() {
         const {data} = await axios.get("/ajax/comingList")
