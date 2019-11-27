@@ -35,7 +35,7 @@ export default class MyOrder extends React.Component{
         )
     }
      async componentDidMount() {
-        const orderlist =  await axios.get("/ajax/myOrderList?t=34")
+        const orderlist =  await axios.get("/ajax/myOrderList")
          console.log(111111,orderlist)
     }
 }
