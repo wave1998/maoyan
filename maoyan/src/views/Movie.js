@@ -1,7 +1,8 @@
 import React from 'react';
-import '../assets/css/Index.css';
+import '../assets/css/movie.css';
 import Hoting from "../components/movie/Hoting";
 import Comming from "../components/movie/Comming";
+import CommonHeader from "../components/common/CommonHeader"
 class Movie extends React.Component {
     constructor(){
         super();
@@ -13,7 +14,7 @@ class Movie extends React.Component {
         return (
             <div>
                 <div className="top">
-                    <div className="pageTitle">猫眼电影</div>
+                    <CommonHeader></CommonHeader>
                     <ul className="topNav">
                         <li className={this.state.showHot===1?'active':''} onClick={()=>this.setState({showHot:1})}>正在热映</li>
                     <li className={this.state.showHot===0?'active':''} onClick={()=>this.setState({showHot:0})}>即将上映</li>
