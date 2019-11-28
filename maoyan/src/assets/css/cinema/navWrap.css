@@ -1,0 +1,37 @@
+.nav-wrap {
+    background:#fff;
+    box-shadow: 0 0 1px 0 #ccc;
+    border-bottom: 1px solid #d8d8d8;
+}
+.nav-wrap ul {
+    display:flex;
+    color:#777;
+    border-bottom: 1px solid #d8d8d8 ;
+}
+.nav-wrap ul>li{
+    flex:1;
+    text-align:center;
+    line-height:40px;
+    font-size:13px;
+    color:#777;
+    position: relative;
+}
+.nav-wrap ul>li:nth-child(n+1)::before{
+    display:block;
+    content:"";
+    width:1px;
+    height:20px;
+    background:#e8e8e8;
+    position:absolute;
+    top:10px;
+}
+.closeTab {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    z-index: 100;
+    overflow: scroll;
+    min-height: 150px;
+    max-height: 352px;
+}
+
