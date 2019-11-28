@@ -5,7 +5,7 @@ import '../../assets/css/movieList.css'
 class MovieList extends React.Component {
 
     render() {
-        console.log(this.props)
+       
         return (
             this.props.movieList?
                 this.props.movieList.map(v =>

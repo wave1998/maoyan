@@ -22,7 +22,7 @@ export default class Comming extends React.Component{
 
 
     async componentDidMount() {
-        const {data} = await axios.get("/ajax/comingList")
+        const {data} = await axios.get("/ajax/comingList?ci=238&token=&limit=10s")
         console.log(data.comming)
         this.setState({
             movieList:data.coming,
