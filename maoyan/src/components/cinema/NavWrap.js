@@ -6,7 +6,7 @@ import AllCity from "./navWrap/AllCity";
 
 class NavWrap extends React.Component {
     constructor(){
-        super()
+        super();
         this.state={
             closeTab:false,
             brand:false,
