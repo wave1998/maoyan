@@ -1,5 +1,6 @@
 import React from 'react'
 import "../../assets/css/cinema/cinemaList.css"
+import Eat from "../common/Littleeat"
 
 class CinemaList extends React.Component {
 
@@ -11,8 +12,8 @@ class CinemaList extends React.Component {
                     {/*下面这个div点击之后跳转到 影院详情，传参数cinemaId和movieId*/}
                     {
                         this.props.cinemaList ?
-                            this.props.cinemaList.map(v =>
-                                    <div className="item" key={v.id}>
+                            this.props.cinemaList.map(v =>          
+                                    <div className="item" key={v.id} >
                                         <div className="title-block">
                                             <div className="title-label">
                                                 <span>{v.nm}</span>
@@ -51,6 +52,7 @@ class CinemaList extends React.Component {
                                     </div>
                             ) : null}
                 </div>
+                <Eat></Eat>
             </div>
         )
     }
