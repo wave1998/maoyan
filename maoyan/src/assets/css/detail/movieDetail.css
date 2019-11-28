@@ -1,0 +1,150 @@
+/* .movie-info {
+    padding: .42rem .32rem;
+    color: #fff;
+    position: relative;
+    background-color: pink;
+} */
+
+.movie-info {
+    padding: .42rem .32rem;
+    color: #fff;
+    position: relative;
+    background: pink;
+}
+.movie-info-top {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+.movie-cover {
+    float: left;
+    height: 2.76rem;
+    width: 2rem;
+    position: relative;
+    flex-shrink: 0;
+}
+.movie-page a {
+    text-decoration: none;
+    color: inherit;
+}
+.movie-info .movie-cover img.poster {
+    height: 2.76rem;
+    width: 100%;}
+    .movie-info .movie-cover img.poster-play {
+        height: .6rem;
+        width: .6rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .movie-info .movie-desc {
+        flex-grow: 1;
+        margin-left: .24rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+.movie-info-top {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+.movie-page a {
+    text-decoration: none;
+    color: inherit;
+}
+.movie-cover img.poster {
+    height: 2.76rem;
+    width: 100%;
+}
+.movie-cover img.poster-play {
+    height: .6rem;
+    width: .6rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.movie-desc {
+    flex-grow: 1;
+    margin-left: .24rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.movie-desc-top {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+.movie-cn-name {
+    font-size: .4rem;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 700;
+}
+ .movie-en-name {
+    font-size: .24rem;
+    opacity: .6;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.movie-other-info {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column;
+    justify-content: center;
+}
+.movie-type {
+    font-size: .24rem;
+    display: flex;
+    align-items: center;
+}
+.movie-cat {
+    opacity: .6;
+}
+.movie-tag {
+    border-radius: .04rem;
+    margin-left: .08rem;
+    vertical-align: text-bottom;
+    display: flex;
+    align-items: center;
+}
+.movie-info .movie-desc .actors {
+    opacity: .6;
+    font-size: .24rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+}
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0,0%,100%,.35);
+    box-shadow: 0 0.02rem 0.08rem 0 rgba(0,0,0,.1);
+    border-radius: .08rem;
+    font-size: .28rem;
+    width: 47.61904762%;
+    height: .6rem;
+    color: #fff;
+}
+.btns .button img {
+    width: .28rem;
+    height: .28rem;
+    margin-right: .12rem;
+}
+.movie-show-time span {
+    opacity: .6;
+    font-size: .24rem;
+}
