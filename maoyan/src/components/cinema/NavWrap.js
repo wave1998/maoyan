@@ -1,29 +1,33 @@
 import React from 'react'
 import '../../assets/css/cinema/navWrap.css'
+import Brand from "./navWrap/Brand";
+import HallType from "./navWrap/hallType";
+
 class NavWrap extends React.Component {
+    constructor(){
+        super()
+        this.state={
+            closeTab:false,
+            brand:false,
+            allCity:false,
+            hallType:false,
+        }
+    }
     render() {
         return (
-            // onClick="handleOpen"
-            <div className="nav-wrap" >
+            <div className="nav-wrap" onClick={()=>this.setState({closeTab:!this.state.closeTab})}>
         <ul>
-            <li>全城<span className="yo-ico">&#xf033;</span></li>
-            <li>品牌<span className="yo-ico">&#xf033;</span></li>
-            <li>特色<span className="yo-ico">&#xf033;</span></li>
+            <li onClick={()=>this.setState({allCity:true,brand:false,hallType:false})}>全城<span className="yo-ico">&#xf033;</span></li>
+            <li onClick={()=>this.setState({brand:true,allCity:false,hallType:false})}>品牌<span className="yo-ico">&#xf033;</span></li>
+            <li onClick={()=>this.setState({hallType:true,allCity:false,brand:false})}>特色<span className="yo-ico">&#xf033;</span></li>
         </ul>
-                {/*<div className="close-tab" v-show="show">
-        //     <div className="tab">
-        //         <div v-for="(region,key,index) in regions" :key="key" @click="handleClick(region,key,index)"
-        //         :className="{active:currentActive === index}"
-        //     >
-        //         {{region}}
-        //     </div>
-        // </div>
-        // <van-tree-select height="4.8rem" :items="items" :main-active-index.sync="activeIndex">
-        <template slot="content">
-        </template>
-    </van-tree-select>
-    </div>*/}
-
+                {
+                    this.state.closeTab?
+                    <div className={"closeTab"}>
+                        {this.state.brand?<Brand></Brand>:null}
+                        {this.state.hallType?<HallType></HallType>:null}
+                    </div>:null
+                }
         </div>
     )
     }
