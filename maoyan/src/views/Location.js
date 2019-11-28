@@ -1,8 +1,14 @@
 import React from 'react';
+import Choose from "../components/common/Location"
+
 export default class Location extends React.Component{
     render() {
         return (
-            <div>Location</div>
+            <div>
+              <Choose>
+              </Choose>
+            
+            </div>
         )
     }
 }

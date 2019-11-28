@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios'
 import CommonHeader from '../../components/common/CommonHeader'
 import CinemaList from "../../components/cinema/CinemaList";
+import NavWrap from '../../components/cinema/NavWrap'
 import "../../assets/css/cinema/cinema.css"
 export default class Cinema extends React.Component{
     constructor(){
@@ -29,7 +30,7 @@ export default class Cinema extends React.Component{
                             </div>
                         </div>
                     </div>
-                    {/*<NavWrap></NavWrap>*/}
+                    <NavWrap></NavWrap>
                     <div className="cinemaList">
                         <CinemaList cinemaList={this.state.cinemaList}></CinemaList>
                 </div>

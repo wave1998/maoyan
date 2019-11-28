@@ -1,0 +1,73 @@
+.hallType-content{
+    height: 345.12px;
+    background-color: #fff;
+    overflow: auto;
+    box-sizing: border-box;
+    min-height: 208px;
+    color: #777;
+}
+.special-content{
+    min-height: 150px;
+    max-height: 270px;
+    overflow: scroll;
+}
+.special-content .item-title{
+    margin-left: 12px;
+    margin-top: 11px;
+    font-size: 15px;
+    text-align: left;
+}
+.special-content .item-list{
+    margin: 0 12px 12px;
+    overflow: auto;
+}
+
+.hallType-content .special-content .item-list .item{
+    float: left;
+    width: 21.3%;
+    height: 30px;
+    padding: 3px 0;
+    margin-right: 3%;
+    margin-top: 10px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: .7rem;
+    margin-left: 0;
+}
+.hallType-content .special-content .item-list .item.chosen{
+    background: #fcf0f0;
+    color: #f03d37;
+    border: 1px solid #f03d37;
+}
+.special-btn{
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 10px;
+    background: #fafafa;
+    position: absolute;
+    bottom: 0;
+    text-align: justify;
+}
+.special-btn span.btn{
+    display: inline-block;
+    height: 34px;
+    width: 21.3%;
+    margin: 13px 11px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+}
+.special-btn span.confirm-btn{
+    float: right;
+    background: #f03d37;
+    border: 1px solid #f03d37;
+    color: #fff;
+}
