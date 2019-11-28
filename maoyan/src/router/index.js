@@ -6,6 +6,7 @@ import Location from "../views/Location";
 import CinemaDetail from "../views/detail/CinemaDetail";
 import MovieDetail from "../views/detail/MovieDetail";
 import MyOrder from "../views/my/MyOrder";
+import MovieCinema from "../views/detail/MovieCinema";
 
 
 const mainRouter = [
@@ -38,6 +39,12 @@ const mainRouter = [
         component:Search,
         exact:false,
         title:"搜索",
+    },
+    {
+        pathname:"/movie/cinema",
+        component:MovieCinema,
+        exact:true,
+        title:"电影有哪些影院播放",
     },
     {
         pathname:"/MyOrder",
