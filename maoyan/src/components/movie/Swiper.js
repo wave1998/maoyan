@@ -4,62 +4,38 @@ import axios from 'axios';
 
 
 export default class MySwiper extends React.Component{
+    constructor(){
+        super();
+        this.state={
+           expectMovieList:[],
+        }
+    }
     render() {
-
-
-
         return (
+            
             <div  className={"most-expected"}>
                 <p className={"title"}>近期最受期待</p>
-                <div className="most-expected-list">
-                    
-                <div className = {"expected-item "}>
-                   
-                    <div className={"poster"}>1<img/></div>
-                    <div className={"name"}>yueza</div>
-                    <div className={"date"}>2019.11.27</div>
-                </div>
-                <div className = {"expected-item "}>
-                   
-                   <div className={"poster"}>2<img/></div>
-                   <div className={"name"}>yueza</div>
-                   <div className={"date"}>2019.11.27</div>
-               </div>
-               <div className = {"expected-item swiper-wrapper"}>
-                   
-                   <div className={"poster"}>2<img/></div>
-                   <div className={"name"}>yueza</div>
-                   <div className={"date"}>2019.11.27</div>
-               </div>
-               <div className = {"expected-item swiper-wrapper"}>
-                   
-                   <div className={"poster"}>2<img/></div>
-                   <div className={"name"}>yueza</div>
-                   <div className={"date"}>2019.11.27</div>
-               </div>
-               <div className = {"expected-item swiper-wrapper"}>
-                   
-                   <div className={"poster"}>2<img/></div>
-                   <div className={"name"}>yueza</div>
-                   <div className={"date"}>2019.11.27</div>
-               </div>
-               <div className = {"expected-item swiper-wrapper"}>
-                   
-                   <div className={"poster"}>2<img/></div>
-                   <div className={"name"}>yueza</div>
-                   <div className={"date"}>2019.11.27</div>
-               </div>
+              
+                <div className="most-expected-list" > 
+                 {this.state.expectMovieList?
+                this.state.expectMovieList.map(v =>
+                <div className = {"expected-item "} key={v.id}>
+            
+                    <div className={"poster"}>
+                        <img src={v.img.replace("w.h","170.230")}/>
+                    </div>
+                    <div className={"name"}>{v.nm}</div>
+                    <div className={"date"}>{v.comingTitle}</div>
+                </div>):null}
                 </div>
                 </div>
-           
-
         )
     }
     async componentDidMount() {
-        const {data} = await axios.get("/ajax/comingList")
-        console.log(data)
+        const {data} = await axios.get("/ajax/mostExpected?ci=238&limit=10&offset=0&token=")
+        console.log(data.coming)
         this.setState({
-           
+            expectMovieList:data.coming,
         })
     }
 }

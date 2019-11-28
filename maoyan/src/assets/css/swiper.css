@@ -28,7 +28,11 @@
      height: 115px;
      position: relative;
      margin-bottom: 6px;
+     
  }
+ .poster img{
+    height:100% ;
+}
  .name {
      margin: 0;
      font-size: 13px;
