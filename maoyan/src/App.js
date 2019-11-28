@@ -6,7 +6,6 @@ import Login from "./views/Login";
 import mainRouter from "./router";
 
 function App() {
-    console.log(mainRouter)
   return (
       <div className={"App"}>
         <Router>

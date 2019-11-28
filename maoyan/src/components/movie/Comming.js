@@ -23,7 +23,7 @@ export default class Comming extends React.Component{
 
     async componentDidMount() {
         const {data} = await axios.get("/ajax/comingList")
-        console.log(data)
+        console.log(data.comming)
         this.setState({
             movieList:data.coming,
         })

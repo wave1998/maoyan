@@ -33,7 +33,7 @@ class MovieList extends React.Component {
                                     {
                                         !v.globalReleased ?
                                             <li className="score">
-                                                <span>{v.wish}}</span> 想看
+                                                <span>{v.wish}</span> 想看
                                             </li>
                                             : null
                                     }

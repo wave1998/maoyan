@@ -10,7 +10,6 @@ import My from "./my";
 
 class Home extends React.Component{
     render(props) {
-        console.log(this.props)
         return (
             <div>
                <Switch>
