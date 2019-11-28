@@ -1,5 +1,4 @@
 import React from 'react'
-import "../../../assets/css/cinema/navWrap/brand.css"
 import axios from 'axios'
 import '../../../assets/css/cinema/navWrap/hallType.css'
 class HallType extends React.Component{

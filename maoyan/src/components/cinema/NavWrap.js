@@ -1,7 +1,8 @@
 import React from 'react'
 import '../../assets/css/cinema/navWrap.css'
 import Brand from "./navWrap/Brand";
-import HallType from "./navWrap/hallType";
+import HallType from "./navWrap/HallType";
+import AllCity from "./navWrap/AllCity";
 
 class NavWrap extends React.Component {
     constructor(){
@@ -26,6 +27,7 @@ class NavWrap extends React.Component {
                     <div className={"closeTab"}>
                         {this.state.brand?<Brand></Brand>:null}
                         {this.state.hallType?<HallType></HallType>:null}
+                        {this.state.allCity?<AllCity></AllCity>:null}
                     </div>:null
                 }
         </div>
