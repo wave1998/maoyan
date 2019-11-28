@@ -2,13 +2,21 @@
      padding: 12px 0 12px 15px;
      background-color: #fff;
      margin-bottom: 10px;
+    
  }
 .title {
      margin: 0;
      font-size: 14px;
      color: #333;
-     margin-bottom: 12px;left: 0;
+     margin-bottom: 12px;
+     text-align: left;
+     width: 100%;
  }
+ .most-expected-list{
+     white-space:nowrap;
+     overflow: scroll;
+    
+     }
  .expected-item {
      display: inline-block;
      width: 85px;
