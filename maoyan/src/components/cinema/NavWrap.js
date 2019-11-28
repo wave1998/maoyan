@@ -15,8 +15,8 @@ class NavWrap extends React.Component {
     }
     render() {
         return (
-            <div className="nav-wrap" onClick={()=>this.setState({closeTab:!this.state.closeTab})}>
-        <ul>
+            <div className="nav-wrap" >
+        <ul onClick={()=>this.setState({closeTab:!this.state.closeTab})}>
             <li onClick={()=>this.setState({allCity:true,brand:false,hallType:false})}>全城<span className="yo-ico">&#xf033;</span></li>
             <li onClick={()=>this.setState({brand:true,allCity:false,hallType:false})}>品牌<span className="yo-ico">&#xf033;</span></li>
             <li onClick={()=>this.setState({hallType:true,allCity:false,brand:false})}>特色<span className="yo-ico">&#xf033;</span></li>
