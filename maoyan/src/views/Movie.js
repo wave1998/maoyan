@@ -16,6 +16,7 @@ class Movie extends React.Component {
                 <div className="top">
                     <CommonHeader></CommonHeader>
                     <ul className="topNav">
+                    <li onClick={()=>{this.props.history.push("/location")}}>北京</li>
                         <li className={this.state.showHot===1?'active':''} onClick={()=>this.setState({showHot:1})}>正在热映</li>
                     <li className={this.state.showHot===0?'active':''} onClick={()=>this.setState({showHot:0})}>即将上映</li>
             </ul>
