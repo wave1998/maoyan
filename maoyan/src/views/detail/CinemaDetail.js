@@ -26,7 +26,8 @@ export default class CinemaDetail extends React.Component{
                     </div>
                 </div>
                 <div className="swiper-container">
-                    <div className="swiper-wrapper">
+                    
+                        <div className="swiper-wrapper">
                         {
                             this.state.moviesList !== [] ?
                                 this.state.moviesList.map(v=>
@@ -37,6 +38,8 @@ export default class CinemaDetail extends React.Component{
                         }
 
                     </div>
+                    
+                    
                 </div>
             </div>
         )

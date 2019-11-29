@@ -278,3 +278,11 @@ float: left;
         line-height: .52rem;
         overflow: hidden;
     }
+    .brief-introduction>.content {
+        line-height: .52rem;
+        overflow: hidden;
+    }
+    .brief-introduction>.content p {
+        margin: .14rem 0;
+        text-align: justify;
+    }

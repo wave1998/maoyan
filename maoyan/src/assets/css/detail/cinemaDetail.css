@@ -35,3 +35,45 @@
     height: 22px;
     margin-top: 5px;
 }
+.swiper-container{
+    width:100%;
+    height: 135px;
+    background-color: #40454d;
+}
+.swiper-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform,-webkit-transform;
+    box-sizing: content-box;
+    top:20px;
+}
+.cinema-nav{
+    width:100%;
+    height: 95px;
+    padding: 20px 0;
+    padding-left: 5px;
+    padding-right: 15px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.swiper-slide{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    
+}
+.swiper-slide img{
+    text-align: center;
+    width: 65px;
+    height: 95px;
+    line-height: 135px;
+}

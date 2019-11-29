@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import './assets/css/reset.css'
 import './assets/css/detail/movieDetail.css'
 import { withRouter } from 'react-router-dom'
-
+import './assets/iconfont/iconfont.css'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
