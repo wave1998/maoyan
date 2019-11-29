@@ -10,6 +10,7 @@ import MovieCinema from "../views/detail/MovieCinema";
 
 
 const mainRouter = [
+    
     {
         pathname:"/",
         component:Home,
