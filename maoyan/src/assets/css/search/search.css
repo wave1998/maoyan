@@ -1,0 +1,41 @@
+.search{
+    background:#F5F5F5;
+    width:100%;
+}
+.title{
+    height: 50px;
+    background: #e54847;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.title1{
+    display: block;
+    height:100% ;
+    width:52.5px;
+    line-height: 45px;
+}
+.title2{
+    display: block;
+    width: 270px;
+    position: relative;
+    top:-41px;
+    left:52.5px;
+}
+.but{
+    width:100%;
+    height:47px;
+    line-height: 47px;
+    font-size:16px; 
+    color:#F03D37;
+}
+.but1{
+    height:28px;
+    width:250px;
+    border-radius: 5px;
+    padding-left:40px;
+    margin-right:10px;
+    color:#333;
+}
+
