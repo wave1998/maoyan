@@ -69,3 +69,8 @@
     height: 95px;
     line-height: 135px;
 }
+.swiper-slide img.choice {
+    border:2px solid #fff;
+    height: 100px;
+    width: 75px;
+}
