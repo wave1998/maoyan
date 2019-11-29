@@ -18,7 +18,7 @@ const mainRouter = [
         title:"电影",
     },
     {
-        pathname:"/cinemaDetail",
+        pathname:"/cinemaDetail/:cinemaId",
         component:CinemaDetail,
         exact:false,
         title:"影院详情",

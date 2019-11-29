@@ -1,0 +1,37 @@
+.cinemaDetail{
+    background: #fff;
+}
+.cinema-info{
+    position: relative;
+    padding: 15px;
+    padding-right: 100px;
+}
+ .cinema-info .title {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.cinema-info .location {
+    margin-top: 2px;
+    font-size: 13px;
+    line-height: 18.5px;
+    color: #999;
+}
+.cinema-info .location-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 70px;
+    height: 31px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-left: 1px solid #d8d8d8;
+    text-align: center;
+}
+.cinema-info .location-icon img {
+    display: inline-block;
+    width: 19px;
+    height: 22px;
+    margin-top: 5px;
+}
