@@ -23,7 +23,9 @@
     align-items: center;
     border-bottom: 1px solid #ccc;
     background-color: #fff;
-    margin-top: 50px;
+    position: fixed;
+    top: 51px;
+    width: 100%;
 }
 .topNav li{
     height: 100%;
@@ -34,6 +36,6 @@
     border-bottom: 2px solid rgb(229, 72, 71);
 }
 .main{
-    padding-top: 51px;
+    padding-top: 95px;
     margin-bottom: 50px;
 }
