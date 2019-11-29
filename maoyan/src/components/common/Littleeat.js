@@ -23,14 +23,18 @@ class Eat extends React.Component{
                 <p className="P1">影院超值套餐</p>
             {
                 this.state.dealList.map((v,index)=>(
-                  
-                    <div key={index} className="item_eat">
-                         <img className="im" src={v.imageUrl.replace("w.h","440.0")}/>
-                        <div class>{v.title}</div>
-                        <div>{v.price}</div>
-                        <div>{v.curNumberDesc}</div>
-                       
-                    </div>
+                    v.dealList.map(k=>
+                        <div key={index} className="item_eat">
+                      
+                        <img className="im" src={k.imageUrl.replace("w.h","440.0")}/>
+                        <div className="first">{k.titleTag}</div>
+                        <div className="secound">{k.secondTitle}</div> 
+                        <div className="third">{"￥"+k.price}</div>
+                        <div className="fourth">{k.curNumberDesc}</div>
+                        <div className="five">去购买</div> 
+                        
+                        </div>)
+                   
                     
                     
                 ))
@@ -43,8 +47,8 @@ class Eat extends React.Component{
     componentDidMount(){
         axios.get("/ajax/cinemaDetail?cinemaId=26195")
         .then(({data})=>{
-            var aa = data.dealList.dealList
-            console.log(aa.imageUrl)
+            var aa = data.dealList.divideDealList
+            console.log(aa)
             this.setState({
                 // curNumberDesc:aa.curNumberDesc,
                 // price:aa.price,
