@@ -14,18 +14,6 @@ export default class MovieDetail extends React.Component {
     }
     render() {
         return (
-<<<<<<< HEAD
-            <div className="movie-page">
-                <div className={"movie-info"} style={{backgroundColor:this.state.detailMovie.backgroundColor}}>
-                <div className={"honour"}></div>
-                    
-                   
-                    <div className={"movie-info-top"}>
-                        <div className={"movie-cover"} >
-                            <a src="" >电影图片
-                <img className={"img noneBg poster "} src={this.state.detailMovie.img} alt="" />
-                                <img className={"img noneBg poster-paly"} src="" alt="" />
-=======
             <>
                 <div className={"movie-info"}>
                     <div className={"honour"}></div>
@@ -34,7 +22,6 @@ export default class MovieDetail extends React.Component {
                             <a>电影图片
                                 <img className={"img noneBg poster "} src="" alt=""/>
                                 <img className={"img noneBg poster-paly"} src="" alt=""/>
->>>>>>> 323d4104bc1c4a41835935591621696734718f74
                             </a>
                         </div>
                         <div className={"movie-desc"}>
@@ -54,16 +41,6 @@ export default class MovieDetail extends React.Component {
                                        </span>
                                         <span className={"movie-tag"}>
                                             中国巨幕
-<<<<<<< HEAD
-                                               <img  className={"sd-imax"} src="" />
-                                        </span>
-                                    </div>
-
-        <div className={"actors"}>{this.state.detailMovie.star}</div>
-                                    <div className={"movie-show-time"}>
-    <span >{this.state.detailMovie.pubDesc}/{this.state.detailMovie.dur}分钟</span>
-                                        <img />
-=======
                         <img className={"sd-imax"} src=""/>
                                         </span>
                                     </div>
@@ -72,7 +49,6 @@ export default class MovieDetail extends React.Component {
                                     <div className={"movie-show-time"}>
                                         <span>2019-11-19上映/120分钟</span>
                                         <img/>
->>>>>>> 323d4104bc1c4a41835935591621696734718f74
                                     </div>
                                 </div>
                             </div>
@@ -81,25 +57,15 @@ export default class MovieDetail extends React.Component {
                             <div className={"btns"}>
                                 <button className={"buttom"} type="primary">
                                     想看
-<<<<<<< HEAD
-                                   <img />
-                                </button>
-                                <button className={"buttom"} type="buttom">
-                                    看过
-                                  <img />
-=======
                                     <img/>
                                 </button>
                                 <button className={"buttom"} type="buttom">
                                     看过
                                     <img/>
->>>>>>> 323d4104bc1c4a41835935591621696734718f74
                                 </button>
 
                             </div>
                         </div>
-<<<<<<< HEAD
-=======
 
                     </div>
 
@@ -112,7 +78,6 @@ export default class MovieDetail extends React.Component {
                                 <img className={"img noneBg"} alt="logo" src=""/>
                                 <span>实时口碑</span>
                             </div>
->>>>>>> 323d4104bc1c4a41835935591621696734718f74
                         </div>
    {/* 简介 */}
    <div className="brief-introduction">
@@ -155,16 +120,6 @@ export default class MovieDetail extends React.Component {
                         </div>
 
                     </div>
-<<<<<<< HEAD
-
-                    {/* 视频剧照 */}
-                    <div className={"most-expected"}>
-                        <p className={"title"}>视频剧照</p>
-
-                        <div className="videos-photos-list " >
-
-                            <div className={".videos-photos-list-div"} >
-=======
                 </div>
                 <div className={"brief-introduction"}>
                     <div className={"title"}>
@@ -240,7 +195,6 @@ export default class MovieDetail extends React.Component {
                                 图片
                                 <img src=""/>
                             </div>
->>>>>>> 323d4104bc1c4a41835935591621696734718f74
 
                                 
                                     
@@ -262,22 +216,8 @@ export default class MovieDetail extends React.Component {
                     </div>
                      
                  
-            </div>
+            </>
 
-<<<<<<< HEAD
-                )
-               
-            }
-    async componentDidMount() {
-       
-        const {data} = await axios.get("/ajax/detailmovie?movieId=1284949")
-                console.log(data.detailMovie)
-                this.setState({
-                    detailMovie:data.detailMovie,
-                    stagePhotos:data.detailMovie.photos,
-                })
-            }
-=======
         )
     }
 
@@ -285,5 +225,4 @@ export default class MovieDetail extends React.Component {
         const {data} = await axios.get("/ajax/detailmovie?movieId=1284949")
         console.log(data.detailMovie)
     }
->>>>>>> 323d4104bc1c4a41835935591621696734718f74
 }

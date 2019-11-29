@@ -20,15 +20,16 @@ class Eat extends React.Component{
         return(
             <div className="little_eat">
                 
-                <p>影院套餐</p>
+                <p className="P1">影院超值套餐</p>
             {
                 this.state.dealList.map((v,index)=>(
                   
                     <div key={index} className="item_eat">
+                         <img className="im" src={v.imageUrl.replace("w.h","440.0")}/>
                         <div class>{v.title}</div>
                         <div>{v.price}</div>
                         <div>{v.curNumberDesc}</div>
-                        <img className="im" src={v.imageUrl.replace("w.h","440.0")}/>
+                       
                     </div>
                     
                     
