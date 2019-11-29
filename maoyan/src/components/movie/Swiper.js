@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-
+import '../../assets/css/swiper.css';
 
 
 export default class MySwiper extends React.Component{
@@ -17,6 +17,7 @@ export default class MySwiper extends React.Component{
                 <p className={"title"}>近期最受期待</p>
               
                 <div className="most-expected-list" > 
+                <div className="most-expected-list-son">
                  {this.state.expectMovieList?
                 this.state.expectMovieList.map(v =>
                 <div className = {"expected-item "} key={v.id}>
@@ -27,6 +28,7 @@ export default class MySwiper extends React.Component{
                     <div className={"name"}>{v.nm}</div>
                     <div className={"date"}>{v.comingTitle}</div>
                 </div>):null}
+                </div>
                 </div>
                 </div>
         )

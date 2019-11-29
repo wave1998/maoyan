@@ -1,4 +1,9 @@
-
+/* .movie-info {
+    padding: .42rem .32rem;
+    color: #fff;
+    position: relative;
+    background-color: pink;
+} */
 
 .movie-info {
     
@@ -14,7 +19,7 @@
 }
 .movie-cover {
     float: left;
-    height: 2.76rem;
+    
     width: 2rem;
     position: relative;
     flex-shrink: 0;
@@ -24,9 +29,8 @@
     color: inherit;
 }
 .movie-info .movie-cover img.poster {
-    height: 2.76rem;
-    width: 100%;
-}
+   
+    width: 100%;}
     .movie-info .movie-cover img.poster-play {
         height: .6rem;
         width: .6rem;
@@ -53,7 +57,7 @@
     color: inherit;
 }
 .movie-cover img.poster {
-    height: 2.76rem;
+   
     width: 100%;
 }
 .movie-cover img.poster-play {
@@ -125,7 +129,7 @@
     display: flex;
     justify-content: space-between;
 }
-.button {
+.buttom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,6 +140,7 @@
     width: 47.61904762%;
     height: .6rem;
     color: #fff;
+    border: none;
 }
 .btns .button img {
     width: .28rem;
@@ -156,7 +161,7 @@
     justify-content: space-between;
     align-items: center;
 }
-introduction>.title>span {
+.introduction>.title>span {
     font-size: .3rem;
     color: #fff;
 }
@@ -175,9 +180,10 @@ introduction>.title>span {
 }
 .most-expected-list{
     white-space:nowrap;
-    overflow: scroll;
+    overflow-x: scroll;
    
     }
+  
 .expected-item {
     display: inline-block;
     width: 85px;
@@ -186,7 +192,7 @@ introduction>.title>span {
 }
 .poster {
     width: 85px;
-    height: 115px;
+   
     position: relative;
     margin-bottom: 6px;
     
@@ -250,4 +256,18 @@ float: left;
         width: .1rem;
         height: .16rem;
         margin-left: .12rem;
+    }
+    .line-clamp{
+        font-size:.35rem;
+    line-height: .52rem;
+    margin: .14rem 0;
+    text-align: justify;
+    }
+    .img noneBg poster{
+        height: 100%;
+        width: 100%;
+    }
+    .movie-info .movie-cover img.poster {
+        width: 100%;
+        height: 100%;
     }
