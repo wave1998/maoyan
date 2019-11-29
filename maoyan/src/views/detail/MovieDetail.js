@@ -14,14 +14,16 @@ export default class MovieDetail extends React.Component {
     }
     render() {
         return (
-            <>
-                <div className={"movie-info"}>
-                    <div className={"honour"}></div>
+            <div className="movie-page">
+                <div className={"movie-info"} style={{backgroundColor:this.state.detailMovie.backgroundColor}}>
+                <div className={"honour"}></div>
+                    
+                   
                     <div className={"movie-info-top"}>
-                        <div className={"movie-cover"}>
-                            <a>电影图片
-                                <img className={"img noneBg poster "} src="" alt=""/>
-                                <img className={"img noneBg poster-paly"} src="" alt=""/>
+                        <div className={"movie-cover"} >
+                            <a src="" >电影图片
+                <img className={"img noneBg poster "} src={this.state.detailMovie.img} alt="" />
+                                <img className={"img noneBg poster-paly"} src="" alt="" />
                             </a>
                         </div>
                         <div className={"movie-desc"}>
@@ -41,14 +43,14 @@ export default class MovieDetail extends React.Component {
                                        </span>
                                         <span className={"movie-tag"}>
                                             中国巨幕
-                        <img className={"sd-imax"} src=""/>
+                                               <img  className={"sd-imax"} src="" />
                                         </span>
                                     </div>
 
-                                    <div className={"actors"}>张占义、酥树呵</div>
+        <div className={"actors"}>{this.state.detailMovie.star}</div>
                                     <div className={"movie-show-time"}>
-                                        <span>2019-11-19上映/120分钟</span>
-                                        <img/>
+    <span >{this.state.detailMovie.pubDesc}/{this.state.detailMovie.dur}分钟</span>
+                                        <img />
                                     </div>
                                 </div>
                             </div>
@@ -57,27 +59,15 @@ export default class MovieDetail extends React.Component {
                             <div className={"btns"}>
                                 <button className={"buttom"} type="primary">
                                     想看
-                                    <img/>
+                                   <img />
                                 </button>
                                 <button className={"buttom"} type="buttom">
                                     看过
-                                    <img/>
+                                  <img />
                                 </button>
 
                             </div>
                         </div>
-
-                    </div>
-
-                </div>
-                {/* 口碑 */}
-                <div>
-                    <div className={"real-time-word-of-mouth theater-chain-not-graded"}>
-                        <div className={"top"}>
-                            <div className={"left"}>
-                                <img className={"img noneBg"} alt="logo" src=""/>
-                                <span>实时口碑</span>
-                            </div>
                         </div>
    {/* 简介 */}
    <div className="brief-introduction">
@@ -120,82 +110,20 @@ export default class MovieDetail extends React.Component {
                         </div>
 
                     </div>
-                </div>
-                <div className={"brief-introduction"}>
-                    <div className={"title"}>
-                        <span>简介</span>
-                        <div>
-                            <button type="button" className={"open"}>
-                                <span>展开</span>
-                                <img className={"img noneBg"} alt="向下箭头" src=""/>>
-                            </button>
-                        </div>
-                    </div>
-                    <div className={"content "}>
-                        <p className={"line-clamp"}>
-                            超英（徐朝英 饰）翻盖新房，占义（张占义 饰）、树河（宿树河 饰）前来帮忙，没想到树河却因意外车祸入院，司机肇事逃逸，超英和占义化身“平原侦探”，踏上了一段令人啼笑皆非的荒诞追凶之旅。
-                        </p>
-                    </div>
-                </div>
-                <div className={"actors"}>
-                    <div className={"title"}>
-                        <span>演职人员</span>
-                        <a className={"go-to-all-actors"} href="">
-                            <span>全部</span>
-                            <img className={"img noneBg"} alt="" src=""/>
-                        </a>
-                    </div>
-                    <div className={"actor-list"}>
-                        <ul>
-                            <li className="left-margin">
-                                <a href="">
-                                    <img className={"img noneBg"} alt="avatar" src="_1c" width="80" height="112" e="1"
-                                         c="1"/>
-                                    <span className={"name"}>徐磊</span>
-                                    <span className={"role"}>导演</span>
-                                </a>
-                            </li>
-                            <li className="left-margin">
-                                <a href="">
-                                    <img className={"img noneBg"} alt="avatar" src="_1c" width="80" height="112" e="1"
-                                         c="1"/>
-                                    <span className={"name"}>徐磊</span>
-                                    <span className={"role"}>导演</span>
-                                </a>
-                            </li>
-                            <li className="left-margin">
-                                <a href="">
-                                    <img className={"img noneBg"} alt="avatar" src="_1c" width="80" height="112" e="1"
-                                         c="1"/>
-                                    <span className={"name"}>徐磊</span>
-                                    <span className={"role"}>导演</span>
-                                </a>
-                            </li>
-                            <li className="left-margin">
-                                <a href="">
-                                    <img className={"img noneBg"} alt="avatar" src="_1c" width="80" height="112" e="1"
-                                         c="1"/>
-                                    <span className={"name"}>徐磊</span>
-                                    <span className={"role"}>导演</span>
-                                </a>
-                            </li>
 
-                        </ul>
-                    </div>
-                </div>
-                {/* 视频剧照 */}
-                <div className={"most-expected"}>
-                    <p className={"title"}>视频剧照</p>
+                    {/* 视频剧照 */}
+                    <div className={"most-expected"}>
+                        <div className={"title"}>
+                            <span>视频剧照</span>
+                        <a class="go-to-all" href="//m.maoyan.com/movie/1277644/photos">
+                                    <span>全部剧照</span>
+                                    <img class="img noneBg" alt="arrow-right" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/arrow-right.png"/>
+                                        </a>
+                        </div>  
+                        <div className="videos-photos-list " >
 
-                    <div className="most-expected-list">
-
-                        <div className={"expected-item "}>
-
-                            <div className={"poster"}>
-                                图片
-                                <img src=""/>
-                            </div>
-
+                            <div className={"videos-photos-list-div"} >
+                          
                                 
                                     
                                     {
@@ -210,19 +138,26 @@ export default class MovieDetail extends React.Component {
                                 
 
                             </div>
+                            
                         </div>
+                        
                     </div>
             
                     </div>
                      
                  
-            </>
+            </div>
 
-        )
-    }
-
+                )
+               
+            }
     async componentDidMount() {
+       
         const {data} = await axios.get("/ajax/detailmovie?movieId=1284949")
-        console.log(data.detailMovie)
-    }
+                console.log(data.detailMovie)
+                this.setState({
+                    detailMovie:data.detailMovie,
+                    stagePhotos:data.detailMovie.photos,
+                })
+            }
 }

@@ -45,6 +45,7 @@
         flex-flow: column;
         justify-content: space-between;
         overflow: hidden;
+        text-align: left;
     }
 .movie-info-top {
     overflow: hidden;
@@ -164,7 +165,7 @@ introduction>.title>span {
     color: #fff;
 }
 .actors {
-    padding: 12px 0 12px 15px;
+    padding: 12px 0 12px 0;
     margin-bottom: 10px;
    
 }
@@ -242,4 +243,15 @@ float: left;
 .videos-div-box img {
         width:144px;
         height:96px;
+    }
+    .most-expected .title {
+        font-size: .3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title .go-to-all img {
+        width: .1rem;
+        height: .16rem;
+        margin-left: .12rem;
     }

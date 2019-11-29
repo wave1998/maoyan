@@ -27,7 +27,7 @@ class MovieList extends React.Component {
                                     }
                                     {
                                         v.globalReleased && v.sc == 0 ?
-                                            <li style={{fontSize:"14px",color:"#888"}}>暂无评分</li>
+                                            <li style={{fontSize: "14px",color: "#888"}}>暂无评分</li>
                                             : null
                                     }
                                     {
