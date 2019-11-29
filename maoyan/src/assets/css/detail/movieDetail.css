@@ -164,6 +164,7 @@
 .introduction>.title>span {
     font-size: .3rem;
     color: #fff;
+    
 }
 .actors {
     padding: 12px 0 12px 0;
@@ -192,9 +193,10 @@
 }
 .poster {
     width: 85px;
-   
+    position:fixed;
     position: relative;
     margin-bottom: 6px;
+   
     
 }
 .poster img{
@@ -270,4 +272,9 @@ float: left;
     .movie-info .movie-cover img.poster {
         width: 100%;
         height: 100%;
+    }
+    .brief-introduction>.content {
+        font-size: .3rem;
+        line-height: .52rem;
+        overflow: hidden;
     }
