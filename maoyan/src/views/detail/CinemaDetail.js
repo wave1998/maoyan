@@ -12,6 +12,7 @@ export default class CinemaDetail extends React.Component{
             moviesList:[],
             pageTitle:"",
             cinemaAddr:"",
+            imgId:1,
         }
     }
     render() {
@@ -26,16 +27,16 @@ export default class CinemaDetail extends React.Component{
                     </div>
                 </div>
                 <div className="swiper-container">
-                    
                         <div className="swiper-wrapper">
                         {
                             this.state.moviesList !== [] ?
-                                this.state.moviesList.map(v=>
+                                this.state.moviesList.map((v,index)=>
                                     <div className="swiper-slide" key={v.id}>
-                                        <img src={v.img.replace("w.h","148.208")} alt=""/>
+                                        <img src={v.img.replace("w.h","148.208")} className={this.state.imgId===index?"choice":null} alt=""/>
                                     </div>
                                 ):null
                         }
+
 
                     </div>
                     
@@ -50,14 +51,16 @@ export default class CinemaDetail extends React.Component{
             params:{
                 cinemaId:this.state.cinemaId
             }
-        })
+        });
+        console.log(data.showData.movies)
          this.setState({
              moviesList:data.showData.movies,
              pageTitle:data.cinemaData.nm,
              cinemaAddr:data.cinemaData.addr,
          })
-         console.log(data.cinemaData)
+         const that = this
         var mySwiper = new Swiper('.swiper-container',{
+            _this:that,
             effect : 'coverflow',
             slidesPerView: 5,
             autoHeight: true,
@@ -70,6 +73,18 @@ export default class CinemaDetail extends React.Component{
                 modifier: 1,
                 slideShadows : false
             },
+            on: {
+                transitionEnd: function(){
+                    const imgId=this.activeIndex;
+                    that.changeClasName(imgId)
+                    return imgId;
+                },
+            },
+        })
+    }
+    changeClasName(a){
+        this.setState({
+            imgId:a
         })
     }
 }
