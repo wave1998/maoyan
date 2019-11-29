@@ -3,7 +3,7 @@ class CommonHeader extends React.Component{
     constructor(){
         super()
     }
-    render() {
+    render(props) {
         const style = {
             height: "51px",
             width: "100%",
@@ -15,7 +15,7 @@ class CommonHeader extends React.Component{
         }
         return (
             <div>
-                <div className="pageTitle" style={style}>头部</div>
+                <div className="pageTitle" style={style}>{this.props.pageTitle}</div>
             </div>
         );
     }

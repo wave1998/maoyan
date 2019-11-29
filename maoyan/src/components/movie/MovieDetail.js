@@ -1,34 +1,34 @@
 import React from 'react'
 import axios from 'axios'
-import CommonHeader from "../common/CommonHeader";
+import DetailHeader from "../common/DetailHeader";
 import '../../assets/css/movieDetail/movieDetail.css'
+import {withRouter} from 'react-router-dom'
 class MovieDetail extends React.Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state={
-            movieDetail:{}
+            movieDetail:{},
+            movieId:this.props.match.params.movieId
         }
     }
-    render() {
+    render(props) {
         const movieDetail = this.state.movieDetail
         return (
             <>
-                <CommonHeader></CommonHeader>
-                {this.state.movieDetail?
+                <DetailHeader pageTitle={movieDetail.nm}></DetailHeader>
+                {this.state.movieDetail.img?
                 <div className="movie-detail">
                     <div className="movie-filter"></div>
-                    {/*下面这个div有一个背景图*/}
-                    <div className="bg"></div>
-                    <div className="detail-img">
+                    <div className="bg" style={{backgroundImage:"url("+movieDetail.img.replace("w.h","148.208")+")"}}></div>
+                    <div className="detail-img" onClick={()=>this.props.history.push( "/moviedetail/"+movieDetail.id)}>
                         <div className="poster">
-                            {/*movieDetail.img | wh('148.208')*/}
-                            <img src={movieDetail.albumImg} alt="电影封面请求有问题"/>
+                            <img src={movieDetail.img.replace("w.h","148.208")} alt="电影封面"/>
                         </div>
                         <div className="content">
                             <div className="title">{movieDetail.nm}</div>
                             <div className="title-en line-ellipsis">{movieDetail.enm}</div>
-                            {/*movieDetail.sc.toFixed(1)*/}
                             <div className="score">
+                                {movieDetail.sc.toFixed(1)}
                             <span className="snum">
                                 ({(movieDetail.snum / 10000).toFixed(1)}万人评)
                             </span>
@@ -36,9 +36,8 @@ class MovieDetail extends React.Component{
                             <div className="type line-ellipsis">
                                 <span>{movieDetail.cat}</span>
                             </div>
-                            <div className="src line-ellipsis">{movieDetail.fra}/{movieDetail.dur}分钟></div>
+                            <div className="src line-ellipsis">{movieDetail.src}/{movieDetail.dur}分钟</div>
                             <div className="pubDesc">{movieDetail.pubDesc}</div>
-
                         </div>
                     </div>
                 </div>:null}
@@ -46,11 +45,15 @@ class MovieDetail extends React.Component{
         )
     }
     async componentDidMount() {
-        const {data} =  await axios.get("/ajax/detailmovie?movieId=247949")
+        const {data} =  await axios.get("/ajax/detailmovie",{
+            params:{
+                movieId:this.state.movieId
+            }
+        })
         console.log(data.detailMovie)
         this.setState({
             movieDetail:data.detailMovie
         })
     }
 }
-export default MovieDetail
+export default withRouter(MovieDetail)

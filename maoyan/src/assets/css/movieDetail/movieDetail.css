@@ -18,12 +18,13 @@
     z-index:-1;
     overflow:hidden;
     opacity:.55;
-    /*filter blur(.12rem)*/
+    filter:blur(12px)
 }
 .detail-img {
     height:188px;
     padding:19px 30px 19px 15px;
     display:flex;
+    box-sizing: border-box;
 }
 .detail-img .poster{
     width:110px;
@@ -63,6 +64,7 @@
     font-size:12px;
     color:#fff;
     opacity:.8;
+    margin-left: 5px;
 }
 .type,.src,.pubDesc{
     font-size:12px;

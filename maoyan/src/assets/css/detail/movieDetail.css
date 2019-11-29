@@ -1,9 +1,4 @@
-/* .movie-info {
-    padding: .42rem .32rem;
-    color: #fff;
-    position: relative;
-    background-color: pink;
-} */
+
 
 .movie-info {
     padding: .42rem .32rem;
@@ -29,7 +24,8 @@
 }
 .movie-info .movie-cover img.poster {
     height: 2.76rem;
-    width: 100%;}
+    width: 100%;
+}
     .movie-info .movie-cover img.poster-play {
         height: .6rem;
         width: .6rem;

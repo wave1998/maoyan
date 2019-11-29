@@ -14,7 +14,7 @@ export default class Cinema extends React.Component{
     render() {
         return (
             <div>
-                <CommonHeader></CommonHeader>
+                <CommonHeader pageTitle={"影院"}></CommonHeader>
                 <div className="cinema">
                     <div className="cinemaSearch">
                         <div className="gray-bg">

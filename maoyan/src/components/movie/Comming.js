@@ -9,13 +9,14 @@ export default class Comming extends React.Component{
         super();
         this.state={
             movieList:[],
+            ToUrl:"/moviedetail/"
         }
     }
     render() {
         return (
             <>
             <Swiper></Swiper>
-            <MovieList movieList={this.state.movieList}></MovieList>
+            <MovieList movieList={this.state.movieList} ToUrl={this.state.ToUrl}></MovieList>
             </>
         )
     }

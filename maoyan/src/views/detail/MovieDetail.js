@@ -39,7 +39,6 @@ export default class MovieDetail extends React.Component {
                                 </div>
                             </div>
 
-
                             <div className={"btns"}>
                                 <button className={"buttom"} type="primary">
                                     想看
