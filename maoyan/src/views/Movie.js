@@ -14,11 +14,17 @@ class Movie extends React.Component {
         return (
             <div>
                 <div className="top">
-                    <CommonHeader></CommonHeader>
+                    <CommonHeader pageTitle={"猫眼电影"}></CommonHeader>
                     <ul className="topNav">
-                    <li onClick={()=>{this.props.history.push("/location")}}>北京</li>
+                    <li onClick={()=>{this.props.history.push("/location")}}>北京<span className="iconfont icon-xiala"></span></li>
+                    <li>
+                        <ul className="topNav-ul">
                         <li className={this.state.showHot===1?'active':''} onClick={()=>this.setState({showHot:1})}>正在热映</li>
                     <li className={this.state.showHot===0?'active':''} onClick={()=>this.setState({showHot:0})}>即将上映</li>
+
+                        </ul>
+                    </li>
+                    <li><span className="iconfont icon-RectangleCopy"></span></li>
             </ul>
     </div>
         <div className="main">

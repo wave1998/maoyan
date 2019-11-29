@@ -23,6 +23,22 @@
     align-items: center;
     border-bottom: 1px solid #ccc;
     background-color: #fff;
+    position: fixed;
+    top: 51px;
+    width: 100%;
+}
+.topNav-ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    color: #666;
+    text-align: center;
+    margin: 0 12px;
+    font-weight: 700;
+}
+.topNav-ul li{
+    margin: 0 20px 0 20px;
 }
 .topNav li{
     height: 100%;
@@ -33,5 +49,6 @@
     border-bottom: 2px solid rgb(229, 72, 71);
 }
 .main{
-    padding-top: 100px;
+    padding-top: 95px;
+    margin-bottom: 50px;
 }

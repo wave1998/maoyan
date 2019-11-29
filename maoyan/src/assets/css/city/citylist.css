@@ -1,22 +1,55 @@
-.city_body {
-    background: #ebebeb;
+/*.list{*/
+/*    width: 100%;*/
+/*    top: 50px;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    position: fixed;*/
+/*}*/
+.list .wrap_content{
+    overflow: hidden;
     height: 100%;
-    _overflow: auto;
-  }
- .aa{
-     background: #fff;
-     margin-right: 30px;
- }
-  .city_list_name_item {
+}
+.list .wrap_content .title{
+    line-height: 27px;
+    background: #eee;
+    padding-left: 10px;
+    color: #666;
+    font-size: 12px;
+}
+.list .wrap_content .button-list{
+    overflow: hidden;
+    padding: 6px 10px 6px 6px;
+}
+.list .wrap_content .button-list .button-wrapper{
+    float: left;
+    width: 33.33%
+}
+.list .wrap_content .button-list .button-wrapper .button{
+    margin: 4px;
+    padding: 4px 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+    width: auto;
     background: #fff;
+}
+.list .wrap_content .item-list{
+    background: #f5f5f5;
+}
+.list .wrap_content .item-list .item{
+    height: 44px;
     line-height: 44px;
     margin-left: 15px;
-    margin-right: 45px;
-    width: 100%;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #c8c7cc;
+    padding: 0;
+    background: #f5f5f5;
     font-size: 14px;
-    text-align: left;
-  }
+}
+
+
+
 
 
 

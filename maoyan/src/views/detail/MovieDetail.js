@@ -14,6 +14,7 @@ export default class MovieDetail extends React.Component {
     }
     render() {
         return (
+            this.state.detailMovie.img?
             <div className="movie-page">
                 <div className={"movie-info"} style={{backgroundColor:this.state.detailMovie.backgroundColor}}>
                 <div className={"honour"}></div>
@@ -21,8 +22,8 @@ export default class MovieDetail extends React.Component {
                    
                     <div className={"movie-info-top"}>
                         <div className={"movie-cover"} >
-                            <a src="" >电影图片
-                <img className={"img noneBg poster "} src={this.state.detailMovie.img} alt="" />
+                            <a href="#">
+                <img className={"img noneBg poster "}  src={this.state.detailMovie.img.replace("w.h/","")} alt="" />
                                 <img className={"img noneBg poster-paly"} src="" alt="" />
                             </a>
                         </div>
@@ -55,16 +56,14 @@ export default class MovieDetail extends React.Component {
                                 </div>
                             </div>
 
-
                             <div className={"btns"}>
-                                <button className={"buttom"} type="primary">
-                                    想看
-                                   <img />
-                                </button>
-                                <button className={"buttom"} type="buttom">
-                                    看过
-                                  <img />
-                                </button>
+                                <input className={"buttom"} type="button" value="想看"/>
+                                  
+                                   
+                                <input className={"buttom"} type="button" value=" 看过"/>
+                                   
+                                  
+                                
 
                             </div>
                         </div>
@@ -73,12 +72,7 @@ export default class MovieDetail extends React.Component {
    <div className="brief-introduction">
                         <div className="title">
                             <span>简介</span>
-                            <div>
-                                <button type="button" className="open">
-                                    <span>展开</span>
-                                    <img className="img noneBg" alt="向下箭头" src=""/>
-                                        </button>
-                                        </div>
+                            
                                         </div>
                                         
                             
@@ -91,40 +85,17 @@ export default class MovieDetail extends React.Component {
             
                                                 </div>
 
-                    
-               
-                   {/*演职人员 */}
-
-                    <div className={"actors"}>
-                        <p className={"title"}>演职人员</p>
-
-                        <div className="most-expected-list" >
-                            <div className={"expected-item "} >
-
-                                <div className={"poster videos-photos-list"}>
-                                    <img src="" />
-                                </div>
-                                <div className={"name"}>刘浩然</div>
-                                <div className={"date"}>饰 秦风</div>
-                            </div>
-                        </div>
-
-                    </div>
-
                     {/* 视频剧照 */}
                     <div className={"most-expected"}>
                         <div className={"title"}>
                             <span>视频剧照</span>
-                        <a class="go-to-all" href="//m.maoyan.com/movie/1277644/photos">
+                        <a className="go-to-all" href="//m.maoyan.com/movie/1277644/photos">
                                     <span>全部剧照</span>
-                                    <img class="img noneBg" alt="arrow-right" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/arrow-right.png"/>
                                         </a>
                         </div>  
                         <div className="videos-photos-list " >
 
                             <div className={"videos-photos-list-div"} >
-                          
-                                
                                     
                                     {
                                     this.state.stagePhotos?
@@ -147,7 +118,7 @@ export default class MovieDetail extends React.Component {
                      
                  
             </div>
-
+                :null
                 )
                
             }
