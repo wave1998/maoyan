@@ -180,9 +180,10 @@
 }
 .most-expected-list{
     white-space:nowrap;
-    overflow: scroll;
+    overflow-x: scroll;
    
     }
+  
 .expected-item {
     display: inline-block;
     width: 85px;

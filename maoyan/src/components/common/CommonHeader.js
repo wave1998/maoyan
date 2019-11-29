@@ -12,6 +12,10 @@ class CommonHeader extends React.Component{
             lineHeight: "51px",
             color: "#fff",
             fontSize: "1.1em",
+            position:"fixed",
+            top:0,
+            left:0,
+            zIndex:99 ,
         }
         return (
             <div>
