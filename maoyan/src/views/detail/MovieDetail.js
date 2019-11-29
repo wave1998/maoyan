@@ -56,7 +56,6 @@ export default class MovieDetail extends React.Component {
                                 </div>
                             </div>
 
-
                             <div className={"btns"}>
                                 <input className={"buttom"} type="button" value="想看"/>
                                   

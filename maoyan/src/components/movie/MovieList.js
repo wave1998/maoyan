@@ -1,15 +1,20 @@
 import React, {Fragment} from 'react'
-import axios from 'axios'
+import { withRouter } from 'react-router-dom'
 import '../../assets/css/movieList.css'
 
-class MovieList extends React.Component {
 
-    render() {
-       
+class MovieList extends React.Component {
+    constructor(props){
+        super(props)
+        this.state={
+            ToUrl:this.props.ToUrl || "/movie/cinema/"
+        }
+    }
+    render(props) {
         return (
             this.props.movieList?
                 this.props.movieList.map(v =>
-                    <div key={v.id}>
+                    <div key={v.id} onClick={()=>{this.props.history.push({pathname:this.state.ToUrl + v.id})}}>
                         <div className="movie-list">
                             <div className="movie-img">
                                 <img src={v.img.replace("w.h", "128.180")} alt={"电影封面"}/>
@@ -54,4 +59,4 @@ class MovieList extends React.Component {
     )
 }
 }
-export default MovieList
+export default withRouter(MovieList)

@@ -5,7 +5,7 @@ export default class My extends React.Component{
     render() {
         return (
             <div className="body">
-                <CommonHeader></CommonHeader>
+                <CommonHeader pageTitle={"我的"}></CommonHeader>
                 <div className="body_top">
                     <img
                         src="https://img.meituan.net/avatar/57c41b979ad6e920538179d12b5bac1638655.jpg"

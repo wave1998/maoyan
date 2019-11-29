@@ -42,9 +42,9 @@ const mainRouter = [
         title:"搜索",
     },
     {
-        pathname:"/movie/cinema",
+        pathname:"/movie/cinema/:movieId",
         component:MovieCinema,
-        exact:true,
+        exact:false,
         title:"电影有哪些影院播放",
     },
     {
