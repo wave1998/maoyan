@@ -7,7 +7,7 @@ import CinemaDetail from "../views/detail/CinemaDetail";
 import MovieDetail from "../views/detail/MovieDetail";
 import MyOrder from "../views/my/MyOrder";
 import MovieCinema from "../views/detail/MovieCinema";
-
+import Discuss from '../views/Discuss'
 
 const mainRouter = [
     
@@ -64,6 +64,13 @@ const mainRouter = [
         component:NotFound,
         exact:true,
         title:"NotFound"
+    },
+    
+    {
+        pathname:"/discussdetail",
+        component:Discuss,
+        exact:false,
+        title:"评论详情",
     },
 ]
 export default mainRouter

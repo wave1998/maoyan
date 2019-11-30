@@ -1,0 +1,64 @@
+.discuss{
+    text-align: left;
+}
+.discuss-top{
+    width:100%;
+    height: 38px;
+    position: relative;
+    top:0;
+    background-color:#e54847;
+    padding:6px
+}
+.discuss-back:after{
+    content:'';
+    position:absolute;
+    top:16px;
+    left: 12px;
+    width:13px;
+    height: 13px;
+    transform: rotate(45deg);
+    border:2px solid #fff;
+    border-width:0 0 2px 2px;
+}
+.discuss-top p{
+    color:#fff;
+    font-size:18px;
+    text-align:center;
+    line-height:2;
+}
+.discuss-header{
+    display: flex;
+    padding:.3rem;
+    background:#fff;
+    
+    flex-direction: row;
+    justify-content: space-between;
+}
+.discuss-header-left{
+    width:.68rem;
+    height:.68rem;
+    min-width:.68rem;
+    border-radius:50%;
+    background-color: #383838;
+}
+.discuss-header-right{
+    margin-left:.2rem;
+}
+.right-lv{
+    margin-left: .1rem;
+    display: inline-block;
+    width: 1rem;
+    height: 0.5rem;
+    vertical-align: middle;
+    background: url(http://p1.meituan.net/moviemachine/20507a9b86fe5f9eb650d3a0913021942498.png) no-repeat;
+    background-size: contain;
+}
+.right-shop{
+    margin-left: .16rem;
+    display: inline-block;
+    width: 0.78rem;
+    height: .5rem;
+    vertical-align: middle;
+    background: url(http://p0.meituan.net/moviemachine/a967af26b257cbfcd3991f78ccef79521350.png) no-repeat;
+    background-size: contain;
+}
