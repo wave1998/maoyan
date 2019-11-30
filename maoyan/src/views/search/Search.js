@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios'
 import "../../assets/css/search/search.css"
 import "../../assets/css/cinema/cinemaList.css"
+import DetailHeader from '../../components/common/DetailHeader'
 
 // import DatePicker from 'antd/es/date-picker'; // 加载 JS
 // import 'antd/es/date-picker/style/css'; // 加载 CSS
@@ -18,12 +19,9 @@ export default class Search extends React.Component{
         return (
             <div className="search">
          
-                <div className="title">
-                  <span className="title1" onClick={()=>{this.props.history.push("/cinema")}}>返回</span>
-                  <span className="title2">猫眼电影</span>
-               </div>
+         <DetailHeader></DetailHeader>
                 <div className="but">
-                  <input type="text" className="but1" />
+                  <input type="text" className="but1" placeholder="搜影院" />
                   <span onClick={()=>{this.props.history.push("/cinema")}}>取消</span>
               </div>
               
@@ -39,11 +37,14 @@ export default class Search extends React.Component{
             .then(({data})=>{
                 console.log(data.cinemas)
                 this.setState({
-                    cinemas:data.cinemas
+                   
                 })
               
             })
         
         }
+         
+     
+    }
         
-}
+
