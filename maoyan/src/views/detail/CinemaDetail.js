@@ -12,10 +12,12 @@ export default class CinemaDetail extends React.Component{
             moviesList:[],
             pageTitle:"",
             cinemaAddr:"",
+            showDate:[],
             imgId:1,
         }
     }
     render() {
+        console.log(this.state.showDate)
         return (
             <div className={"cinemaDetail"}>
                 <DetailHeader pageTitle={this.state.pageTitle}></DetailHeader>
@@ -36,11 +38,33 @@ export default class CinemaDetail extends React.Component{
                                     </div>
                                 ):null
                         }
-
-
                     </div>
-                    
-                    
+                </div>
+                {
+                    this.state.moviesList.length>=1?
+                        <div className="movie-info">
+                            <div className="movie-title line-ellipsis">
+                                <span >{this.state.moviesList[this.state.imgId].nm}</span>
+                                <span className="grade">
+						<span>{this.state.moviesList[this.state.imgId].sc}<span className="small">分</span></span>
+
+					</span>
+
+                            </div>
+                            <div className="movie-desc line-ellipsis">{this.state.moviesList[this.state.imgId].desc}</div>
+                        </div>:null
+                }
+                <div className="nav-bar mb-line-b">
+                    <div className="nav-bar-wrap">
+                        {
+                            this.state.showDate.length>=1?
+                                this.state.showDate.map(v=>
+                                    <div className="nav-item active" key={v.showDate}>
+                                        <span className="date-title">{v.dateShow}</span>
+                                    </div>
+                                ):null
+                        }
+                    </div>
                 </div>
             </div>
         )
@@ -82,9 +106,11 @@ export default class CinemaDetail extends React.Component{
             },
         })
     }
-    changeClasName(a){
+    changeClasName(imgId){
         this.setState({
-            imgId:a
-        })
+            imgId:imgId,
+            showDate:this.state.moviesList[imgId].shows
+        });
+        console.log(this.state.showDate)
     }
 }
