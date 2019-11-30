@@ -12,15 +12,16 @@ class NavWrap extends React.Component {
             brand:false,
             allCity:false,
             hallType:false,
+            navTab:-1,
         }
     }
     render() {
         return (
             <div className="nav-wrap" >
         <ul onClick={()=>this.setState({closeTab:!this.state.closeTab})}>
-            <li onClick={()=>this.setState({allCity:true,brand:false,hallType:false})}>全城<span className="yo-ico">&#xf033;</span></li>
-            <li onClick={()=>this.setState({brand:true,allCity:false,hallType:false})}>品牌<span className="yo-ico">&#xf033;</span></li>
-            <li onClick={()=>this.setState({hallType:true,allCity:false,brand:false})}>特色<span className="yo-ico">&#xf033;</span></li>
+            <li className={this.state.navTab===0?"chosen":""} onClick={()=>this.setState({allCity:true,brand:false,hallType:false,navTab:0})}>全城<span className="yo-ico">&#xf033;</span></li>
+            <li className={this.state.navTab===1?"chosen":""} onClick={()=>this.setState({brand:true,allCity:false,hallType:false,navTab:1})}>品牌<span className="yo-ico">&#xf033;</span></li>
+            <li className={this.state.navTab===2?"chosen":""} onClick={()=>this.setState({hallType:true,allCity:false,brand:false,navTab:2})}>特色<span className="yo-ico">&#xf033;</span></li>
         </ul>
                 {
                     this.state.closeTab?

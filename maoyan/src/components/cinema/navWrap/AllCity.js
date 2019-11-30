@@ -17,8 +17,8 @@ class AllCity extends React.Component{
         return (
             <div className={"allCity-content"}>
                 <ul className={"allCity-tab"}>
-                    <li className={this.state.allCityTab===0?"chosen":""} onClick={()=>this.setState({allCityTab:0})}>商区</li>
-                    <li className={this.state.allCityTab===1?"chosen":""} onClick={()=>this.setState({allCityTab:1})}>地铁站</li>
+                    <li className={this.state.allCityTab===0?"chosen":""} onClick={()=>this.setState({allCityTab:0,chosen:0})}>商区</li>
+                    <li className={this.state.allCityTab===1?"chosen":""} onClick={()=>this.setState({allCityTab:1,chosen:0})}>地铁站</li>
                 </ul>
 
 
@@ -86,13 +86,11 @@ class AllCity extends React.Component{
     }
     async componentDidMount() {
         const {data} = await axios.get("/ajax/filterCinemas?ci=1")
-        console.log(data.district)
-        console.log(data.subway)
         this.setState({
             districtSubItems:data.district.subItems,
             subwaySubItems:data.subway.subItems
         });
-        console.log(this.state.districtSubItems[1].subItems)
+        // console.log(this.state.districtSubItems[1].subItems)
     }
     changeDistrict(index){
         this.setState({

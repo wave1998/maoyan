@@ -46,8 +46,6 @@ class HallType extends React.Component{
     }
     async componentDidMount() {
         const {data} = await axios.get("/ajax/filterCinemas?ci=1")
-        console.log(data.service)
-        console.log(data.hallType)
         this.setState({
             serviceSubItems:data.service.subItems,
             hallTypeSubItems:data.hallType.subItems,

@@ -8,6 +8,7 @@
     left: 0;
     z-index: 90;
 }
+
 .nav-wrap ul {
     display:flex;
     color:#777;
@@ -20,6 +21,9 @@
     font-size:13px;
     color:#777;
     position: relative;
+}
+.nav-wrap ul li.chosen{
+    color: #f03d37;
 }
 .nav-wrap ul>li:nth-child(n+1)::before{
     display:block;
