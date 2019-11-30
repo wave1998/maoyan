@@ -24,7 +24,7 @@ class Movie extends React.Component {
 
                         </ul>
                     </li>
-                    <li><span className="iconfont icon-RectangleCopy"></span></li>
+                    <li><span className="iconfont icon-RectangleCopy" onClick={()=>{this.props.history.push("/search")}}></span></li>
             </ul>
     </div>
         <div className="main">
