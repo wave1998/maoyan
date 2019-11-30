@@ -1,0 +1,101 @@
+.detail{
+    width: 375px;
+    height: 46.5px;
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.detail span{
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.detail a{
+    font-size: 16px;
+    color:#ffb400;
+    margin-left: 10px;
+}
+.date{
+    height: 45px;
+    width: 100%;
+    overflow: hidden;
+}
+.date span{
+    display: inline-block;
+    display: block;
+    font-size: 14px;
+    line-height: 43px;
+    width:88.84px;
+    float: left;
+}
+.date span:hover{
+    border-bottom: 4px solid red;
+    color:red;
+}
+.banner{
+    height: 42px;
+    width: 375px;
+    background: #fff5ea;
+    overflow: hidden;
+}
+.banner a{
+    display: inline-block;
+    font-size: 10px;
+    background: #ff941a ;
+    height: 15px;
+    width: 34px;
+    color:#fff;
+    border-radius: 2px;
+    margin-top: 13px;
+    float: left;
+    margin-right: 10px;
+    line-height: 15px;
+    margin-left: 20px;
+}
+.banner p{
+    font-size:12px;
+    line-height: 42px;
+    color: #ff941a;
+    width: 230.92px;
+    height: 42px;
+    float: left;
+}
+.banner span{
+    display: inline-block;
+    float: left;
+    font-size:12px ;
+    width: 70.08px;
+    height: 42px;
+    line-height: 42px;
+    color:#ccc;
+}
+.session{
+    width:362.5px;
+    height: 77px;
+    margin-left: 12.5px;
+    border-bottom: 1px solid #ccc;
+}
+.session_1{
+    width:59.05px;
+    height:43px;
+    overflow: hidden;
+}
+.session_1 a{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    float: left;
+    margin-left: 0px;
+}
+.session_1 span{
+    display: inline-block;
+    width: 35.05px;
+    float: left;
+    font-size: 11px;
+    margin-top: 10px;
+}
+/* .session_1 p{
+    float:left;
+    wi
+} */
