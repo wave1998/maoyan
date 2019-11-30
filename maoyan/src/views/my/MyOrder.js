@@ -1,7 +1,7 @@
 import React from 'react';
 import CommonHeader from "../../components/common/CommonHeader";
 import axios from 'axios'
-import '../../assets/css/myOrder.css';
+import '../../assets/css/my/myOrder.css';
 export default class MyOrder extends React.Component{
     render() {
         return (

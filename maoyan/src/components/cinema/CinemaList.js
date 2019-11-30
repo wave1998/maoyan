@@ -6,10 +6,8 @@ import {withRouter} from 'react-router-dom'
 class CinemaList extends React.Component {
 
     render(props) {
-        console.log(this.props.cinemaList)
+
         return (
-
-
                 <div className="cinema-list">
                     <div className="list-wrap">
                         {/*下面这个div点击之后跳转到 影院详情，传参数cinemaId和movieId*/}

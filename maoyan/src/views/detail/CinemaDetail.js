@@ -210,6 +210,5 @@ export default class CinemaDetail extends React.Component {
             showDateActive: index,
             plist: this.state.showDate[index / 1].plist
         })
-        console.log(this.state.plist)
     }
 }

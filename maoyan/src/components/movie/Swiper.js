@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import '../../assets/css/swiper.css';
+import '../../assets/css/common/swiper.css';
 
 
 export default class MySwiper extends React.Component{

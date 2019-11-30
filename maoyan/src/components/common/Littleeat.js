@@ -37,7 +37,6 @@ class LittleEat extends React.Component {
         this.setState({
             dealList: data.dealList.divideDealList
         })
-        console.log(this.state.dealList.length)
     }
 }
 
