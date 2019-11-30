@@ -50,7 +50,6 @@
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
     transition-property: transform;
-    transition-property: transform,-webkit-transform;
     box-sizing: content-box;
     top:20px;
 }
@@ -73,4 +72,68 @@
     border:2px solid #fff;
     height: 100px;
     width: 75px;
+}
+.cinemaDetail .movie-info{
+    padding: 11px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.cinemaDetail .movie-info .movie-title{
+    height: 24px;
+    line-height: 24px;
+    font-size: 17px;
+    color: #333;
+    font-weight: 700;
+}
+.cinemaDetail .movie-info .movie-desc{
+    margin-top: 2px;
+    height: 18.5px;
+    line-height: 18.5px;
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+}
+.cinemaDetail .movie-info .movie-title .grade{
+    color: #ffb400;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.cinemaDetail .movie-info .movie-title .grade .small{
+    font-size: 10px;
+}
+.cinemaDetail .nav-bar{
+    position: relative;
+    height: 45px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.cinemaDetail .nav-bar .nav-bar-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+.cinemaDetail .nav-bar .nav-item{
+    display: inline-block;
+    line-height: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+.cinemaDetail .nav-bar .nav-item:first-child {
+    margin-left: 15px;
+}
+.cinemaDetail .nav-bar .nav-item:last-child {
+    margin-right: 15px;
+}
+.cinemaDetail .nav-bar .nav-item.active {
+    color: #f03d37;
+    border-bottom: 2px solid #f03d37;
 }
