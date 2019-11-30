@@ -62,3 +62,101 @@
     background: url(http://p0.meituan.net/moviemachine/a967af26b257cbfcd3991f78ccef79521350.png) no-repeat;
     background-size: contain;
 }
+.right-grade{
+    font-size:.22rem;
+    line-height:.62rem;
+    color:#999999;
+}
+.right-details{
+    margin: 0;
+    color: #333;
+    font-size: .38rem;
+    line-height: 1.8;
+    text-align: justify;
+    word-wrap: break-word;
+    padding: 0 !important;
+}
+.right-foot{
+    margin-top:.2rem;
+    margin-bottom:.05rem;
+    line-height:.5rem;
+    vertical-align:middle;
+    display:flex;
+    justify-content: space-between;
+}
+.right-foot-img1,.right-foot-img2{
+    display:inline-block;
+    margin-right:.2rem;
+}
+.right-foot-div{
+    display: flex;
+}
+.right-foot-span1,.right-foot-span2{
+    display:flex;
+    color: #999;
+    margin: 0 0 0 .2rem;
+    font-size: .24rem;
+    padding: .1rem .24rem;
+    border: .01rem solid #CCCCCC;
+    border-radius: 1rem;
+}
+.discuss-foot{
+    display: flex;
+    padding:0.6rem 0 0.6rem 0.6rem;
+    border-bottom:1px solid #e5e5e5;
+}
+.discuss-foot-img{
+    width: 1.4rem;
+    height: 1rem;
+    margin:0 0 0 .3rem;
+}
+.discuss-foot-img img{
+    width:100%;
+    display: block;
+    border-radius:50%;
+}
+.discuss-foot-p{
+    margin-left:.5rem;
+}
+.discuss-foot-p1{
+    color: #8b8b8b;
+    font-size: .24rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: .15rem;
+}
+.discuss-foot-p2{
+    color: #999;
+    font-size: .24rem;
+    line-height: 1;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+.discuss-foot-p3{
+    color: #333;
+    font-size: .28rem;
+    margin: 0;
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+.footer-misc {
+    text-align: center;
+}
+.footer-misc .icp a {
+    font-size: .2rem;
+    color: #9e9e9e;
+    text-decoration: none;
+}
+.footer-misc p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.discuss-loading{
+    text-align: center;
+    margin:1rem 0 1rem 0;
+}
