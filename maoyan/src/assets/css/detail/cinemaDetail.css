@@ -137,3 +137,120 @@
     color: #f03d37;
     border-bottom: 2px solid #f03d37;
 }
+.seat-list .list-wrap .item-outer {
+    padding: 17px 0;
+    margin-left: 12.5px;
+}
+.seat-list .list-wrap .item {
+    padding-right: 12.5px;
+    display: flex;
+}
+.seat-list .list-wrap .item .time-block {
+    position: relative;
+}
+.seat-list .list-wrap .item .time-block .begin {
+    font-size: 20px;
+    color: #333;
+    line-height: 1;
+    white-space: nowrap;
+}
+.seat-list .list-wrap .item .time-block .end {
+    margin-top: 10px;
+    color: #999;
+    font-size: 11px;
+    line-height: 1;
+    white-space: nowrap;
+}
+.seat-list .list-wrap .item .time-block .end>.tui {
+    margin-left: 4px;
+    display: inline-block;
+    -webkit-transform: translateY(-.5px);
+    transform: translateY(-.5px);
+}
+.seat-list .list-wrap .item .info-block {
+    margin-left: 17px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow-x: hidden;
+}
+.seat-list .list-wrap .item .info-block .lan {
+    margin-top: 2px;
+    line-height: 18px;
+    font-size: 13px;
+    color: #333;
+    white-space: normal;
+}
+.seat-list .list-wrap .item .info-block .hall {
+    margin-top: 7px;
+    font-size: 11px;
+    color: #999;
+    white-space: normal;
+}
+.seat-list .list-wrap .item .price {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 130px;
+    margin-left: 5px;
+}
+.seat-list .list-wrap .item .price .sellPr {
+    display: inline-block;
+    line-height: 1;
+    color: #f03d37;
+    margin-top: 1px;
+    font-size: 19px;
+}
+.seat-list .list-wrap .item .price .sellPr .d {
+    font-size: 11px;
+}
+.vipPrice {
+    display: inline-block;
+    line-height: 15px;
+    height: 15px;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    margin-right: -16px;
+    border: 1px solid #ff9000;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.vipPrice .icon, .vipPrice .num {
+    display: inline-block;
+    padding: 0 2px;
+}
+.vipPrice .icon {
+    color: #fff;
+    background-color: #f90;
+}
+.vipPrice .num {
+    color: #f90;
+    background-color: #fff;
+}
+.seat-list .list-wrap .item .price .extraDesc {
+    margin-top: 5px;
+    display: block;
+    font-size: 11px;
+    color: #999;
+}
+.seat-list .list-wrap .item .button-block {
+    width: 45px;
+    margin-left: 2px;
+    position: relative;
+}
+.seat-list .list-wrap .item .button-block .button {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 27px;
+    line-height: 28px;
+    font-size: 12px;
+    background-color: #f03d37;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
