@@ -110,3 +110,12 @@
     top:0;
 }
 
+.yh{
+    width: 50%;
+    display: block;
+    overflow: hidden;
+}
+.yh-1{
+    display: flex;
+    justify-content: space-between;
+}
