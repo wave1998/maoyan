@@ -23,9 +23,9 @@
     align-items: center;
     border-bottom: 1px solid #ccc;
     background-color: #fff;
-    position: fixed;
-    top: 51px;
-    width: 100%;
+    /* position: fixed;
+    top: 114px;
+    width: 100%; */
 }
 .topNav-ul{
     display: flex;
@@ -51,4 +51,9 @@
 .main{
     padding-top: 95px;
     margin-bottom: 50px;
+}
+.header-2{
+    position: absolute;
+    top:51px;
+    width: 100%;
 }

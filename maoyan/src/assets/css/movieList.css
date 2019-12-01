@@ -27,10 +27,12 @@
     color: #666;
 }
 .right-info>ul>li{
+    width: 206px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     margin-bottom: 3px;
+    text-align: left;
 }
 .movie-info .name{
     font-size: 16px;
@@ -41,6 +43,9 @@
     font-weight: bold;
     font-size: 14px;
     color: #faaf00;
+}
+.btn{
+    margin-right: 25px;
 }
 .btn>button{
     width: 48px;

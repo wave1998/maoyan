@@ -22,7 +22,7 @@ export default class Search extends React.Component{
          <DetailHeader></DetailHeader>
                 <div className="but">
                   <input type="text" className="but1" placeholder="搜影院" />
-                  <span onClick={()=>{this.props.history.push("/cinema")}}>取消</span>
+                  <span onClick={()=>{this.props.history.go(-1)}}>取消</span>
               </div>
               
            
