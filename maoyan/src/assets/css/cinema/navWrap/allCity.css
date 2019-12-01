@@ -45,6 +45,19 @@
     text-align: left;
     box-sizing: border-box;
 }
+.district-li.chosen{
+    color: #f03d37;
+    background: #f5f5f5;
+}
+.district-li.chosen:after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    border-top: 2px solid #f03d37;
+}
 .region-list-item{
     width: 65%;
     height: 100%;

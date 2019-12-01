@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/my.css'
+import '../../assets/css/my/my.css'
 import CommonHeader from "../../components/common/CommonHeader";
 export default class My extends React.Component{
     render() {

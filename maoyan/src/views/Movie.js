@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/movie.css';
+import '../assets/movie/movie.css';
 import Hoting from "../components/movie/Hoting";
 import Comming from "../components/movie/Comming";
 import CommonHeader from "../components/common/CommonHeader"

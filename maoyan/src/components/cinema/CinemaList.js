@@ -1,15 +1,13 @@
 import React from 'react'
 import "../../assets/css/cinema/cinemaList.css"
-import Eat from "../common/Littleeat"
+import Eat from "../common/LittleEat"
 import {withRouter} from 'react-router-dom'
 
 class CinemaList extends React.Component {
 
     render(props) {
-        console.log(this.props.cinemaList)
+
         return (
-
-
                 <div className="cinema-list">
                     <div className="list-wrap">
                         {/*下面这个div点击之后跳转到 影院详情，传参数cinemaId和movieId*/}
@@ -55,7 +53,6 @@ class CinemaList extends React.Component {
                                     </div>
                                 ) : null}
                     </div>
-                    <Eat></Eat>
                 </div>
 
 
