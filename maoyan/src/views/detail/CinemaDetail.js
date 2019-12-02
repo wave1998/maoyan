@@ -1,10 +1,11 @@
 import React from 'react';
 import axios from 'axios'
 import Swiper from "swiper/js/swiper.js";
-import 'swiper/css/swiper.min.css'
+import 'swiper/css/swiper.min.css';
 import DetailHeader from "../../components/common/DetailHeader";
-import '../../assets/css/detail/cinemaDetail.css'
-import LittleEat from "../../components/common/LittleEat";
+import '../../assets/css/detail/cinemaDetail.css';
+import LittleEat from "../../components/common/Littleeat.js";
+import Advert from "../../components/common/Advert";
 
 export default class CinemaDetail extends React.Component {
     constructor(props) {
@@ -25,6 +26,7 @@ export default class CinemaDetail extends React.Component {
         return (
             <div className={"cinemaDetail"}>
                 <DetailHeader pageTitle={this.state.pageTitle}></DetailHeader>
+                <Advert ></Advert>
                 <div className="cinema-info">
                     <div className="title line-ellipsis">{this.state.pageTitle}</div>
                     <div className="location line-ellipsis">{this.state.cinemaAddr}</div>

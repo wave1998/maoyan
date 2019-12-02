@@ -2,7 +2,7 @@ import React, {Fragment} from "react"
 import axios from "axios"
 import "../../assets/css/eat/eat.css"
 
-class LittleEat extends React.Component {
+export default class LittleEat extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -20,11 +20,14 @@ class LittleEat extends React.Component {
                         v.dealList.map(k =>
                             <div key={k.dealId} className="item_eat">
                                 <img className="im" src={k.imageUrl.replace("w.h", "440.0")}/>
-                                <div className="first">{k.titleTag}</div>
-                                <div className="secound">{k.secondTitle}</div>
-                                <div className="third">{"￥" + k.price}</div>
-                                <div className="fourth">{k.curNumberDesc}</div>
-                                <div className="five">去购买</div>
+                                <div className="item-info">
+                                    <div className="first">{k.titleTag} </div>
+                                    <div className="secound">{k.secondTitle}</div>
+                                    <div className="third">{"￥" + k.price}</div>
+                                    <div className="fourth">{k.curNumberDesc}</div>
+                                    <div className="five">去购买</div>
+                                </div>
+                               
                             </div>)
                     )):null
                 }
@@ -40,4 +43,4 @@ class LittleEat extends React.Component {
     }
 }
 
-export default LittleEat
+ 
