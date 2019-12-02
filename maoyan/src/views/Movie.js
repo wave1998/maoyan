@@ -3,6 +3,7 @@ import '../assets/movie/movie.css';
 import Hoting from "../components/movie/Hoting";
 import Comming from "../components/movie/Comming";
 import CommonHeader from "../components/common/CommonHeader"
+import LocationModule from "../components/common/LocationModule";
 class Movie extends React.Component {
     constructor(){
         super();
@@ -17,6 +18,7 @@ class Movie extends React.Component {
                     <CommonHeader pageTitle={"猫眼电影"}></CommonHeader>
                     <ul className="topNav">
                     <li onClick={()=>{this.props.history.push("/location")}}>北京<span className="iconfont icon-xiala"></span></li>
+                    {/*    <LocationModule></LocationModule>*/}
                     <li>
                         <ul className="topNav-ul">
                         <li className={this.state.showHot===1?'active':''} onClick={()=>this.setState({showHot:1})}>正在热映</li>

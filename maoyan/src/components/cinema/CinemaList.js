@@ -1,12 +1,9 @@
 import React from 'react'
 import "../../assets/css/cinema/cinemaList.css"
-import Eat from "../common/LittleEat"
 import {withRouter} from 'react-router-dom'
 
 class CinemaList extends React.Component {
-
     render(props) {
-
         return (
                 <div className="cinema-list">
                     <div className="list-wrap">
@@ -58,6 +55,7 @@ class CinemaList extends React.Component {
 
         )
     }
+
 }
 
 export default withRouter(CinemaList)
