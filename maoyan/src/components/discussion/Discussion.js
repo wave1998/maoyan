@@ -57,7 +57,7 @@ import axios from 'axios'
               <div className="middle">
                 <a
                   data-bid="b_h7xvl"
-                  href="#"
+                  
                 >
                 {/* {
                     <NavLink>

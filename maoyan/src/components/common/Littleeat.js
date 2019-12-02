@@ -2,7 +2,7 @@ import React, {Fragment} from "react"
 import axios from "axios"
 import "../../assets/css/eat/eat.css"
 
-class LittleEat extends React.Component {
+export default class LittleEat extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -40,8 +40,7 @@ class LittleEat extends React.Component {
         this.setState({
             dealList: data.dealList.divideDealList
         })
-        console.log(this.state.dealList.length)
     }
 }
 
-export default LittleEat
+ 

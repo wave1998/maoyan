@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react'
 import { withRouter } from 'react-router-dom'
-import '../../assets/css/movieList.css'
+import '../../assets/movie/movieList.css'
 
 
 class MovieList extends React.Component {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/movie.css';
+import '../assets/movie/movie.css';
 import Hoting from "../components/movie/Hoting";
 import Comming from "../components/movie/Comming";
 import CommonHeader from "../components/common/CommonHeader";
@@ -73,13 +73,14 @@ class Movie extends React.Component {
                     </li>
                     <li><span className="iconfont icon-RectangleCopy" onClick={()=>{this.props.history.push("/search")}}></span></li>
             </ul></div>
+            
     </div>
-
-        <div className="main">
+<div className="main">
             {
                 this.state.showHot===1?<Hoting></Hoting>:<Comming></Comming>
             }
         </div>
+        
     </div>
         )
     }
