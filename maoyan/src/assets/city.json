@@ -1,5639 +1,5639 @@
 {
   "cts": [
     {
-      "id": 1,
-      "nm": "北京",
-      "py": "beijing"
+      "value": 1,
+      "label": "北京",
+      "spell": "beijing"
     },
     {
-      "id": 10,
-      "nm": "上海",
-      "py": "shanghai"
+      "value": 10,
+      "label": "上海",
+      "spell": "shanghai"
     },
     {
-      "id": 20,
-      "nm": "广州",
-      "py": "guangzhou"
+      "value": 20,
+      "label": "广州",
+      "spell": "guangzhou"
     },
     {
-      "id": 30,
-      "nm": "深圳",
-      "py": "shenzhen"
+      "value": 30,
+      "label": "深圳",
+      "spell": "shenzhen"
     },
     {
-      "id": 42,
-      "nm": "西安",
-      "py": "xian"
+      "value": 42,
+      "label": "西安",
+      "spell": "xian"
     },
     {
-      "id": 40,
-      "nm": "天津",
-      "py": "tianjin"
+      "value": 40,
+      "label": "天津",
+      "spell": "tianjin"
     },
     {
-      "id": 44,
-      "nm": "福州",
-      "py": "fuzhou"
+      "value": 44,
+      "label": "福州",
+      "spell": "fuzhou"
     },
     {
-      "id": 45,
-      "nm": "重庆",
-      "py": "chongqing"
+      "value": 45,
+      "label": "重庆",
+      "spell": "chongqing"
     },
     {
-      "id": 51,
-      "nm": "宁波",
-      "py": "ningbo"
+      "value": 51,
+      "label": "宁波",
+      "spell": "ningbo"
     },
     {
-      "id": 50,
-      "nm": "杭州",
-      "py": "hangzhou"
+      "value": 50,
+      "label": "杭州",
+      "spell": "hangzhou"
     },
     {
-      "id": 55,
-      "nm": "南京",
-      "py": "nanjing"
+      "value": 55,
+      "label": "南京",
+      "spell": "nanjing"
     },
     {
-      "id": 52,
-      "nm": "无锡",
-      "py": "wuxi"
+      "value": 52,
+      "label": "无锡",
+      "spell": "wuxi"
     },
     {
-      "id": 59,
-      "nm": "成都",
-      "py": "chengdu"
+      "value": 59,
+      "label": "成都",
+      "spell": "chengdu"
     },
     {
-      "id": 57,
-      "nm": "武汉",
-      "py": "wuhan"
+      "value": 57,
+      "label": "武汉",
+      "spell": "wuhan"
     },
     {
-      "id": 56,
-      "nm": "合肥",
-      "py": "hefei"
+      "value": 56,
+      "label": "合肥",
+      "spell": "hefei"
     },
     {
-      "id": 62,
-      "nm": "厦门",
-      "py": "xiamen"
+      "value": 62,
+      "label": "厦门",
+      "spell": "xiamen"
     },
     {
-      "id": 60,
-      "nm": "青岛",
-      "py": "qingdao"
+      "value": 60,
+      "label": "青岛",
+      "spell": "qingdao"
     },
     {
-      "id": 70,
-      "nm": "长沙",
-      "py": "changsha"
+      "value": 70,
+      "label": "长沙",
+      "spell": "changsha"
     },
     {
-      "id": 65,
-      "nm": "大连",
-      "py": "dalian"
+      "value": 65,
+      "label": "大连",
+      "spell": "dalian"
     },
     {
-      "id": 66,
-      "nm": "沈阳",
-      "py": "shenyang"
+      "value": 66,
+      "label": "沈阳",
+      "spell": "shenyang"
     },
     {
-      "id": 76,
-      "nm": "石家庄",
-      "py": "shijiazhuang"
+      "value": 76,
+      "label": "石家庄",
+      "spell": "shijiazhuang"
     },
     {
-      "id": 73,
-      "nm": "郑州",
-      "py": "zhengzhou"
+      "value": 73,
+      "label": "郑州",
+      "spell": "zhengzhou"
     },
     {
-      "id": 84,
-      "nm": "保定",
-      "py": "baoding"
+      "value": 84,
+      "label": "保定",
+      "spell": "baoding"
     },
     {
-      "id": 81,
-      "nm": "淄博",
-      "py": "zibo"
+      "value": 81,
+      "label": "淄博",
+      "spell": "zibo"
     },
     {
-      "id": 80,
-      "nm": "苏州",
-      "py": "suzhou"
+      "value": 80,
+      "label": "苏州",
+      "spell": "suzhou"
     },
     {
-      "id": 83,
-      "nm": "南昌",
-      "py": "nanchang"
+      "value": 83,
+      "label": "南昌",
+      "spell": "nanchang"
     },
     {
-      "id": 82,
-      "nm": "南通",
-      "py": "nantong"
+      "value": 82,
+      "label": "南通",
+      "spell": "nantong"
     },
     {
-      "id": 93,
-      "nm": "桂林",
-      "py": "guilin"
+      "value": 93,
+      "label": "桂林",
+      "spell": "guilin"
     },
     {
-      "id": 92,
-      "nm": "佛山",
-      "py": "foshan"
+      "value": 92,
+      "label": "佛山",
+      "spell": "foshan"
     },
     {
-      "id": 95,
-      "nm": "葫芦岛",
-      "py": "huludao"
+      "value": 95,
+      "label": "葫芦岛",
+      "spell": "huludao"
     },
     {
-      "id": 94,
-      "nm": "海口",
-      "py": "haikou"
+      "value": 94,
+      "label": "海口",
+      "spell": "haikou"
     },
     {
-      "id": 89,
-      "nm": "常州",
-      "py": "changzhou"
+      "value": 89,
+      "label": "常州",
+      "spell": "changzhou"
     },
     {
-      "id": 88,
-      "nm": "蚌埠",
-      "py": "bengbu"
+      "value": 88,
+      "label": "蚌埠",
+      "spell": "bengbu"
     },
     {
-      "id": 91,
-      "nm": "东莞",
-      "py": "dongguan"
+      "value": 91,
+      "label": "东莞",
+      "spell": "dongguan"
     },
     {
-      "id": 90,
-      "nm": "大庆",
-      "py": "daqing"
+      "value": 90,
+      "label": "大庆",
+      "spell": "daqing"
     },
     {
-      "id": 102,
-      "nm": "芜湖",
-      "py": "wuhu"
+      "value": 102,
+      "label": "芜湖",
+      "spell": "wuhu"
     },
     {
-      "id": 103,
-      "nm": "新乡",
-      "py": "xinxiang"
+      "value": 103,
+      "label": "新乡",
+      "spell": "xinxiang"
     },
     {
-      "id": 101,
-      "nm": "太原",
-      "py": "taiyuan"
+      "value": 101,
+      "label": "太原",
+      "spell": "taiyuan"
     },
     {
-      "id": 98,
-      "nm": "锦州",
-      "py": "jinzhou"
+      "value": 98,
+      "label": "锦州",
+      "spell": "jinzhou"
     },
     {
-      "id": 99,
-      "nm": "南宁",
-      "py": "nanning"
+      "value": 99,
+      "label": "南宁",
+      "spell": "nanning"
     },
     {
-      "id": 96,
-      "nm": "济南",
-      "py": "jinan"
+      "value": 96,
+      "label": "济南",
+      "spell": "jinan"
     },
     {
-      "id": 97,
-      "nm": "焦作",
-      "py": "jiaozuo"
+      "value": 97,
+      "label": "焦作",
+      "spell": "jiaozuo"
     },
     {
-      "id": 110,
-      "nm": "泉州",
-      "py": "quanzhou"
+      "value": 110,
+      "label": "泉州",
+      "spell": "quanzhou"
     },
     {
-      "id": 111,
-      "nm": "三亚",
-      "py": "sanya"
+      "value": 111,
+      "label": "三亚",
+      "spell": "sanya"
     },
     {
-      "id": 108,
-      "nm": "珠海",
-      "py": "zhuhai"
+      "value": 108,
+      "label": "珠海",
+      "spell": "zhuhai"
     },
     {
-      "id": 109,
-      "nm": "齐齐哈尔",
-      "py": "qiqihaer"
+      "value": 109,
+      "label": "齐齐哈尔",
+      "spell": "qiqihaer"
     },
     {
-      "id": 106,
-      "nm": "廊坊",
-      "py": "langfang"
+      "value": 106,
+      "label": "廊坊",
+      "spell": "langfang"
     },
     {
-      "id": 107,
-      "nm": "贵阳",
-      "py": "guiyang"
+      "value": 107,
+      "label": "贵阳",
+      "spell": "guiyang"
     },
     {
-      "id": 104,
-      "nm": "烟台",
-      "py": "yantai"
+      "value": 104,
+      "label": "烟台",
+      "spell": "yantai"
     },
     {
-      "id": 105,
-      "nm": "哈尔滨",
-      "py": "haerbin"
+      "value": 105,
+      "label": "哈尔滨",
+      "spell": "haerbin"
     },
     {
-      "id": 119,
-      "nm": "徐州",
-      "py": "xuzhou"
+      "value": 119,
+      "label": "徐州",
+      "spell": "xuzhou"
     },
     {
-      "id": 117,
-      "nm": "汕头",
-      "py": "shantou"
+      "value": 117,
+      "label": "汕头",
+      "spell": "shantou"
     },
     {
-      "id": 116,
-      "nm": "长春",
-      "py": "changchun"
+      "value": 116,
+      "label": "长春",
+      "spell": "changchun"
     },
     {
-      "id": 115,
-      "nm": "九江",
-      "py": "jiujiang"
+      "value": 115,
+      "label": "九江",
+      "spell": "jiujiang"
     },
     {
-      "id": 114,
-      "nm": "昆明",
-      "py": "kunming"
+      "value": 114,
+      "label": "昆明",
+      "spell": "kulabeling"
     },
     {
-      "id": 113,
-      "nm": "中山",
-      "py": "zhongshan"
+      "value": 113,
+      "label": "中山",
+      "spell": "zhongshan"
     },
     {
-      "id": 112,
-      "nm": "温州",
-      "py": "wenzhou"
+      "value": 112,
+      "label": "温州",
+      "spell": "wenzhou"
     },
     {
-      "id": 127,
-      "nm": "沧州",
-      "py": "cangzhou"
+      "value": 127,
+      "label": "沧州",
+      "spell": "cangzhou"
     },
     {
-      "id": 126,
-      "nm": "承德",
-      "py": "chengde"
+      "value": 126,
+      "label": "承德",
+      "spell": "chengde"
     },
     {
-      "id": 125,
-      "nm": "张家口",
-      "py": "zhangjiakou"
+      "value": 125,
+      "label": "张家口",
+      "spell": "zhangjiakou"
     },
     {
-      "id": 124,
-      "nm": "邢台",
-      "py": "xingtai"
+      "value": 124,
+      "label": "邢台",
+      "spell": "xingtai"
     },
     {
-      "id": 123,
-      "nm": "邯郸",
-      "py": "handan"
+      "value": 123,
+      "label": "邯郸",
+      "spell": "handan"
     },
     {
-      "id": 122,
-      "nm": "秦皇岛",
-      "py": "qinhuangdao"
+      "value": 122,
+      "label": "秦皇岛",
+      "spell": "qinhuangdao"
     },
     {
-      "id": 121,
-      "nm": "唐山",
-      "py": "tangshan"
+      "value": 121,
+      "label": "唐山",
+      "spell": "tangshan"
     },
     {
-      "id": 120,
-      "nm": "扬州",
-      "py": "yangzhou"
+      "value": 120,
+      "label": "扬州",
+      "spell": "yangzhou"
     },
     {
-      "id": 137,
-      "nm": "临汾",
-      "py": "linfen"
+      "value": 137,
+      "label": "临汾",
+      "spell": "linfen"
     },
     {
-      "id": 136,
-      "nm": "忻州",
-      "py": "xinzhou"
+      "value": 136,
+      "label": "忻州",
+      "spell": "xinzhou"
     },
     {
-      "id": 139,
-      "nm": "呼和浩特",
-      "py": "huhehaote"
+      "value": 139,
+      "label": "呼和浩特",
+      "spell": "huhehaote"
     },
     {
-      "id": 138,
-      "nm": "吕梁",
-      "py": "lvliang"
+      "value": 138,
+      "label": "吕梁",
+      "spell": "lvliang"
     },
     {
-      "id": 141,
-      "nm": "乌海",
-      "py": "wuhai"
+      "value": 141,
+      "label": "乌海",
+      "spell": "wuhai"
     },
     {
-      "id": 140,
-      "nm": "包头",
-      "py": "baotou"
+      "value": 140,
+      "label": "包头",
+      "spell": "baotou"
     },
     {
-      "id": 143,
-      "nm": "通辽",
-      "py": "tongliao"
+      "value": 143,
+      "label": "通辽",
+      "spell": "tongliao"
     },
     {
-      "id": 142,
-      "nm": "赤峰",
-      "py": "chifeng"
+      "value": 142,
+      "label": "赤峰",
+      "spell": "chifeng"
     },
     {
-      "id": 129,
-      "nm": "大同",
-      "py": "datong"
+      "value": 129,
+      "label": "大同",
+      "spell": "datong"
     },
     {
-      "id": 128,
-      "nm": "衡水",
-      "py": "hengshui"
+      "value": 128,
+      "label": "衡水",
+      "spell": "hengshui"
     },
     {
-      "id": 131,
-      "nm": "长治",
-      "py": "changzhi"
+      "value": 131,
+      "label": "长治",
+      "spell": "changzhi"
     },
     {
-      "id": 130,
-      "nm": "阳泉",
-      "py": "yangquan"
+      "value": 130,
+      "label": "阳泉",
+      "spell": "yangquan"
     },
     {
-      "id": 133,
-      "nm": "朔州",
-      "py": "shuozhou"
+      "value": 133,
+      "label": "朔州",
+      "spell": "shuozhou"
     },
     {
-      "id": 132,
-      "nm": "晋城",
-      "py": "jincheng"
+      "value": 132,
+      "label": "晋城",
+      "spell": "jincheng"
     },
     {
-      "id": 135,
-      "nm": "运城",
-      "py": "yuncheng"
+      "value": 135,
+      "label": "运城",
+      "spell": "yuncheng"
     },
     {
-      "id": 134,
-      "nm": "晋中",
-      "py": "jinzhong"
+      "value": 134,
+      "label": "晋中",
+      "spell": "jinzhong"
     },
     {
-      "id": 152,
-      "nm": "抚顺",
-      "py": "fushun"
+      "value": 152,
+      "label": "抚顺",
+      "spell": "fushun"
     },
     {
-      "id": 153,
-      "nm": "本溪",
-      "py": "benxi"
+      "value": 153,
+      "label": "本溪",
+      "spell": "benxi"
     },
     {
-      "id": 154,
-      "nm": "丹东",
-      "py": "dandong"
+      "value": 154,
+      "label": "丹东",
+      "spell": "dandong"
     },
     {
-      "id": 155,
-      "nm": "营口",
-      "py": "yingkou"
+      "value": 155,
+      "label": "营口",
+      "spell": "yingkou"
     },
     {
-      "id": 156,
-      "nm": "阜新",
-      "py": "fuxin"
+      "value": 156,
+      "label": "阜新",
+      "spell": "fuxin"
     },
     {
-      "id": 157,
-      "nm": "辽阳",
-      "py": "liaoyang"
+      "value": 157,
+      "label": "辽阳",
+      "spell": "liaoyang"
     },
     {
-      "id": 158,
-      "nm": "盘锦",
-      "py": "panjin"
+      "value": 158,
+      "label": "盘锦",
+      "spell": "panjin"
     },
     {
-      "id": 159,
-      "nm": "铁岭",
-      "py": "tieling"
+      "value": 159,
+      "label": "铁岭",
+      "spell": "tieling"
     },
     {
-      "id": 144,
-      "nm": "鄂尔多斯",
-      "py": "eerduosi"
+      "value": 144,
+      "label": "鄂尔多斯",
+      "spell": "eerduosi"
     },
     {
-      "id": 145,
-      "nm": "呼伦贝尔",
-      "py": "hulunbeier"
+      "value": 145,
+      "label": "呼伦贝尔",
+      "spell": "hulunbeier"
     },
     {
-      "id": 146,
-      "nm": "巴彦淖尔",
-      "py": "bayannaoer"
+      "value": 146,
+      "label": "巴彦淖尔",
+      "spell": "bayannaoer"
     },
     {
-      "id": 147,
-      "nm": "乌兰察布",
-      "py": "wulanchabu"
+      "value": 147,
+      "label": "乌兰察布",
+      "spell": "wulanchabu"
     },
     {
-      "id": 148,
-      "nm": "兴安盟",
-      "py": "xinganmeng"
+      "value": 148,
+      "label": "兴安盟",
+      "spell": "xingalabeleng"
     },
     {
-      "id": 149,
-      "nm": "锡林郭勒",
-      "py": "xilinguolemeng"
+      "value": 149,
+      "label": "锡林郭勒",
+      "spell": "xilinguolemeng"
     },
     {
-      "id": 150,
-      "nm": "阿拉善盟",
-      "py": "alashanmeng"
+      "value": 150,
+      "label": "阿拉善盟",
+      "spell": "alashalabeleng"
     },
     {
-      "id": 151,
-      "nm": "鞍山",
-      "py": "anshan"
+      "value": 151,
+      "label": "鞍山",
+      "spell": "anshan"
     },
     {
-      "id": 171,
-      "nm": "双鸭山",
-      "py": "shuangyashan"
+      "value": 171,
+      "label": "双鸭山",
+      "spell": "shuangyashan"
     },
     {
-      "id": 170,
-      "nm": "鹤岗",
-      "py": "hegang"
+      "value": 170,
+      "label": "鹤岗",
+      "spell": "hegang"
     },
     {
-      "id": 169,
-      "nm": "鸡西",
-      "py": "jixi"
+      "value": 169,
+      "label": "鸡西",
+      "spell": "jixi"
     },
     {
-      "id": 168,
-      "nm": "延边",
-      "py": "yanbian"
+      "value": 168,
+      "label": "延边",
+      "spell": "yanbian"
     },
     {
-      "id": 175,
-      "nm": "牡丹江",
-      "py": "mudanjiang"
+      "value": 175,
+      "label": "牡丹江",
+      "spell": "mudanjiang"
     },
     {
-      "id": 174,
-      "nm": "七台河",
-      "py": "qitaihe"
+      "value": 174,
+      "label": "七台河",
+      "spell": "qitaihe"
     },
     {
-      "id": 173,
-      "nm": "佳木斯",
-      "py": "jiamusi"
+      "value": 173,
+      "label": "佳木斯",
+      "spell": "jiamusi"
     },
     {
-      "id": 172,
-      "nm": "伊春",
-      "py": "yichunyc"
+      "value": 172,
+      "label": "伊春",
+      "spell": "yichunyc"
     },
     {
-      "id": 163,
-      "nm": "辽源",
-      "py": "liaoyuan"
+      "value": 163,
+      "label": "辽源",
+      "spell": "liaoyuan"
     },
     {
-      "id": 162,
-      "nm": "四平",
-      "py": "siping"
+      "value": 162,
+      "label": "四平",
+      "spell": "siping"
     },
     {
-      "id": 161,
-      "nm": "吉林",
-      "py": "jilin"
+      "value": 161,
+      "label": "吉林",
+      "spell": "jilin"
     },
     {
-      "id": 160,
-      "nm": "朝阳",
-      "py": "chaoyang"
+      "value": 160,
+      "label": "朝阳",
+      "spell": "chaoyang"
     },
     {
-      "id": 167,
-      "nm": "白城",
-      "py": "baicheng"
+      "value": 167,
+      "label": "白城",
+      "spell": "baicheng"
     },
     {
-      "id": 166,
-      "nm": "松原",
-      "py": "songyuan"
+      "value": 166,
+      "label": "松原",
+      "spell": "songyuan"
     },
     {
-      "id": 165,
-      "nm": "白山",
-      "py": "baishan"
+      "value": 165,
+      "label": "白山",
+      "spell": "baishan"
     },
     {
-      "id": 164,
-      "nm": "通化",
-      "py": "tonghua"
+      "value": 164,
+      "label": "通化",
+      "spell": "tonghua"
     },
     {
-      "id": 186,
-      "nm": "湖州",
-      "py": "huzhou"
+      "value": 186,
+      "label": "湖州",
+      "spell": "huzhou"
     },
     {
-      "id": 187,
-      "nm": "绍兴",
-      "py": "shaoxing"
+      "value": 187,
+      "label": "绍兴",
+      "spell": "shaoxing"
     },
     {
-      "id": 184,
-      "nm": "宿迁",
-      "py": "suqian"
+      "value": 184,
+      "label": "宿迁",
+      "spell": "suqian"
     },
     {
-      "id": 185,
-      "nm": "嘉兴",
-      "py": "jiaxing"
+      "value": 185,
+      "label": "嘉兴",
+      "spell": "jiaxing"
     },
     {
-      "id": 190,
-      "nm": "舟山",
-      "py": "zhoushan"
+      "value": 190,
+      "label": "舟山",
+      "spell": "zhoushan"
     },
     {
-      "id": 191,
-      "nm": "台州",
-      "py": "taizhoutz"
+      "value": 191,
+      "label": "台州",
+      "spell": "taizhoutz"
     },
     {
-      "id": 188,
-      "nm": "金华",
-      "py": "jinhua"
+      "value": 188,
+      "label": "金华",
+      "spell": "jinhua"
     },
     {
-      "id": 189,
-      "nm": "衢州",
-      "py": "quzhou"
+      "value": 189,
+      "label": "衢州",
+      "spell": "quzhou"
     },
     {
-      "id": 178,
-      "nm": "大兴安岭",
-      "py": "daxinganling"
+      "value": 178,
+      "label": "大兴安岭",
+      "spell": "daxinganling"
     },
     {
-      "id": 179,
-      "nm": "连云港",
-      "py": "lianyungang"
+      "value": 179,
+      "label": "连云港",
+      "spell": "lianyungang"
     },
     {
-      "id": 176,
-      "nm": "黑河",
-      "py": "heihe"
+      "value": 176,
+      "label": "黑河",
+      "spell": "heihe"
     },
     {
-      "id": 177,
-      "nm": "绥化",
-      "py": "suihua"
+      "value": 177,
+      "label": "绥化",
+      "spell": "suihua"
     },
     {
-      "id": 182,
-      "nm": "镇江",
-      "py": "zhenjiang"
+      "value": 182,
+      "label": "镇江",
+      "spell": "zhenjiang"
     },
     {
-      "id": 183,
-      "nm": "泰州",
-      "py": "taizhou"
+      "value": 183,
+      "label": "泰州",
+      "spell": "taizhou"
     },
     {
-      "id": 180,
-      "nm": "淮安",
-      "py": "huaian"
+      "value": 180,
+      "label": "淮安",
+      "spell": "huaian"
     },
     {
-      "id": 181,
-      "nm": "盐城",
-      "py": "yancheng"
+      "value": 181,
+      "label": "盐城",
+      "spell": "yancheng"
     },
     {
-      "id": 205,
-      "nm": "池州",
-      "py": "chizhou"
+      "value": 205,
+      "label": "池州",
+      "spell": "chizhou"
     },
     {
-      "id": 204,
-      "nm": "亳州",
-      "py": "bozhou"
+      "value": 204,
+      "label": "亳州",
+      "spell": "bozhou"
     },
     {
-      "id": 207,
-      "nm": "莆田",
-      "py": "putian"
+      "value": 207,
+      "label": "莆田",
+      "spell": "putian"
     },
     {
-      "id": 206,
-      "nm": "宣城",
-      "py": "xuancheng"
+      "value": 206,
+      "label": "宣城",
+      "spell": "xuancheng"
     },
     {
-      "id": 201,
-      "nm": "宿州",
-      "py": "suzhousz"
+      "value": 201,
+      "label": "宿州",
+      "spell": "suzhousz"
     },
     {
-      "id": 200,
-      "nm": "阜阳",
-      "py": "fuyang"
+      "value": 200,
+      "label": "阜阳",
+      "spell": "fuyang"
     },
     {
-      "id": 203,
-      "nm": "六安",
-      "py": "liuan"
+      "value": 203,
+      "label": "六安",
+      "spell": "liuan"
     },
     {
-      "id": 202,
-      "nm": "巢湖",
-      "py": "chaohu"
+      "value": 202,
+      "label": "巢湖",
+      "spell": "chaohu"
     },
     {
-      "id": 197,
-      "nm": "安庆",
-      "py": "anqing"
+      "value": 197,
+      "label": "安庆",
+      "spell": "anqing"
     },
     {
-      "id": 196,
-      "nm": "铜陵",
-      "py": "tongling"
+      "value": 196,
+      "label": "铜陵",
+      "spell": "tongling"
     },
     {
-      "id": 199,
-      "nm": "滁州",
-      "py": "chuzhou"
+      "value": 199,
+      "label": "滁州",
+      "spell": "chuzhou"
     },
     {
-      "id": 198,
-      "nm": "黄山",
-      "py": "huangshan"
+      "value": 198,
+      "label": "黄山",
+      "spell": "huangshan"
     },
     {
-      "id": 193,
-      "nm": "淮南",
-      "py": "huainan"
+      "value": 193,
+      "label": "淮南",
+      "spell": "huainan"
     },
     {
-      "id": 192,
-      "nm": "丽水",
-      "py": "lishui"
+      "value": 192,
+      "label": "丽水",
+      "spell": "lishui"
     },
     {
-      "id": 195,
-      "nm": "淮北",
-      "py": "huaibei"
+      "value": 195,
+      "label": "淮北",
+      "spell": "huaibei"
     },
     {
-      "id": 194,
-      "nm": "马鞍山",
-      "py": "maanshan"
+      "value": 194,
+      "label": "马鞍山",
+      "spell": "maanshan"
     },
     {
-      "id": 220,
-      "nm": "抚州",
-      "py": "fuzhoufz"
+      "value": 220,
+      "label": "抚州",
+      "spell": "fuzhoufz"
     },
     {
-      "id": 221,
-      "nm": "上饶",
-      "py": "shangrao"
+      "value": 221,
+      "label": "上饶",
+      "spell": "shangrao"
     },
     {
-      "id": 222,
-      "nm": "枣庄",
-      "py": "zaozhuang"
+      "value": 222,
+      "label": "枣庄",
+      "spell": "zaozhuang"
     },
     {
-      "id": 223,
-      "nm": "东营",
-      "py": "dongying"
+      "value": 223,
+      "label": "东营",
+      "spell": "dongying"
     },
     {
-      "id": 216,
-      "nm": "鹰潭",
-      "py": "yingtan"
+      "value": 216,
+      "label": "鹰潭",
+      "spell": "yingtan"
     },
     {
-      "id": 217,
-      "nm": "赣州",
-      "py": "ganzhou"
+      "value": 217,
+      "label": "赣州",
+      "spell": "ganzhou"
     },
     {
-      "id": 218,
-      "nm": "吉安",
-      "py": "jian"
+      "value": 218,
+      "label": "吉安",
+      "spell": "jian"
     },
     {
-      "id": 219,
-      "nm": "宜春",
-      "py": "yichun"
+      "value": 219,
+      "label": "宜春",
+      "spell": "yichun"
     },
     {
-      "id": 212,
-      "nm": "宁德",
-      "py": "ningde"
+      "value": 212,
+      "label": "宁德",
+      "spell": "ningde"
     },
     {
-      "id": 213,
-      "nm": "景德镇",
-      "py": "jingdezhen"
+      "value": 213,
+      "label": "景德镇",
+      "spell": "jingdezhen"
     },
     {
-      "id": 214,
-      "nm": "萍乡",
-      "py": "pingxiang"
+      "value": 214,
+      "label": "萍乡",
+      "spell": "pingxiang"
     },
     {
-      "id": 215,
-      "nm": "新余",
-      "py": "xinyu"
+      "value": 215,
+      "label": "新余",
+      "spell": "xinyu"
     },
     {
-      "id": 208,
-      "nm": "三明",
-      "py": "sanming"
+      "value": 208,
+      "label": "三明",
+      "spell": "salabeling"
     },
     {
-      "id": 209,
-      "nm": "漳州",
-      "py": "zhangzhou"
+      "value": 209,
+      "label": "漳州",
+      "spell": "zhangzhou"
     },
     {
-      "id": 210,
-      "nm": "南平",
-      "py": "nanping"
+      "value": 210,
+      "label": "南平",
+      "spell": "nanping"
     },
     {
-      "id": 211,
-      "nm": "龙岩",
-      "py": "longyan"
+      "value": 211,
+      "label": "龙岩",
+      "spell": "longyan"
     },
     {
-      "id": 239,
-      "nm": "鹤壁",
-      "py": "hebi"
+      "value": 239,
+      "label": "鹤壁",
+      "spell": "hebi"
     },
     {
-      "id": 238,
-      "nm": "安阳",
-      "py": "anyang"
+      "value": 238,
+      "label": "安阳",
+      "spell": "anyang"
     },
     {
-      "id": 237,
-      "nm": "平顶山",
-      "py": "pingdingshan"
+      "value": 237,
+      "label": "平顶山",
+      "spell": "pingdingshan"
     },
     {
-      "id": 236,
-      "nm": "洛阳",
-      "py": "luoyang"
+      "value": 236,
+      "label": "洛阳",
+      "spell": "luoyang"
     },
     {
-      "id": 235,
-      "nm": "开封",
-      "py": "kaifeng"
+      "value": 235,
+      "label": "开封",
+      "spell": "kaifeng"
     },
     {
-      "id": 234,
-      "nm": "菏泽",
-      "py": "heze"
+      "value": 234,
+      "label": "菏泽",
+      "spell": "heze"
     },
     {
-      "id": 233,
-      "nm": "滨州",
-      "py": "binzhou"
+      "value": 233,
+      "label": "滨州",
+      "spell": "binzhou"
     },
     {
-      "id": 232,
-      "nm": "聊城",
-      "py": "liaocheng"
+      "value": 232,
+      "label": "聊城",
+      "spell": "liaocheng"
     },
     {
-      "id": 231,
-      "nm": "德州",
-      "py": "dezhou"
+      "value": 231,
+      "label": "德州",
+      "spell": "dezhou"
     },
     {
-      "id": 230,
-      "nm": "临沂",
-      "py": "linyi"
+      "value": 230,
+      "label": "临沂",
+      "spell": "linyi"
     },
     {
-      "id": 229,
-      "nm": "莱芜",
-      "py": "laiwu"
+      "value": 229,
+      "label": "莱芜",
+      "spell": "laiwu"
     },
     {
-      "id": 228,
-      "nm": "日照",
-      "py": "rizhao"
+      "value": 228,
+      "label": "日照",
+      "spell": "rizhao"
     },
     {
-      "id": 227,
-      "nm": "威海",
-      "py": "weihai"
+      "value": 227,
+      "label": "威海",
+      "spell": "weihai"
     },
     {
-      "id": 226,
-      "nm": "泰安",
-      "py": "taian"
+      "value": 226,
+      "label": "泰安",
+      "spell": "taian"
     },
     {
-      "id": 225,
-      "nm": "济宁",
-      "py": "jining"
+      "value": 225,
+      "label": "济宁",
+      "spell": "jining"
     },
     {
-      "id": 224,
-      "nm": "潍坊",
-      "py": "weifang"
+      "value": 224,
+      "label": "潍坊",
+      "spell": "weifang"
     },
     {
-      "id": 254,
-      "nm": "鄂州",
-      "py": "ezhou"
+      "value": 254,
+      "label": "鄂州",
+      "spell": "ezhou"
     },
     {
-      "id": 255,
-      "nm": "荆门",
-      "py": "jingmen"
+      "value": 255,
+      "label": "荆门",
+      "spell": "jingmen"
     },
     {
-      "id": 252,
-      "nm": "宜昌",
-      "py": "yichang"
+      "value": 252,
+      "label": "宜昌",
+      "spell": "yichang"
     },
     {
-      "id": 253,
-      "nm": "襄阳",
-      "py": "xiangyang"
+      "value": 253,
+      "label": "襄阳",
+      "spell": "xiangyang"
     },
     {
-      "id": 250,
-      "nm": "黄石",
-      "py": "huangshi"
+      "value": 250,
+      "label": "黄石",
+      "spell": "huangshi"
     },
     {
-      "id": 251,
-      "nm": "十堰",
-      "py": "shiyan"
+      "value": 251,
+      "label": "十堰",
+      "spell": "shiyan"
     },
     {
-      "id": 248,
-      "nm": "驻马店",
-      "py": "zhumadian"
+      "value": 248,
+      "label": "驻马店",
+      "spell": "zhumadian"
     },
     {
-      "id": 249,
-      "nm": "济源",
-      "py": "jiyuan"
+      "value": 249,
+      "label": "济源",
+      "spell": "jiyuan"
     },
     {
-      "id": 246,
-      "nm": "信阳",
-      "py": "xinyang"
+      "value": 246,
+      "label": "信阳",
+      "spell": "xinyang"
     },
     {
-      "id": 247,
-      "nm": "周口",
-      "py": "zhoukou"
+      "value": 247,
+      "label": "周口",
+      "spell": "zhoukou"
     },
     {
-      "id": 244,
-      "nm": "南阳",
-      "py": "nanyang"
+      "value": 244,
+      "label": "南阳",
+      "spell": "nanyang"
     },
     {
-      "id": 245,
-      "nm": "商丘",
-      "py": "shangqiu"
+      "value": 245,
+      "label": "商丘",
+      "spell": "shangqiu"
     },
     {
-      "id": 242,
-      "nm": "漯河",
-      "py": "luohe"
+      "value": 242,
+      "label": "漯河",
+      "spell": "luohe"
     },
     {
-      "id": 243,
-      "nm": "三门峡",
-      "py": "sanmenxia"
+      "value": 243,
+      "label": "三门峡",
+      "spell": "salabelenxia"
     },
     {
-      "id": 240,
-      "nm": "濮阳",
-      "py": "puyang"
+      "value": 240,
+      "label": "濮阳",
+      "spell": "puyang"
     },
     {
-      "id": 241,
-      "nm": "许昌",
-      "py": "xuchang"
+      "value": 241,
+      "label": "许昌",
+      "spell": "xuchang"
     },
     {
-      "id": 275,
-      "nm": "湘西",
-      "py": "xiangxi"
+      "value": 275,
+      "label": "湘西",
+      "spell": "xiangxi"
     },
     {
-      "id": 274,
-      "nm": "娄底",
-      "py": "loudi"
+      "value": 274,
+      "label": "娄底",
+      "spell": "loudi"
     },
     {
-      "id": 273,
-      "nm": "怀化",
-      "py": "huaihua"
+      "value": 273,
+      "label": "怀化",
+      "spell": "huaihua"
     },
     {
-      "id": 272,
-      "nm": "永州",
-      "py": "yongzhou"
+      "value": 272,
+      "label": "永州",
+      "spell": "yongzhou"
     },
     {
-      "id": 279,
-      "nm": "茂名",
-      "py": "maoming"
+      "value": 279,
+      "label": "茂名",
+      "spell": "maoming"
     },
     {
-      "id": 278,
-      "nm": "湛江",
-      "py": "zhanjiang"
+      "value": 278,
+      "label": "湛江",
+      "spell": "zhanjiang"
     },
     {
-      "id": 277,
-      "nm": "江门",
-      "py": "jiangmen"
+      "value": 277,
+      "label": "江门",
+      "spell": "jiangmen"
     },
     {
-      "id": 276,
-      "nm": "韶关",
-      "py": "shaoguan"
+      "value": 276,
+      "label": "韶关",
+      "spell": "shaoguan"
     },
     {
-      "id": 283,
-      "nm": "汕尾",
-      "py": "shanwei"
+      "value": 283,
+      "label": "汕尾",
+      "spell": "shanwei"
     },
     {
-      "id": 282,
-      "nm": "梅州",
-      "py": "meizhou"
+      "value": 282,
+      "label": "梅州",
+      "spell": "meizhou"
     },
     {
-      "id": 281,
-      "nm": "惠州",
-      "py": "huizhou"
+      "value": 281,
+      "label": "惠州",
+      "spell": "huizhou"
     },
     {
-      "id": 280,
-      "nm": "肇庆",
-      "py": "zhaoqing"
+      "value": 280,
+      "label": "肇庆",
+      "spell": "zhaoqing"
     },
     {
-      "id": 287,
-      "nm": "潮州",
-      "py": "chaozhou"
+      "value": 287,
+      "label": "潮州",
+      "spell": "chaozhou"
     },
     {
-      "id": 286,
-      "nm": "清远",
-      "py": "qingyuan"
+      "value": 286,
+      "label": "清远",
+      "spell": "qingyuan"
     },
     {
-      "id": 285,
-      "nm": "阳江",
-      "py": "yangjiang"
+      "value": 285,
+      "label": "阳江",
+      "spell": "yangjiang"
     },
     {
-      "id": 284,
-      "nm": "河源",
-      "py": "heyuan"
+      "value": 284,
+      "label": "河源",
+      "spell": "heyuan"
     },
     {
-      "id": 258,
-      "nm": "黄冈",
-      "py": "huanggang"
+      "value": 258,
+      "label": "黄冈",
+      "spell": "huanggang"
     },
     {
-      "id": 259,
-      "nm": "咸宁",
-      "py": "xianning"
+      "value": 259,
+      "label": "咸宁",
+      "spell": "xianning"
     },
     {
-      "id": 256,
-      "nm": "孝感",
-      "py": "xiaogan"
+      "value": 256,
+      "label": "孝感",
+      "spell": "xiaogan"
     },
     {
-      "id": 257,
-      "nm": "荆州",
-      "py": "jingzhou"
+      "value": 257,
+      "label": "荆州",
+      "spell": "jingzhou"
     },
     {
-      "id": 263,
-      "nm": "株洲",
-      "py": "zhuzhou"
+      "value": 263,
+      "label": "株洲",
+      "spell": "zhuzhou"
     },
     {
-      "id": 260,
-      "nm": "随州",
-      "py": "suizhou"
+      "value": 260,
+      "label": "随州",
+      "spell": "suizhou"
     },
     {
-      "id": 261,
-      "nm": "恩施",
-      "py": "enshi"
+      "value": 261,
+      "label": "恩施",
+      "spell": "enshi"
     },
     {
-      "id": 266,
-      "nm": "邵阳",
-      "py": "shaoyang"
+      "value": 266,
+      "label": "邵阳",
+      "spell": "shaoyang"
     },
     {
-      "id": 267,
-      "nm": "岳阳",
-      "py": "yueyang"
+      "value": 267,
+      "label": "岳阳",
+      "spell": "yueyang"
     },
     {
-      "id": 264,
-      "nm": "湘潭",
-      "py": "xiangtan"
+      "value": 264,
+      "label": "湘潭",
+      "spell": "xiangtan"
     },
     {
-      "id": 265,
-      "nm": "衡阳",
-      "py": "hengyang"
+      "value": 265,
+      "label": "衡阳",
+      "spell": "hengyang"
     },
     {
-      "id": 270,
-      "nm": "益阳",
-      "py": "yiyang"
+      "value": 270,
+      "label": "益阳",
+      "spell": "yiyang"
     },
     {
-      "id": 271,
-      "nm": "郴州",
-      "py": "chenzhou"
+      "value": 271,
+      "label": "郴州",
+      "spell": "chenzhou"
     },
     {
-      "id": 268,
-      "nm": "常德",
-      "py": "changde"
+      "value": 268,
+      "label": "常德",
+      "spell": "changde"
     },
     {
-      "id": 269,
-      "nm": "张家界",
-      "py": "zhangjiajie"
+      "value": 269,
+      "label": "张家界",
+      "spell": "zhangjiajie"
     },
     {
-      "id": 305,
-      "nm": "德阳",
-      "py": "deyang"
+      "value": 305,
+      "label": "德阳",
+      "spell": "deyang"
     },
     {
-      "id": 304,
-      "nm": "泸州",
-      "py": "luzhou"
+      "value": 304,
+      "label": "泸州",
+      "spell": "luzhou"
     },
     {
-      "id": 307,
-      "nm": "广元",
-      "py": "guangyuan"
+      "value": 307,
+      "label": "广元",
+      "spell": "guangyuan"
     },
     {
-      "id": 306,
-      "nm": "绵阳",
-      "py": "mianyang"
+      "value": 306,
+      "label": "绵阳",
+      "spell": "mianyang"
     },
     {
-      "id": 309,
-      "nm": "内江",
-      "py": "neijiang"
+      "value": 309,
+      "label": "内江",
+      "spell": "neijiang"
     },
     {
-      "id": 308,
-      "nm": "遂宁",
-      "py": "suining"
+      "value": 308,
+      "label": "遂宁",
+      "spell": "suining"
     },
     {
-      "id": 311,
-      "nm": "南充",
-      "py": "nanchong"
+      "value": 311,
+      "label": "南充",
+      "spell": "nanchong"
     },
     {
-      "id": 310,
-      "nm": "乐山",
-      "py": "leshan"
+      "value": 310,
+      "label": "乐山",
+      "spell": "leshan"
     },
     {
-      "id": 313,
-      "nm": "宜宾",
-      "py": "yibin"
+      "value": 313,
+      "label": "宜宾",
+      "spell": "yibin"
     },
     {
-      "id": 312,
-      "nm": "眉山",
-      "py": "meishan"
+      "value": 312,
+      "label": "眉山",
+      "spell": "meishan"
     },
     {
-      "id": 315,
-      "nm": "达州",
-      "py": "dazhou"
+      "value": 315,
+      "label": "达州",
+      "spell": "dazhou"
     },
     {
-      "id": 314,
-      "nm": "广安",
-      "py": "guangan"
+      "value": 314,
+      "label": "广安",
+      "spell": "guangan"
     },
     {
-      "id": 317,
-      "nm": "巴中",
-      "py": "bazhong"
+      "value": 317,
+      "label": "巴中",
+      "spell": "bazhong"
     },
     {
-      "id": 316,
-      "nm": "雅安",
-      "py": "yaan"
+      "value": 316,
+      "label": "雅安",
+      "spell": "yaan"
     },
     {
-      "id": 319,
-      "nm": "阿坝",
-      "py": "aba"
+      "value": 319,
+      "label": "阿坝",
+      "spell": "aba"
     },
     {
-      "id": 318,
-      "nm": "资阳",
-      "py": "ziyang"
+      "value": 318,
+      "label": "资阳",
+      "spell": "ziyang"
     },
     {
-      "id": 288,
-      "nm": "揭阳",
-      "py": "jieyang"
+      "value": 288,
+      "label": "揭阳",
+      "spell": "jieyang"
     },
     {
-      "id": 289,
-      "nm": "云浮",
-      "py": "yunfu"
+      "value": 289,
+      "label": "云浮",
+      "spell": "yunfu"
     },
     {
-      "id": 290,
-      "nm": "柳州",
-      "py": "liuzhou"
+      "value": 290,
+      "label": "柳州",
+      "spell": "liuzhou"
     },
     {
-      "id": 291,
-      "nm": "梧州",
-      "py": "wuzhou"
+      "value": 291,
+      "label": "梧州",
+      "spell": "wuzhou"
     },
     {
-      "id": 292,
-      "nm": "北海",
-      "py": "beihai"
+      "value": 292,
+      "label": "北海",
+      "spell": "beihai"
     },
     {
-      "id": 293,
-      "nm": "防城港",
-      "py": "fangchenggang"
+      "value": 293,
+      "label": "防城港",
+      "spell": "fangchenggang"
     },
     {
-      "id": 294,
-      "nm": "钦州",
-      "py": "qinzhou"
+      "value": 294,
+      "label": "钦州",
+      "spell": "qinzhou"
     },
     {
-      "id": 295,
-      "nm": "贵港",
-      "py": "guigang"
+      "value": 295,
+      "label": "贵港",
+      "spell": "guigang"
     },
     {
-      "id": 296,
-      "nm": "玉林",
-      "py": "yulin"
+      "value": 296,
+      "label": "玉林",
+      "spell": "yulin"
     },
     {
-      "id": 297,
-      "nm": "百色",
-      "py": "baise"
+      "value": 297,
+      "label": "百色",
+      "spell": "baise"
     },
     {
-      "id": 298,
-      "nm": "贺州",
-      "py": "hezhou"
+      "value": 298,
+      "label": "贺州",
+      "spell": "hezhou"
     },
     {
-      "id": 299,
-      "nm": "河池",
-      "py": "hechi"
+      "value": 299,
+      "label": "河池",
+      "spell": "hechi"
     },
     {
-      "id": 300,
-      "nm": "来宾",
-      "py": "laibin"
+      "value": 300,
+      "label": "来宾",
+      "spell": "laibin"
     },
     {
-      "id": 301,
-      "nm": "崇左",
-      "py": "chongzuo"
+      "value": 301,
+      "label": "崇左",
+      "spell": "chongzuo"
     },
     {
-      "id": 302,
-      "nm": "自贡",
-      "py": "zigong"
+      "value": 302,
+      "label": "自贡",
+      "spell": "zigong"
     },
     {
-      "id": 303,
-      "nm": "攀枝花",
-      "py": "panzhihua"
+      "value": 303,
+      "label": "攀枝花",
+      "spell": "panzhihua"
     },
     {
-      "id": 343,
-      "nm": "怒江",
-      "py": "nujiang"
+      "value": 343,
+      "label": "怒江",
+      "spell": "nujiang"
     },
     {
-      "id": 342,
-      "nm": "德宏",
-      "py": "dehong"
+      "value": 342,
+      "label": "德宏",
+      "spell": "dehong"
     },
     {
-      "id": 341,
-      "nm": "大理",
-      "py": "dali"
+      "value": 341,
+      "label": "大理",
+      "spell": "dali"
     },
     {
-      "id": 340,
-      "nm": "西双版纳",
-      "py": "xishuangbanna"
+      "value": 340,
+      "label": "西双版纳",
+      "spell": "xishuangbanna"
     },
     {
-      "id": 339,
-      "nm": "文山",
-      "py": "wenshan"
+      "value": 339,
+      "label": "文山",
+      "spell": "wenshan"
     },
     {
-      "id": 338,
-      "nm": "红河",
-      "py": "honghe"
+      "value": 338,
+      "label": "红河",
+      "spell": "honghe"
     },
     {
-      "id": 337,
-      "nm": "楚雄",
-      "py": "chuxiong"
+      "value": 337,
+      "label": "楚雄",
+      "spell": "chuxiong"
     },
     {
-      "id": 336,
-      "nm": "临沧",
-      "py": "lincang"
+      "value": 336,
+      "label": "临沧",
+      "spell": "lincang"
     },
     {
-      "id": 351,
-      "nm": "林芝",
-      "py": "linzhi"
+      "value": 351,
+      "label": "林芝",
+      "spell": "linzhi"
     },
     {
-      "id": 348,
-      "nm": "日喀则",
-      "py": "rikaze"
+      "value": 348,
+      "label": "日喀则",
+      "spell": "rikaze"
     },
     {
-      "id": 345,
-      "nm": "拉萨",
-      "py": "lasa"
+      "value": 345,
+      "label": "拉萨",
+      "spell": "lasa"
     },
     {
-      "id": 344,
-      "nm": "迪庆",
-      "py": "diqing"
+      "value": 344,
+      "label": "迪庆",
+      "spell": "diqing"
     },
     {
-      "id": 326,
-      "nm": "黔西南",
-      "py": "qianxinan"
+      "value": 326,
+      "label": "黔西南",
+      "spell": "qianxinan"
     },
     {
-      "id": 327,
-      "nm": "毕节",
-      "py": "bijiediqu"
+      "value": 327,
+      "label": "毕节",
+      "spell": "bijiediqu"
     },
     {
-      "id": 324,
-      "nm": "安顺",
-      "py": "anshun"
+      "value": 324,
+      "label": "安顺",
+      "spell": "anshun"
     },
     {
-      "id": 325,
-      "nm": "铜仁",
-      "py": "tongrendiqu"
+      "value": 325,
+      "label": "铜仁",
+      "spell": "tongrendiqu"
     },
     {
-      "id": 322,
-      "nm": "六盘水",
-      "py": "liupanshui"
+      "value": 322,
+      "label": "六盘水",
+      "spell": "liupanshui"
     },
     {
-      "id": 323,
-      "nm": "遵义",
-      "py": "zunyi"
+      "value": 323,
+      "label": "遵义",
+      "spell": "zunyi"
     },
     {
-      "id": 320,
-      "nm": "甘孜",
-      "py": "ganzi"
+      "value": 320,
+      "label": "甘孜",
+      "spell": "ganzi"
     },
     {
-      "id": 321,
-      "nm": "凉山",
-      "py": "liangshan"
+      "value": 321,
+      "label": "凉山",
+      "spell": "liangshan"
     },
     {
-      "id": 334,
-      "nm": "丽江",
-      "py": "lijiang"
+      "value": 334,
+      "label": "丽江",
+      "spell": "lijiang"
     },
     {
-      "id": 335,
-      "nm": "普洱",
-      "py": "puer"
+      "value": 335,
+      "label": "普洱",
+      "spell": "puer"
     },
     {
-      "id": 332,
-      "nm": "保山",
-      "py": "baoshan"
+      "value": 332,
+      "label": "保山",
+      "spell": "baoshan"
     },
     {
-      "id": 333,
-      "nm": "昭通",
-      "py": "zhaotong"
+      "value": 333,
+      "label": "昭通",
+      "spell": "zhaotong"
     },
     {
-      "id": 330,
-      "nm": "曲靖",
-      "py": "qujing"
+      "value": 330,
+      "label": "曲靖",
+      "spell": "qujing"
     },
     {
-      "id": 331,
-      "nm": "玉溪",
-      "py": "yuxi"
+      "value": 331,
+      "label": "玉溪",
+      "spell": "yuxi"
     },
     {
-      "id": 328,
-      "nm": "黔东南",
-      "py": "qiandongnan"
+      "value": 328,
+      "label": "黔东南",
+      "spell": "qiandongnan"
     },
     {
-      "id": 329,
-      "nm": "黔南",
-      "py": "qiannan"
+      "value": 329,
+      "label": "黔南",
+      "spell": "qiannan"
     },
     {
-      "id": 373,
-      "nm": "甘南",
-      "py": "gannan"
+      "value": 373,
+      "label": "甘南",
+      "spell": "gannan"
     },
     {
-      "id": 372,
-      "nm": "临夏",
-      "py": "linxia"
+      "value": 372,
+      "label": "临夏",
+      "spell": "linxia"
     },
     {
-      "id": 375,
-      "nm": "海东",
-      "py": "haidong"
+      "value": 375,
+      "label": "海东",
+      "spell": "havalueong"
     },
     {
-      "id": 374,
-      "nm": "西宁",
-      "py": "xining"
+      "value": 374,
+      "label": "西宁",
+      "spell": "xining"
     },
     {
-      "id": 369,
-      "nm": "庆阳",
-      "py": "qingyang"
+      "value": 369,
+      "label": "庆阳",
+      "spell": "qingyang"
     },
     {
-      "id": 368,
-      "nm": "酒泉",
-      "py": "jiuquan"
+      "value": 368,
+      "label": "酒泉",
+      "spell": "jiuquan"
     },
     {
-      "id": 371,
-      "nm": "陇南",
-      "py": "longnan"
+      "value": 371,
+      "label": "陇南",
+      "spell": "longnan"
     },
     {
-      "id": 370,
-      "nm": "定西",
-      "py": "dingxi"
+      "value": 370,
+      "label": "定西",
+      "spell": "dingxi"
     },
     {
-      "id": 381,
-      "nm": "海西",
-      "py": "haixi"
+      "value": 381,
+      "label": "海西",
+      "spell": "haixi"
     },
     {
-      "id": 380,
-      "nm": "玉树",
-      "py": "yushu"
+      "value": 380,
+      "label": "玉树",
+      "spell": "yushu"
     },
     {
-      "id": 383,
-      "nm": "石嘴山",
-      "py": "shizuishan"
+      "value": 383,
+      "label": "石嘴山",
+      "spell": "shizuishan"
     },
     {
-      "id": 382,
-      "nm": "银川",
-      "py": "yinchuan"
+      "value": 382,
+      "label": "银川",
+      "spell": "yinchuan"
     },
     {
-      "id": 378,
-      "nm": "海南州",
-      "py": "hainanzhou"
+      "value": 378,
+      "label": "海南州",
+      "spell": "hainanzhou"
     },
     {
-      "id": 356,
-      "nm": "延安",
-      "py": "yanan"
+      "value": 356,
+      "label": "延安",
+      "spell": "yanan"
     },
     {
-      "id": 357,
-      "nm": "汉中",
-      "py": "hanzhong"
+      "value": 357,
+      "label": "汉中",
+      "spell": "hanzhong"
     },
     {
-      "id": 358,
-      "nm": "榆林",
-      "py": "yulinyl"
+      "value": 358,
+      "label": "榆林",
+      "spell": "yulinyl"
     },
     {
-      "id": 359,
-      "nm": "安康",
-      "py": "ankang"
+      "value": 359,
+      "label": "安康",
+      "spell": "ankang"
     },
     {
-      "id": 352,
-      "nm": "铜川",
-      "py": "tongchuan"
+      "value": 352,
+      "label": "铜川",
+      "spell": "tongchuan"
     },
     {
-      "id": 353,
-      "nm": "宝鸡",
-      "py": "baoji"
+      "value": 353,
+      "label": "宝鸡",
+      "spell": "baoji"
     },
     {
-      "id": 354,
-      "nm": "咸阳",
-      "py": "xianyang"
+      "value": 354,
+      "label": "咸阳",
+      "spell": "xianyang"
     },
     {
-      "id": 355,
-      "nm": "渭南",
-      "py": "weinan"
+      "value": 355,
+      "label": "渭南",
+      "spell": "weinan"
     },
     {
-      "id": 364,
-      "nm": "天水",
-      "py": "tianshui"
+      "value": 364,
+      "label": "天水",
+      "spell": "tianshui"
     },
     {
-      "id": 365,
-      "nm": "武威",
-      "py": "wuwei"
+      "value": 365,
+      "label": "武威",
+      "spell": "wuwei"
     },
     {
-      "id": 366,
-      "nm": "张掖",
-      "py": "zhangye"
+      "value": 366,
+      "label": "张掖",
+      "spell": "zhangye"
     },
     {
-      "id": 367,
-      "nm": "平凉",
-      "py": "pingliang"
+      "value": 367,
+      "label": "平凉",
+      "spell": "pingliang"
     },
     {
-      "id": 360,
-      "nm": "商洛",
-      "py": "shangluo"
+      "value": 360,
+      "label": "商洛",
+      "spell": "shangluo"
     },
     {
-      "id": 361,
-      "nm": "兰州",
-      "py": "lanzhou"
+      "value": 361,
+      "label": "兰州",
+      "spell": "lanzhou"
     },
     {
-      "id": 362,
-      "nm": "金昌",
-      "py": "jinchang"
+      "value": 362,
+      "label": "金昌",
+      "spell": "jinchang"
     },
     {
-      "id": 363,
-      "nm": "白银",
-      "py": "baiyin"
+      "value": 363,
+      "label": "白银",
+      "spell": "baiyin"
     },
     {
-      "id": 408,
-      "nm": "石河子",
-      "py": "shihezi"
+      "value": 408,
+      "label": "石河子",
+      "spell": "shihezi"
     },
     {
-      "id": 409,
-      "nm": "嘉峪关",
-      "py": "jiayuguan"
+      "value": 409,
+      "label": "嘉峪关",
+      "spell": "jiayuguan"
     },
     {
-      "id": 412,
-      "nm": "仙桃",
-      "py": "xiantao"
+      "value": 412,
+      "label": "仙桃",
+      "spell": "xiantao"
     },
     {
-      "id": 403,
-      "nm": "昆山",
-      "py": "kunshan"
+      "value": 403,
+      "label": "昆山",
+      "spell": "kunshan"
     },
     {
-      "id": 400,
-      "nm": "阿勒泰",
-      "py": "aletai"
+      "value": 400,
+      "label": "阿勒泰",
+      "spell": "aletai"
     },
     {
-      "id": 406,
-      "nm": "顺德",
-      "py": "shunde"
+      "value": 406,
+      "label": "顺德",
+      "spell": "shunde"
     },
     {
-      "id": 404,
-      "nm": "江阴",
-      "py": "jiangyin"
+      "value": 404,
+      "label": "江阴",
+      "spell": "jiangyin"
     },
     {
-      "id": 405,
-      "nm": "义乌",
-      "py": "yiwu"
+      "value": 405,
+      "label": "义乌",
+      "spell": "yiwu"
     },
     {
-      "id": 394,
-      "nm": "阿克苏",
-      "py": "akesu"
+      "value": 394,
+      "label": "阿克苏",
+      "spell": "akesu"
     },
     {
-      "id": 393,
-      "nm": "巴州",
-      "py": "bazhou"
+      "value": 393,
+      "label": "巴州",
+      "spell": "bazhou"
     },
     {
-      "id": 392,
-      "nm": "博尔塔拉",
-      "py": "boertala"
+      "value": 392,
+      "label": "博尔塔拉",
+      "spell": "boertala"
     },
     {
-      "id": 399,
-      "nm": "塔城",
-      "py": "tacheng"
+      "value": 399,
+      "label": "塔城",
+      "spell": "tacheng"
     },
     {
-      "id": 398,
-      "nm": "伊犁",
-      "py": "yili"
+      "value": 398,
+      "label": "伊犁",
+      "spell": "yili"
     },
     {
-      "id": 397,
-      "nm": "和田",
-      "py": "hetian"
+      "value": 397,
+      "label": "和田",
+      "spell": "hetian"
     },
     {
-      "id": 396,
-      "nm": "喀什地区",
-      "py": "kashi"
+      "value": 396,
+      "label": "喀什地区",
+      "spell": "kashi"
     },
     {
-      "id": 387,
-      "nm": "乌鲁木齐",
-      "py": "wulumuqi"
+      "value": 387,
+      "label": "乌鲁木齐",
+      "spell": "wulumuqi"
     },
     {
-      "id": 386,
-      "nm": "中卫",
-      "py": "zhongwei"
+      "value": 386,
+      "label": "中卫",
+      "spell": "zhongwei"
     },
     {
-      "id": 385,
-      "nm": "固原",
-      "py": "guyuan"
+      "value": 385,
+      "label": "固原",
+      "spell": "guyuan"
     },
     {
-      "id": 384,
-      "nm": "吴忠",
-      "py": "wuzhong"
+      "value": 384,
+      "label": "吴忠",
+      "spell": "wuzhong"
     },
     {
-      "id": 391,
-      "nm": "昌吉",
-      "py": "changji"
+      "value": 391,
+      "label": "昌吉",
+      "spell": "changji"
     },
     {
-      "id": 390,
-      "nm": "哈密",
-      "py": "hami"
+      "value": 390,
+      "label": "哈密",
+      "spell": "hami"
     },
     {
-      "id": 389,
-      "nm": "吐鲁番",
-      "py": "tulufan"
+      "value": 389,
+      "label": "吐鲁番",
+      "spell": "tulufan"
     },
     {
-      "id": 388,
-      "nm": "克拉玛依",
-      "py": "kelamayi"
+      "value": 388,
+      "label": "克拉玛依",
+      "spell": "kelamayi"
     },
     {
-      "id": 440,
-      "nm": "石狮",
-      "py": "shishi"
+      "value": 440,
+      "label": "石狮",
+      "spell": "shishi"
     },
     {
-      "id": 443,
-      "nm": "武夷山",
-      "py": "wuyishan"
+      "value": 443,
+      "label": "武夷山",
+      "spell": "wuyishan"
     },
     {
-      "id": 432,
-      "nm": "太仓",
-      "py": "taicang"
+      "value": 432,
+      "label": "太仓",
+      "spell": "taicang"
     },
     {
-      "id": 433,
-      "nm": "吴江",
-      "py": "wujiang"
+      "value": 433,
+      "label": "吴江",
+      "spell": "wujiang"
     },
     {
-      "id": 434,
-      "nm": "敦煌",
-      "py": "dunhuang"
+      "value": 434,
+      "label": "敦煌",
+      "spell": "dunhuang"
     },
     {
-      "id": 439,
-      "nm": "靖江",
-      "py": "jingjiang"
+      "value": 439,
+      "label": "靖江",
+      "spell": "jingjiang"
     },
     {
-      "id": 425,
-      "nm": "桐乡",
-      "py": "tongxiang"
+      "value": 425,
+      "label": "桐乡",
+      "spell": "tongxiang"
     },
     {
-      "id": 424,
-      "nm": "海宁",
-      "py": "haining"
+      "value": 424,
+      "label": "海宁",
+      "spell": "haining"
     },
     {
-      "id": 427,
-      "nm": "涪陵",
-      "py": "fuling"
+      "value": 427,
+      "label": "涪陵",
+      "spell": "fuling"
     },
     {
-      "id": 426,
-      "nm": "涿州",
-      "py": "zhuozhou"
+      "value": 426,
+      "label": "涿州",
+      "spell": "zhuozhou"
     },
     {
-      "id": 428,
-      "nm": "万州",
-      "py": "wanzhou"
+      "value": 428,
+      "label": "万州",
+      "spell": "wanzhou"
     },
     {
-      "id": 431,
-      "nm": "丹阳",
-      "py": "danyang"
+      "value": 431,
+      "label": "丹阳",
+      "spell": "danyang"
     },
     {
-      "id": 430,
-      "nm": "迁安",
-      "py": "qianan"
+      "value": 430,
+      "label": "迁安",
+      "spell": "qianan"
     },
     {
-      "id": 417,
-      "nm": "峨眉山",
-      "py": "emeishan"
+      "value": 417,
+      "label": "峨眉山",
+      "spell": "emeishan"
     },
     {
-      "id": 416,
-      "nm": "富阳",
-      "py": "fuyangfy"
+      "value": 416,
+      "label": "富阳",
+      "spell": "fuyangfy"
     },
     {
-      "id": 419,
-      "nm": "张家港",
-      "py": "zhangjiagang"
+      "value": 419,
+      "label": "张家港",
+      "spell": "zhangjiagang"
     },
     {
-      "id": 418,
-      "nm": "琼海",
-      "py": "qionghai"
+      "value": 418,
+      "label": "琼海",
+      "spell": "qionghai"
     },
     {
-      "id": 421,
-      "nm": "从化",
-      "py": "conghua"
+      "value": 421,
+      "label": "从化",
+      "spell": "conghua"
     },
     {
-      "id": 420,
-      "nm": "晋江市",
-      "py": "jinjiangshi"
+      "value": 420,
+      "label": "晋江市",
+      "spell": "jinjiangshi"
     },
     {
-      "id": 422,
-      "nm": "常熟",
-      "py": "changshu"
+      "value": 422,
+      "label": "常熟",
+      "spell": "changshu"
     },
     {
-      "id": 478,
-      "nm": "东台",
-      "py": "dongtai"
+      "value": 478,
+      "label": "东台",
+      "spell": "dongtai"
     },
     {
-      "id": 479,
-      "nm": "婺源",
-      "py": "wuyuan"
+      "value": 479,
+      "label": "婺源",
+      "spell": "wuyuan"
     },
     {
-      "id": 476,
-      "nm": "兰溪",
-      "py": "lanxi"
+      "value": 476,
+      "label": "兰溪",
+      "spell": "lanxi"
     },
     {
-      "id": 477,
-      "nm": "大丰",
-      "py": "dafeng"
+      "value": 477,
+      "label": "大丰",
+      "spell": "dafeng"
     },
     {
-      "id": 475,
-      "nm": "仁怀",
-      "py": "renhuai"
+      "value": 475,
+      "label": "仁怀",
+      "spell": "renhuai"
     },
     {
-      "id": 472,
-      "nm": "惠阳",
-      "py": "huiyang"
+      "value": 472,
+      "label": "惠阳",
+      "spell": "huiyang"
     },
     {
-      "id": 473,
-      "nm": "凯里",
-      "py": "kaili"
+      "value": 473,
+      "label": "凯里",
+      "spell": "kaili"
     },
     {
-      "id": 470,
-      "nm": "乐清",
-      "py": "yueqing"
+      "value": 470,
+      "label": "乐清",
+      "spell": "yueqing"
     },
     {
-      "id": 471,
-      "nm": "惠东",
-      "py": "huidong"
+      "value": 471,
+      "label": "惠东",
+      "spell": "huvalueong"
     },
     {
-      "id": 468,
-      "nm": "诸暨",
-      "py": "zhuji"
+      "value": 468,
+      "label": "诸暨",
+      "spell": "zhuji"
     },
     {
-      "id": 469,
-      "nm": "瑞安",
-      "py": "ruian"
+      "value": 469,
+      "label": "瑞安",
+      "spell": "ruian"
     },
     {
-      "id": 466,
-      "nm": "阳朔",
-      "py": "yangshuo"
+      "value": 466,
+      "label": "阳朔",
+      "spell": "yangshuo"
     },
     {
-      "id": 467,
-      "nm": "德清",
-      "py": "deqing"
+      "value": 467,
+      "label": "德清",
+      "spell": "deqing"
     },
     {
-      "id": 465,
-      "nm": "章丘区",
-      "py": "zhangqiuqu"
+      "value": 465,
+      "label": "章丘区",
+      "spell": "zhangqiuqu"
     },
     {
-      "id": 463,
-      "nm": "长乐",
-      "py": "changle"
+      "value": 463,
+      "label": "长乐",
+      "spell": "changle"
     },
     {
-      "id": 462,
-      "nm": "福清",
-      "py": "fuqing"
+      "value": 462,
+      "label": "福清",
+      "spell": "fuqing"
     },
     {
-      "id": 461,
-      "nm": "临海",
-      "py": "linhai"
+      "value": 461,
+      "label": "临海",
+      "spell": "linhai"
     },
     {
-      "id": 460,
-      "nm": "金坛",
-      "py": "jintan"
+      "value": 460,
+      "label": "金坛",
+      "spell": "jintan"
     },
     {
-      "id": 459,
-      "nm": "余姚",
-      "py": "yuyao"
+      "value": 459,
+      "label": "余姚",
+      "spell": "yuyao"
     },
     {
-      "id": 458,
-      "nm": "永康",
-      "py": "yongkang"
+      "value": 458,
+      "label": "永康",
+      "spell": "yongkang"
     },
     {
-      "id": 457,
-      "nm": "温岭",
-      "py": "wenling"
+      "value": 457,
+      "label": "温岭",
+      "spell": "wenling"
     },
     {
-      "id": 456,
-      "nm": "上虞",
-      "py": "shangyu"
+      "value": 456,
+      "label": "上虞",
+      "spell": "shangyu"
     },
     {
-      "id": 455,
-      "nm": "东阳",
-      "py": "dongyang"
+      "value": 455,
+      "label": "东阳",
+      "spell": "dongyang"
     },
     {
-      "id": 454,
-      "nm": "宜兴",
-      "py": "yixing"
+      "value": 454,
+      "label": "宜兴",
+      "spell": "yixing"
     },
     {
-      "id": 453,
-      "nm": "兖州",
-      "py": "yanzhou"
+      "value": 453,
+      "label": "兖州",
+      "spell": "yanzhou"
     },
     {
-      "id": 452,
-      "nm": "长兴",
-      "py": "changxing"
+      "value": 452,
+      "label": "长兴",
+      "spell": "changxing"
     },
     {
-      "id": 451,
-      "nm": "慈溪",
-      "py": "cixi"
+      "value": 451,
+      "label": "慈溪",
+      "spell": "cixi"
     },
     {
-      "id": 450,
-      "nm": "溧阳",
-      "py": "liyang"
+      "value": 450,
+      "label": "溧阳",
+      "spell": "liyang"
     },
     {
-      "id": 449,
-      "nm": "武安",
-      "py": "wuan"
+      "value": 449,
+      "label": "武安",
+      "spell": "wuan"
     },
     {
-      "id": 508,
-      "nm": "邹平",
-      "py": "zouping"
+      "value": 508,
+      "label": "邹平",
+      "spell": "zouping"
     },
     {
-      "id": 509,
-      "nm": "耒阳",
-      "py": "leiyang"
+      "value": 509,
+      "label": "耒阳",
+      "spell": "leiyang"
     },
     {
-      "id": 510,
-      "nm": "江山",
-      "py": "jiangshan"
+      "value": 510,
+      "label": "江山",
+      "spell": "jiangshan"
     },
     {
-      "id": 504,
-      "nm": "鹤山",
-      "py": "heshan"
+      "value": 504,
+      "label": "鹤山",
+      "spell": "heshan"
     },
     {
-      "id": 505,
-      "nm": "桦甸",
-      "py": "huadian"
+      "value": 505,
+      "label": "桦甸",
+      "spell": "huadian"
     },
     {
-      "id": 506,
-      "nm": "海城",
-      "py": "haicheng"
+      "value": 506,
+      "label": "海城",
+      "spell": "haicheng"
     },
     {
-      "id": 507,
-      "nm": "曲阜",
-      "py": "qufu"
+      "value": 507,
+      "label": "曲阜",
+      "spell": "qufu"
     },
     {
-      "id": 500,
-      "nm": "启东",
-      "py": "qidong"
+      "value": 500,
+      "label": "启东",
+      "spell": "qvalueong"
     },
     {
-      "id": 501,
-      "nm": "如皋",
-      "py": "rugao"
+      "value": 501,
+      "label": "如皋",
+      "spell": "rugao"
     },
     {
-      "id": 502,
-      "nm": "开平",
-      "py": "kaiping"
+      "value": 502,
+      "label": "开平",
+      "spell": "kaiping"
     },
     {
-      "id": 503,
-      "nm": "台山",
-      "py": "taishan"
+      "value": 503,
+      "label": "台山",
+      "spell": "taishan"
     },
     {
-      "id": 496,
-      "nm": "青州",
-      "py": "qingzhou"
+      "value": 496,
+      "label": "青州",
+      "spell": "qingzhou"
     },
     {
-      "id": 497,
-      "nm": "荣成",
-      "py": "rongcheng"
+      "value": 497,
+      "label": "荣成",
+      "spell": "rongcheng"
     },
     {
-      "id": 498,
-      "nm": "文登",
-      "py": "wendeng"
+      "value": 498,
+      "label": "文登",
+      "spell": "wendeng"
     },
     {
-      "id": 499,
-      "nm": "乳山",
-      "py": "rushan"
+      "value": 499,
+      "label": "乳山",
+      "spell": "rushan"
     },
     {
-      "id": 493,
-      "nm": "邳州",
-      "py": "pizhou"
+      "value": 493,
+      "label": "邳州",
+      "spell": "pizhou"
     },
     {
-      "id": 492,
-      "nm": "龙口",
-      "py": "longkou"
+      "value": 492,
+      "label": "龙口",
+      "spell": "longkou"
     },
     {
-      "id": 495,
-      "nm": "寿光",
-      "py": "shouguang"
+      "value": 495,
+      "label": "寿光",
+      "spell": "shouguang"
     },
     {
-      "id": 494,
-      "nm": "枣阳",
-      "py": "zaoyang"
+      "value": 494,
+      "label": "枣阳",
+      "spell": "zaoyang"
     },
     {
-      "id": 489,
-      "nm": "嘉善",
-      "py": "jiashan"
+      "value": 489,
+      "label": "嘉善",
+      "spell": "jiashan"
     },
     {
-      "id": 491,
-      "nm": "当阳",
-      "py": "dangyang"
+      "value": 491,
+      "label": "当阳",
+      "spell": "dangyang"
     },
     {
-      "id": 490,
-      "nm": "安吉",
-      "py": "anji"
+      "value": 490,
+      "label": "安吉",
+      "spell": "anji"
     },
     {
-      "id": 485,
-      "nm": "井冈山",
-      "py": "jinggangshan"
+      "value": 485,
+      "label": "井冈山",
+      "spell": "jinggangshan"
     },
     {
-      "id": 484,
-      "nm": "香格里拉",
-      "py": "xianggelila"
+      "value": 484,
+      "label": "香格里拉",
+      "spell": "xianggelila"
     },
     {
-      "id": 487,
-      "nm": "神农架",
-      "py": "shennongjia"
+      "value": 487,
+      "label": "神农架",
+      "spell": "shennongjia"
     },
     {
-      "id": 486,
-      "nm": "武当山",
-      "py": "wudangshan"
+      "value": 486,
+      "label": "武当山",
+      "spell": "wudangshan"
     },
     {
-      "id": 480,
-      "nm": "凤凰",
-      "py": "fenghuang"
+      "value": 480,
+      "label": "凤凰",
+      "spell": "fenghuang"
     },
     {
-      "id": 482,
-      "nm": "腾冲",
-      "py": "tengchong"
+      "value": 482,
+      "label": "腾冲",
+      "spell": "tengchong"
     },
     {
-      "id": 550,
-      "nm": "潜江",
-      "py": "qianjiang"
+      "value": 550,
+      "label": "潜江",
+      "spell": "qianjiang"
     },
     {
-      "id": 551,
-      "nm": "乌镇",
-      "py": "wuzhen"
+      "value": 551,
+      "label": "乌镇",
+      "spell": "wuzhen"
     },
     {
-      "id": 548,
-      "nm": "新沂",
-      "py": "xinyi"
+      "value": 548,
+      "label": "新沂",
+      "spell": "xinyi"
     },
     {
-      "id": 549,
-      "nm": "滕州",
-      "py": "tengzhou"
+      "value": 549,
+      "label": "滕州",
+      "spell": "tengzhou"
     },
     {
-      "id": 546,
-      "nm": "普宁",
-      "py": "puning"
+      "value": 546,
+      "label": "普宁",
+      "spell": "puning"
     },
     {
-      "id": 547,
-      "nm": "南沙",
-      "py": "nansha"
+      "value": 547,
+      "label": "南沙",
+      "spell": "nansha"
     },
     {
-      "id": 544,
-      "nm": "晋州",
-      "py": "jinzhoushi"
+      "value": 544,
+      "label": "晋州",
+      "spell": "jinzhoushi"
     },
     {
-      "id": 545,
-      "nm": "肥城",
-      "py": "feicheng"
+      "value": 545,
+      "label": "肥城",
+      "spell": "feicheng"
     },
     {
-      "id": 558,
-      "nm": "庄河",
-      "py": "zhuanghe"
+      "value": 558,
+      "label": "庄河",
+      "spell": "zhuanghe"
     },
     {
-      "id": 559,
-      "nm": "扬中",
-      "py": "yangzhong"
+      "value": 559,
+      "label": "扬中",
+      "spell": "yangzhong"
     },
     {
-      "id": 556,
-      "nm": "新密",
-      "py": "xinmi"
+      "value": 556,
+      "label": "新密",
+      "spell": "xilabeli"
     },
     {
-      "id": 557,
-      "nm": "荥阳",
-      "py": "xingyang"
+      "value": 557,
+      "label": "荥阳",
+      "spell": "xingyang"
     },
     {
-      "id": 554,
-      "nm": "桐庐",
-      "py": "tonglu"
+      "value": 554,
+      "label": "桐庐",
+      "spell": "tonglu"
     },
     {
-      "id": 555,
-      "nm": "新郑",
-      "py": "xinzheng"
+      "value": 555,
+      "label": "新郑",
+      "spell": "xinzheng"
     },
     {
-      "id": 552,
-      "nm": "登封",
-      "py": "dengfeng"
+      "value": 552,
+      "label": "登封",
+      "spell": "dengfeng"
     },
     {
-      "id": 553,
-      "nm": "巩义",
-      "py": "gongyishi"
+      "value": 553,
+      "label": "巩义",
+      "spell": "gongyishi"
     },
     {
-      "id": 567,
-      "nm": "陆丰",
-      "py": "lufeng"
+      "value": 567,
+      "label": "陆丰",
+      "spell": "lufeng"
     },
     {
-      "id": 566,
-      "nm": "密山",
-      "py": "mishan"
+      "value": 566,
+      "label": "密山",
+      "spell": "mishan"
     },
     {
-      "id": 564,
-      "nm": "华阴",
-      "py": "huayin"
+      "value": 564,
+      "label": "华阴",
+      "spell": "huayin"
     },
     {
-      "id": 563,
-      "nm": "漠河",
-      "py": "mohe"
+      "value": 563,
+      "label": "漠河",
+      "spell": "mohe"
     },
     {
-      "id": 562,
-      "nm": "兴宁",
-      "py": "xingning"
+      "value": 562,
+      "label": "兴宁",
+      "spell": "xingning"
     },
     {
-      "id": 561,
-      "nm": "莱阳",
-      "py": "laiyang"
+      "value": 561,
+      "label": "莱阳",
+      "spell": "laiyang"
     },
     {
-      "id": 560,
-      "nm": "西塘",
-      "py": "xitang"
+      "value": 560,
+      "label": "西塘",
+      "spell": "xitang"
     },
     {
-      "id": 575,
-      "nm": "霸州",
-      "py": "hbbazhou"
+      "value": 575,
+      "label": "霸州",
+      "spell": "hbbazhou"
     },
     {
-      "id": 574,
-      "nm": "新民",
-      "py": "xinmin"
+      "value": 574,
+      "label": "新民",
+      "spell": "xilabelin"
     },
     {
-      "id": 573,
-      "nm": "海阳",
-      "py": "haiyang"
+      "value": 573,
+      "label": "海阳",
+      "spell": "haiyang"
     },
     {
-      "id": 572,
-      "nm": "满洲里",
-      "py": "manzhouli"
+      "value": 572,
+      "label": "满洲里",
+      "spell": "manzhouli"
     },
     {
-      "id": 571,
-      "nm": "儋州",
-      "py": "danzhou"
+      "value": 571,
+      "label": "儋州",
+      "spell": "danzhou"
     },
     {
-      "id": 570,
-      "nm": "桂平",
-      "py": "guiping"
+      "value": 570,
+      "label": "桂平",
+      "spell": "guiping"
     },
     {
-      "id": 569,
-      "nm": "韶山",
-      "py": "shaoshan"
+      "value": 569,
+      "label": "韶山",
+      "spell": "shaoshan"
     },
     {
-      "id": 568,
-      "nm": "额尔古纳",
-      "py": "eerguna"
+      "value": 568,
+      "label": "额尔古纳",
+      "spell": "eerguna"
     },
     {
-      "id": 516,
-      "nm": "伊川",
-      "py": "yichuan"
+      "value": 516,
+      "label": "伊川",
+      "spell": "yichuan"
     },
     {
-      "id": 517,
-      "nm": "兴化",
-      "py": "xinghua"
+      "value": 517,
+      "label": "兴化",
+      "spell": "xinghua"
     },
     {
-      "id": 518,
-      "nm": "泰兴",
-      "py": "taixing"
+      "value": 518,
+      "label": "泰兴",
+      "spell": "taixing"
     },
     {
-      "id": 519,
-      "nm": "海门",
-      "py": "haimen"
+      "value": 519,
+      "label": "海门",
+      "spell": "haimen"
     },
     {
-      "id": 512,
-      "nm": "宁海",
-      "py": "ninghai"
+      "value": 512,
+      "label": "宁海",
+      "spell": "ninghai"
     },
     {
-      "id": 513,
-      "nm": "乐昌",
-      "py": "lechang"
+      "value": 513,
+      "label": "乐昌",
+      "spell": "lechang"
     },
     {
-      "id": 514,
-      "nm": "英德",
-      "py": "yingde"
+      "value": 514,
+      "label": "英德",
+      "spell": "yingde"
     },
     {
-      "id": 515,
-      "nm": "句容",
-      "py": "jurong"
+      "value": 515,
+      "label": "句容",
+      "spell": "jurong"
     },
     {
-      "id": 524,
-      "nm": "平湖",
-      "py": "pinghu"
+      "value": 524,
+      "label": "平湖",
+      "spell": "pinghu"
     },
     {
-      "id": 525,
-      "nm": "湘阴",
-      "py": "xiangyin"
+      "value": 525,
+      "label": "湘阴",
+      "spell": "xiangyin"
     },
     {
-      "id": 526,
-      "nm": "诸城",
-      "py": "zhucheng"
+      "value": 526,
+      "label": "诸城",
+      "spell": "zhucheng"
     },
     {
-      "id": 527,
-      "nm": "昌邑",
-      "py": "changyi"
+      "value": 527,
+      "label": "昌邑",
+      "spell": "changyi"
     },
     {
-      "id": 520,
-      "nm": "宁乡",
-      "py": "ningxiang"
+      "value": 520,
+      "label": "宁乡",
+      "spell": "ningxiang"
     },
     {
-      "id": 521,
-      "nm": "高邮",
-      "py": "gaoyou"
+      "value": 521,
+      "label": "高邮",
+      "spell": "gaoyou"
     },
     {
-      "id": 522,
-      "nm": "仪征",
-      "py": "yizheng"
+      "value": 522,
+      "label": "仪征",
+      "spell": "yizheng"
     },
     {
-      "id": 523,
-      "nm": "新泰",
-      "py": "xintai"
+      "value": 523,
+      "label": "新泰",
+      "spell": "xintai"
     },
     {
-      "id": 533,
-      "nm": "滨海",
-      "py": "binhai"
+      "value": 533,
+      "label": "滨海",
+      "spell": "binhai"
     },
     {
-      "id": 532,
-      "nm": "射阳",
-      "py": "sheyang"
+      "value": 532,
+      "label": "射阳",
+      "spell": "sheyang"
     },
     {
-      "id": 535,
-      "nm": "阜宁",
-      "py": "funing"
+      "value": 535,
+      "label": "阜宁",
+      "spell": "funing"
     },
     {
-      "id": 534,
-      "nm": "响水",
-      "py": "xiangshui"
+      "value": 534,
+      "label": "响水",
+      "spell": "xiangshui"
     },
     {
-      "id": 529,
-      "nm": "莱州",
-      "py": "laizhou"
+      "value": 529,
+      "label": "莱州",
+      "spell": "laizhou"
     },
     {
-      "id": 528,
-      "nm": "偃师",
-      "py": "yanshi"
+      "value": 528,
+      "label": "偃师",
+      "spell": "yanshi"
     },
     {
-      "id": 531,
-      "nm": "沭阳",
-      "py": "shuyang"
+      "value": 531,
+      "label": "沭阳",
+      "spell": "shuyang"
     },
     {
-      "id": 530,
-      "nm": "嵊州",
-      "py": "shengzhou"
+      "value": 530,
+      "label": "嵊州",
+      "spell": "shengzhou"
     },
     {
-      "id": 541,
-      "nm": "广饶",
-      "py": "guangrao"
+      "value": 541,
+      "label": "广饶",
+      "spell": "guangrao"
     },
     {
-      "id": 540,
-      "nm": "奉化",
-      "py": "fenghua"
+      "value": 540,
+      "label": "奉化",
+      "spell": "fenghua"
     },
     {
-      "id": 543,
-      "nm": "辛集",
-      "py": "xinji"
+      "value": 543,
+      "label": "辛集",
+      "spell": "xinji"
     },
     {
-      "id": 542,
-      "nm": "临安",
-      "py": "linan"
+      "value": 542,
+      "label": "临安",
+      "spell": "linan"
     },
     {
-      "id": 537,
-      "nm": "临清",
-      "py": "linqing"
+      "value": 537,
+      "label": "临清",
+      "spell": "linqing"
     },
     {
-      "id": 536,
-      "nm": "建湖",
-      "py": "jianhu"
+      "value": 536,
+      "label": "建湖",
+      "spell": "jianhu"
     },
     {
-      "id": 539,
-      "nm": "东港",
-      "py": "donggang"
+      "value": 539,
+      "label": "东港",
+      "spell": "donggang"
     },
     {
-      "id": 538,
-      "nm": "三河",
-      "py": "sanhe"
+      "value": 538,
+      "label": "三河",
+      "spell": "sanhe"
     },
     {
-      "id": 610,
-      "nm": "明光",
-      "py": "mingguang"
+      "value": 610,
+      "label": "明光",
+      "spell": "mingguang"
     },
     {
-      "id": 611,
-      "nm": "乐陵",
-      "py": "laoling"
+      "value": 611,
+      "label": "乐陵",
+      "spell": "laoling"
     },
     {
-      "id": 608,
-      "nm": "禹城",
-      "py": "yucheng"
+      "value": 608,
+      "label": "禹城",
+      "spell": "yucheng"
     },
     {
-      "id": 609,
-      "nm": "禹州",
-      "py": "yuzhou"
+      "value": 609,
+      "label": "禹州",
+      "spell": "yuzhou"
     },
     {
-      "id": 614,
-      "nm": "湘乡",
-      "py": "xiangxiang"
+      "value": 614,
+      "label": "湘乡",
+      "spell": "xiangxiang"
     },
     {
-      "id": 612,
-      "nm": "钟祥",
-      "py": "zhongxiang"
+      "value": 612,
+      "label": "钟祥",
+      "spell": "zhongxiang"
     },
     {
-      "id": 613,
-      "nm": "沙河",
-      "py": "shahe"
+      "value": 613,
+      "label": "沙河",
+      "spell": "shahe"
     },
     {
-      "id": 618,
-      "nm": "龙海",
-      "py": "longhai"
+      "value": 618,
+      "label": "龙海",
+      "spell": "longhai"
     },
     {
-      "id": 619,
-      "nm": "醴陵",
-      "py": "liling"
+      "value": 619,
+      "label": "醴陵",
+      "spell": "liling"
     },
     {
-      "id": 616,
-      "nm": "汝州",
-      "py": "ruzhou"
+      "value": 616,
+      "label": "汝州",
+      "spell": "ruzhou"
     },
     {
-      "id": 617,
-      "nm": "浏阳",
-      "py": "liuyang"
+      "value": 617,
+      "label": "浏阳",
+      "spell": "liuyang"
     },
     {
-      "id": 622,
-      "nm": "伊宁",
-      "py": "yining"
+      "value": 622,
+      "label": "伊宁",
+      "spell": "yining"
     },
     {
-      "id": 623,
-      "nm": "海安",
-      "py": "haian"
+      "value": 623,
+      "label": "海安",
+      "spell": "haian"
     },
     {
-      "id": 620,
-      "nm": "莱西",
-      "py": "laixi"
+      "value": 620,
+      "label": "莱西",
+      "spell": "laixi"
     },
     {
-      "id": 621,
-      "nm": "南安",
-      "py": "nanan"
+      "value": 621,
+      "label": "南安",
+      "spell": "nanan"
     },
     {
-      "id": 627,
-      "nm": "长葛",
-      "py": "changge"
+      "value": 627,
+      "label": "长葛",
+      "spell": "changge"
     },
     {
-      "id": 626,
-      "nm": "天长",
-      "py": "tianchang"
+      "value": 626,
+      "label": "天长",
+      "spell": "tianchang"
     },
     {
-      "id": 625,
-      "nm": "宜城",
-      "py": "yicheng"
+      "value": 625,
+      "label": "宜城",
+      "spell": "yicheng"
     },
     {
-      "id": 624,
-      "nm": "苍南",
-      "py": "cangnan"
+      "value": 624,
+      "label": "苍南",
+      "spell": "cangnan"
     },
     {
-      "id": 631,
-      "nm": "高州",
-      "py": "gaozhou"
+      "value": 631,
+      "label": "高州",
+      "spell": "gaozhou"
     },
     {
-      "id": 630,
-      "nm": "个旧",
-      "py": "gejiu"
+      "value": 630,
+      "label": "个旧",
+      "spell": "gejiu"
     },
     {
-      "id": 629,
-      "nm": "高碑店",
-      "py": "gaobeidian"
+      "value": 629,
+      "label": "高碑店",
+      "spell": "gaobevalueian"
     },
     {
-      "id": 628,
-      "nm": "廉江",
-      "py": "lianjiang"
+      "value": 628,
+      "label": "廉江",
+      "spell": "lianjiang"
     },
     {
-      "id": 635,
-      "nm": "东兴",
-      "py": "dongxing"
+      "value": 635,
+      "label": "东兴",
+      "spell": "dongxing"
     },
     {
-      "id": 634,
-      "nm": "阆中",
-      "py": "langzhong"
+      "value": 634,
+      "label": "阆中",
+      "spell": "langzhong"
     },
     {
-      "id": 633,
-      "nm": "四会",
-      "py": "sihui"
+      "value": 633,
+      "label": "四会",
+      "spell": "sihui"
     },
     {
-      "id": 632,
-      "nm": "乐平",
-      "py": "leping"
+      "value": 632,
+      "label": "乐平",
+      "spell": "leping"
     },
     {
-      "id": 639,
-      "nm": "瑞金",
-      "py": "ruijin"
+      "value": 639,
+      "label": "瑞金",
+      "spell": "ruijin"
     },
     {
-      "id": 638,
-      "nm": "盖州",
-      "py": "gaizhou"
+      "value": 638,
+      "label": "盖州",
+      "spell": "gaizhou"
     },
     {
-      "id": 637,
-      "nm": "原平",
-      "py": "yuanping"
+      "value": 637,
+      "label": "原平",
+      "spell": "yuanping"
     },
     {
-      "id": 636,
-      "nm": "介休",
-      "py": "jiexiu"
+      "value": 636,
+      "label": "介休",
+      "spell": "jiexiu"
     },
     {
-      "id": 576,
-      "nm": "都江堰",
-      "py": "dujiangyan"
+      "value": 576,
+      "label": "都江堰",
+      "spell": "dujiangyan"
     },
     {
-      "id": 577,
-      "nm": "永城",
-      "py": "yongcheng"
+      "value": 577,
+      "label": "永城",
+      "spell": "yongcheng"
     },
     {
-      "id": 578,
-      "nm": "天门",
-      "py": "tianmen"
+      "value": 578,
+      "label": "天门",
+      "spell": "tialabelen"
     },
     {
-      "id": 579,
-      "nm": "侯马",
-      "py": "houma"
+      "value": 579,
+      "label": "侯马",
+      "spell": "houma"
     },
     {
-      "id": 580,
-      "nm": "项城",
-      "py": "xiangcheng"
+      "value": 580,
+      "label": "项城",
+      "spell": "xiangcheng"
     },
     {
-      "id": 581,
-      "nm": "公主岭",
-      "py": "gongzhuling"
+      "value": 581,
+      "label": "公主岭",
+      "spell": "gongzhuling"
     },
     {
-      "id": 582,
-      "nm": "平度",
-      "py": "pingdu"
+      "value": 582,
+      "label": "平度",
+      "spell": "pingdu"
     },
     {
-      "id": 583,
-      "nm": "胶州",
-      "py": "jiaozhou"
+      "value": 583,
+      "label": "胶州",
+      "spell": "jiaozhou"
     },
     {
-      "id": 584,
-      "nm": "梅河口",
-      "py": "meihekou"
+      "value": 584,
+      "label": "梅河口",
+      "spell": "meihekou"
     },
     {
-      "id": 585,
-      "nm": "彭州",
-      "py": "pengzhou"
+      "value": 585,
+      "label": "彭州",
+      "spell": "pengzhou"
     },
     {
-      "id": 586,
-      "nm": "招远",
-      "py": "zhaoyuan"
+      "value": 586,
+      "label": "招远",
+      "spell": "zhaoyuan"
     },
     {
-      "id": 587,
-      "nm": "蓬莱",
-      "py": "penglai"
+      "value": 587,
+      "label": "蓬莱",
+      "spell": "penglai"
     },
     {
-      "id": 588,
-      "nm": "安丘",
-      "py": "anqiu"
+      "value": 588,
+      "label": "安丘",
+      "spell": "anqiu"
     },
     {
-      "id": 589,
-      "nm": "高密",
-      "py": "gaomi"
+      "value": 589,
+      "label": "高密",
+      "spell": "gaomi"
     },
     {
-      "id": 590,
-      "nm": "汨罗",
-      "py": "miluo"
+      "value": 590,
+      "label": "汨罗",
+      "spell": "miluo"
     },
     {
-      "id": 591,
-      "nm": "遵化",
-      "py": "zunhua"
+      "value": 591,
+      "label": "遵化",
+      "spell": "zunhua"
     },
     {
-      "id": 593,
-      "nm": "广汉",
-      "py": "guanghan"
+      "value": 593,
+      "label": "广汉",
+      "spell": "guanghan"
     },
     {
-      "id": 592,
-      "nm": "吴川",
-      "py": "wuchuan"
+      "value": 592,
+      "label": "吴川",
+      "spell": "wuchuan"
     },
     {
-      "id": 595,
-      "nm": "藁城",
-      "py": "gaocheng"
+      "value": 595,
+      "label": "藁城",
+      "spell": "gaocheng"
     },
     {
-      "id": 594,
-      "nm": "建德",
-      "py": "jiande"
+      "value": 594,
+      "label": "建德",
+      "spell": "jiande"
     },
     {
-      "id": 597,
-      "nm": "永济",
-      "py": "yongji"
+      "value": 597,
+      "label": "永济",
+      "spell": "yongji"
     },
     {
-      "id": 596,
-      "nm": "灵宝",
-      "py": "lingbao"
+      "value": 596,
+      "label": "灵宝",
+      "spell": "lingbao"
     },
     {
-      "id": 599,
-      "nm": "大石桥",
-      "py": "dashiqiao"
+      "value": 599,
+      "label": "大石桥",
+      "spell": "dashiqiao"
     },
     {
-      "id": 598,
-      "nm": "河津",
-      "py": "hejin"
+      "value": 598,
+      "label": "河津",
+      "spell": "hejin"
     },
     {
-      "id": 601,
-      "nm": "高平",
-      "py": "gaoping"
+      "value": 601,
+      "label": "高平",
+      "spell": "gaoping"
     },
     {
-      "id": 600,
-      "nm": "大冶",
-      "py": "daye"
+      "value": 600,
+      "label": "大冶",
+      "spell": "daye"
     },
     {
-      "id": 603,
-      "nm": "库尔勒",
-      "py": "kuerle"
+      "value": 603,
+      "label": "库尔勒",
+      "spell": "kuerle"
     },
     {
-      "id": 602,
-      "nm": "宝应",
-      "py": "baoying"
+      "value": 602,
+      "label": "宝应",
+      "spell": "baoying"
     },
     {
-      "id": 605,
-      "nm": "简阳",
-      "py": "jianyang"
+      "value": 605,
+      "label": "简阳",
+      "spell": "jianyang"
     },
     {
-      "id": 604,
-      "nm": "孝义",
-      "py": "xiaoyi"
+      "value": 604,
+      "label": "孝义",
+      "spell": "xiaoyi"
     },
     {
-      "id": 607,
-      "nm": "文昌",
-      "py": "wenchang"
+      "value": 607,
+      "label": "文昌",
+      "spell": "wenchang"
     },
     {
-      "id": 606,
-      "nm": "冷水江",
-      "py": "lengshuijiang"
+      "value": 606,
+      "label": "冷水江",
+      "spell": "lengshuijiang"
     },
     {
-      "id": 687,
-      "nm": "南雄",
-      "py": "nanxiong"
+      "value": 687,
+      "label": "南雄",
+      "spell": "nanxiong"
     },
     {
-      "id": 686,
-      "nm": "东方",
-      "py": "dongfang"
+      "value": 686,
+      "label": "东方",
+      "spell": "dongfang"
     },
     {
-      "id": 685,
-      "nm": "海林",
-      "py": "hailin"
+      "value": 685,
+      "label": "海林",
+      "spell": "hailin"
     },
     {
-      "id": 684,
-      "nm": "舞钢",
-      "py": "wugang"
+      "value": 684,
+      "label": "舞钢",
+      "spell": "wugang"
     },
     {
-      "id": 683,
-      "nm": "连州",
-      "py": "lianzhou"
+      "value": 683,
+      "label": "连州",
+      "spell": "lianzhou"
     },
     {
-      "id": 682,
-      "nm": "讷河",
-      "py": "nehe"
+      "value": 682,
+      "label": "讷河",
+      "spell": "nehe"
     },
     {
-      "id": 681,
-      "nm": "北流",
-      "py": "beiliu"
+      "value": 681,
+      "label": "北流",
+      "spell": "beiliu"
     },
     {
-      "id": 680,
-      "nm": "万宁",
-      "py": "wanning"
+      "value": 680,
+      "label": "万宁",
+      "spell": "wanning"
     },
     {
-      "id": 679,
-      "nm": "大通",
-      "py": "datongshi"
+      "value": 679,
+      "label": "大通",
+      "spell": "datongshi"
     },
     {
-      "id": 678,
-      "nm": "集安",
-      "py": "jianshi"
+      "value": 678,
+      "label": "集安",
+      "spell": "jianshi"
     },
     {
-      "id": 677,
-      "nm": "汾阳",
-      "py": "fenyang"
+      "value": 677,
+      "label": "汾阳",
+      "spell": "fenyang"
     },
     {
-      "id": 675,
-      "nm": "灵山",
-      "py": "lingshan"
+      "value": 675,
+      "label": "灵山",
+      "spell": "lingshan"
     },
     {
-      "id": 674,
-      "nm": "滦南",
-      "py": "luannan"
+      "value": 674,
+      "label": "滦南",
+      "spell": "luannan"
     },
     {
-      "id": 673,
-      "nm": "桐城",
-      "py": "tongcheng"
+      "value": 673,
+      "label": "桐城",
+      "spell": "tongcheng"
     },
     {
-      "id": 672,
-      "nm": "化州",
-      "py": "huazhou"
+      "value": 672,
+      "label": "化州",
+      "spell": "huazhou"
     },
     {
-      "id": 702,
-      "nm": "格尔木",
-      "py": "geermu"
+      "value": 702,
+      "label": "格尔木",
+      "spell": "geermu"
     },
     {
-      "id": 700,
-      "nm": "承德县",
-      "py": "chengdexian"
+      "value": 700,
+      "label": "承德县",
+      "spell": "chengdexian"
     },
     {
-      "id": 701,
-      "nm": "鄱阳",
-      "py": "poyang"
+      "value": 701,
+      "label": "鄱阳",
+      "spell": "poyang"
     },
     {
-      "id": 698,
-      "nm": "博爱",
-      "py": "boai"
+      "value": 698,
+      "label": "博爱",
+      "spell": "boai"
     },
     {
-      "id": 699,
-      "nm": "安岳",
-      "py": "anyue"
+      "value": 699,
+      "label": "安岳",
+      "spell": "anyue"
     },
     {
-      "id": 696,
-      "nm": "温县",
-      "py": "wenxian"
+      "value": 696,
+      "label": "温县",
+      "spell": "wenxian"
     },
     {
-      "id": 697,
-      "nm": "武陟",
-      "py": "wuzhi"
+      "value": 697,
+      "label": "武陟",
+      "spell": "wuzhi"
     },
     {
-      "id": 694,
-      "nm": "孟州",
-      "py": "mengzhou"
+      "value": 694,
+      "label": "孟州",
+      "spell": "mengzhou"
     },
     {
-      "id": 695,
-      "nm": "修武",
-      "py": "xiuwu"
+      "value": 695,
+      "label": "修武",
+      "spell": "xiuwu"
     },
     {
-      "id": 692,
-      "nm": "象山",
-      "py": "xiangshan"
+      "value": 692,
+      "label": "象山",
+      "spell": "xiangshan"
     },
     {
-      "id": 693,
-      "nm": "玉环市",
-      "py": "yuhuanshi"
+      "value": 693,
+      "label": "玉环市",
+      "spell": "yuhuanshi"
     },
     {
-      "id": 690,
-      "nm": "临江",
-      "py": "linjiang"
+      "value": 690,
+      "label": "临江",
+      "spell": "linjiang"
     },
     {
-      "id": 691,
-      "nm": "古交",
-      "py": "gujiao"
+      "value": 691,
+      "label": "古交",
+      "spell": "gujiao"
     },
     {
-      "id": 688,
-      "nm": "陵水",
-      "py": "lingshui"
+      "value": 688,
+      "label": "陵水",
+      "spell": "lingshui"
     },
     {
-      "id": 689,
-      "nm": "阜康",
-      "py": "fukang"
+      "value": 689,
+      "label": "阜康",
+      "spell": "fukang"
     },
     {
-      "id": 653,
-      "nm": "赤壁",
-      "py": "chibi"
+      "value": 653,
+      "label": "赤壁",
+      "spell": "chibi"
     },
     {
-      "id": 652,
-      "nm": "鹿泉",
-      "py": "luquan"
+      "value": 652,
+      "label": "鹿泉",
+      "spell": "luquan"
     },
     {
-      "id": 655,
-      "nm": "利川",
-      "py": "lichuan"
+      "value": 655,
+      "label": "利川",
+      "spell": "lichuan"
     },
     {
-      "id": 654,
-      "nm": "枝江",
-      "py": "zhijiang"
+      "value": 654,
+      "label": "枝江",
+      "spell": "zhijiang"
     },
     {
-      "id": 648,
-      "nm": "松滋",
-      "py": "songzi"
+      "value": 648,
+      "label": "松滋",
+      "spell": "songzi"
     },
     {
-      "id": 651,
-      "nm": "灯塔",
-      "py": "dengta"
+      "value": 651,
+      "label": "灯塔",
+      "spell": "dengta"
     },
     {
-      "id": 650,
-      "nm": "黄骅",
-      "py": "huanghua"
+      "value": 650,
+      "label": "黄骅",
+      "spell": "huanghua"
     },
     {
-      "id": 645,
-      "nm": "霍州",
-      "py": "huozhou"
+      "value": 645,
+      "label": "霍州",
+      "spell": "huozhou"
     },
     {
-      "id": 644,
-      "nm": "沁阳",
-      "py": "qinyang"
+      "value": 644,
+      "label": "沁阳",
+      "spell": "qinyang"
     },
     {
-      "id": 647,
-      "nm": "邛崃",
-      "py": "qionglai"
+      "value": 647,
+      "label": "邛崃",
+      "spell": "qionglai"
     },
     {
-      "id": 646,
-      "nm": "崇州",
-      "py": "chongzhou"
+      "value": 646,
+      "label": "崇州",
+      "spell": "chongzhou"
     },
     {
-      "id": 641,
-      "nm": "兴城",
-      "py": "xingcheng"
+      "value": 641,
+      "label": "兴城",
+      "spell": "xingcheng"
     },
     {
-      "id": 643,
-      "nm": "奎屯",
-      "py": "kuitun"
+      "value": 643,
+      "label": "奎屯",
+      "spell": "kuitun"
     },
     {
-      "id": 642,
-      "nm": "调兵山",
-      "py": "diaobingshan"
+      "value": 642,
+      "label": "调兵山",
+      "spell": "diaobingshan"
     },
     {
-      "id": 668,
-      "nm": "麻城",
-      "py": "macheng"
+      "value": 668,
+      "label": "麻城",
+      "spell": "macheng"
     },
     {
-      "id": 669,
-      "nm": "舒兰",
-      "py": "shulan"
+      "value": 669,
+      "label": "舒兰",
+      "spell": "shulan"
     },
     {
-      "id": 670,
-      "nm": "凌海",
-      "py": "linghai"
+      "value": 670,
+      "label": "凌海",
+      "spell": "linghai"
     },
     {
-      "id": 671,
-      "nm": "樟树",
-      "py": "zhangshu"
+      "value": 671,
+      "label": "樟树",
+      "spell": "zhangshu"
     },
     {
-      "id": 664,
-      "nm": "即墨",
-      "py": "jimo"
+      "value": 664,
+      "label": "即墨",
+      "spell": "jimo"
     },
     {
-      "id": 665,
-      "nm": "凤城",
-      "py": "fengcheng"
+      "value": 665,
+      "label": "凤城",
+      "spell": "fengcheng"
     },
     {
-      "id": 666,
-      "nm": "洮南",
-      "py": "taonan"
+      "value": 666,
+      "label": "洮南",
+      "spell": "taonan"
     },
     {
-      "id": 667,
-      "nm": "武穴",
-      "py": "wuxue"
+      "value": 667,
+      "label": "武穴",
+      "spell": "wuxue"
     },
     {
-      "id": 660,
-      "nm": "淳安",
-      "py": "chunan"
+      "value": 660,
+      "label": "淳安",
+      "spell": "chunan"
     },
     {
-      "id": 661,
-      "nm": "兴平",
-      "py": "xingping"
+      "value": 661,
+      "label": "兴平",
+      "spell": "xingping"
     },
     {
-      "id": 662,
-      "nm": "邓州",
-      "py": "dengzhou"
+      "value": 662,
+      "label": "邓州",
+      "spell": "dengzhou"
     },
     {
-      "id": 663,
-      "nm": "漳浦",
-      "py": "zhangpu"
+      "value": 663,
+      "label": "漳浦",
+      "spell": "zhangpu"
     },
     {
-      "id": 656,
-      "nm": "宜都",
-      "py": "yidu"
+      "value": 656,
+      "label": "宜都",
+      "spell": "yvalueu"
     },
     {
-      "id": 657,
-      "nm": "瑞昌",
-      "py": "ruichang"
+      "value": 657,
+      "label": "瑞昌",
+      "spell": "ruichang"
     },
     {
-      "id": 658,
-      "nm": "沅江",
-      "py": "yuanjiang"
+      "value": 658,
+      "label": "沅江",
+      "spell": "yuanjiang"
     },
     {
-      "id": 659,
-      "nm": "老河口",
-      "py": "laohekou"
+      "value": 659,
+      "label": "老河口",
+      "spell": "laohekou"
     },
     {
-      "id": 747,
-      "nm": "乌苏",
-      "py": "wusu"
+      "value": 747,
+      "label": "乌苏",
+      "spell": "wusu"
     },
     {
-      "id": 746,
-      "nm": "曹妃甸",
-      "py": "caofeidian"
+      "value": 746,
+      "label": "曹妃甸",
+      "spell": "caofevalueian"
     },
     {
-      "id": 745,
-      "nm": "滦县",
-      "py": "luanxian"
+      "value": 745,
+      "label": "滦县",
+      "spell": "luanxian"
     },
     {
-      "id": 744,
-      "nm": "乐亭",
-      "py": "laoting"
+      "value": 744,
+      "label": "乐亭",
+      "spell": "laoting"
     },
     {
-      "id": 751,
-      "nm": "灌云",
-      "py": "guanyun"
+      "value": 751,
+      "label": "灌云",
+      "spell": "guanyun"
     },
     {
-      "id": 750,
-      "nm": "电白",
-      "py": "dianbai"
+      "value": 750,
+      "label": "电白",
+      "spell": "dianbai"
     },
     {
-      "id": 749,
-      "nm": "仁寿",
-      "py": "renshou"
+      "value": 749,
+      "label": "仁寿",
+      "spell": "renshou"
     },
     {
-      "id": 748,
-      "nm": "开州区",
-      "py": "kaizhouqu"
+      "value": 748,
+      "label": "开州区",
+      "spell": "kaizhouqu"
     },
     {
-      "id": 739,
-      "nm": "临朐",
-      "py": "linqu"
+      "value": 739,
+      "label": "临朐",
+      "spell": "linqu"
     },
     {
-      "id": 738,
-      "nm": "东平",
-      "py": "dongping"
+      "value": 738,
+      "label": "东平",
+      "spell": "dongping"
     },
     {
-      "id": 737,
-      "nm": "昌乐",
-      "py": "changlecl"
+      "value": 737,
+      "label": "昌乐",
+      "spell": "changlecl"
     },
     {
-      "id": 736,
-      "nm": "邵东",
-      "py": "shaodong"
+      "value": 736,
+      "label": "邵东",
+      "spell": "shaodong"
     },
     {
-      "id": 743,
-      "nm": "台前",
-      "py": "taiqian"
+      "value": 743,
+      "label": "台前",
+      "spell": "taiqian"
     },
     {
-      "id": 742,
-      "nm": "范县",
-      "py": "fanxian"
+      "value": 742,
+      "label": "范县",
+      "spell": "fanxian"
     },
     {
-      "id": 741,
-      "nm": "南乐",
-      "py": "nanle"
+      "value": 741,
+      "label": "南乐",
+      "spell": "nanle"
     },
     {
-      "id": 740,
-      "nm": "清丰",
-      "py": "qingfeng"
+      "value": 740,
+      "label": "清丰",
+      "spell": "qingfeng"
     },
     {
-      "id": 762,
-      "nm": "沙湾",
-      "py": "shawan"
+      "value": 762,
+      "label": "沙湾",
+      "spell": "shawan"
     },
     {
-      "id": 763,
-      "nm": "永年",
-      "py": "yongnian"
+      "value": 763,
+      "label": "永年",
+      "spell": "yongnian"
     },
     {
-      "id": 760,
-      "nm": "泗阳",
-      "py": "siyang"
+      "value": 760,
+      "label": "泗阳",
+      "spell": "siyang"
     },
     {
-      "id": 761,
-      "nm": "磐石",
-      "py": "panshi"
+      "value": 761,
+      "label": "磐石",
+      "spell": "panshi"
     },
     {
-      "id": 766,
-      "nm": "栾城",
-      "py": "luancheng"
+      "value": 766,
+      "label": "栾城",
+      "spell": "luancheng"
     },
     {
-      "id": 767,
-      "nm": "磁县",
-      "py": "cixian"
+      "value": 767,
+      "label": "磁县",
+      "spell": "cixian"
     },
     {
-      "id": 764,
-      "nm": "仙居",
-      "py": "xianju"
+      "value": 764,
+      "label": "仙居",
+      "spell": "xianju"
     },
     {
-      "id": 765,
-      "nm": "定州",
-      "py": "dingzhou"
+      "value": 765,
+      "label": "定州",
+      "spell": "dingzhou"
     },
     {
-      "id": 754,
-      "nm": "东海",
-      "py": "donghai"
+      "value": 754,
+      "label": "东海",
+      "spell": "donghai"
     },
     {
-      "id": 755,
-      "nm": "睢县",
-      "py": "suixian"
+      "value": 755,
+      "label": "睢县",
+      "spell": "suixian"
     },
     {
-      "id": 752,
-      "nm": "灌南",
-      "py": "guannan"
+      "value": 752,
+      "label": "灌南",
+      "spell": "guannan"
     },
     {
-      "id": 753,
-      "nm": "赣榆",
-      "py": "ganyu"
+      "value": 753,
+      "label": "赣榆",
+      "spell": "ganyu"
     },
     {
-      "id": 758,
-      "nm": "淮阳",
-      "py": "huaiyang"
+      "value": 758,
+      "label": "淮阳",
+      "spell": "huaiyang"
     },
     {
-      "id": 759,
-      "nm": "太和",
-      "py": "taihe"
+      "value": 759,
+      "label": "太和",
+      "spell": "taihe"
     },
     {
-      "id": 756,
-      "nm": "建阳",
-      "py": "jianyangjy"
+      "value": 756,
+      "label": "建阳",
+      "spell": "jianyangjy"
     },
     {
-      "id": 757,
-      "nm": "正定",
-      "py": "zhengding"
+      "value": 757,
+      "label": "正定",
+      "spell": "zhengding"
     },
     {
-      "id": 728,
-      "nm": "夏津",
-      "py": "xiajin"
+      "value": 728,
+      "label": "夏津",
+      "spell": "xiajin"
     },
     {
-      "id": 729,
-      "nm": "信宜",
-      "py": "xinyixy"
+      "value": 729,
+      "label": "信宜",
+      "spell": "xinyixy"
     },
     {
-      "id": 730,
-      "nm": "浦江",
-      "py": "pujiang"
+      "value": 730,
+      "label": "浦江",
+      "spell": "pujiang"
     },
     {
-      "id": 731,
-      "nm": "北碚",
-      "py": "beipei"
+      "value": 731,
+      "label": "北碚",
+      "spell": "beipei"
     },
     {
-      "id": 732,
-      "nm": "合川",
-      "py": "hechuan"
+      "value": 732,
+      "label": "合川",
+      "spell": "hechuan"
     },
     {
-      "id": 733,
-      "nm": "永川",
-      "py": "yongchuan"
+      "value": 733,
+      "label": "永川",
+      "spell": "yongchuan"
     },
     {
-      "id": 734,
-      "nm": "新化",
-      "py": "xinhua"
+      "value": 734,
+      "label": "新化",
+      "spell": "xinhua"
     },
     {
-      "id": 735,
-      "nm": "丰城",
-      "py": "fch"
+      "value": 735,
+      "label": "丰城",
+      "spell": "fch"
     },
     {
-      "id": 724,
-      "nm": "连江",
-      "py": "lianjiangxian"
+      "value": 724,
+      "label": "连江",
+      "spell": "lianjiangxian"
     },
     {
-      "id": 725,
-      "nm": "蛟河",
-      "py": "jiaohe"
+      "value": 725,
+      "label": "蛟河",
+      "spell": "jiaohe"
     },
     {
-      "id": 726,
-      "nm": "海盐",
-      "py": "haiyan"
+      "value": 726,
+      "label": "海盐",
+      "spell": "haiyan"
     },
     {
-      "id": 727,
-      "nm": "齐河",
-      "py": "qihe"
+      "value": 727,
+      "label": "齐河",
+      "spell": "qihe"
     },
     {
-      "id": 821,
-      "nm": "中牟",
-      "py": "zhongmou"
+      "value": 821,
+      "label": "中牟",
+      "spell": "zhongmou"
     },
     {
-      "id": 820,
-      "nm": "宁津",
-      "py": "ningjinnj"
+      "value": 820,
+      "label": "宁津",
+      "spell": "ningjinnj"
     },
     {
-      "id": 823,
-      "nm": "隆昌市",
-      "py": "longchangshi"
+      "value": 823,
+      "label": "隆昌市",
+      "spell": "longchangshi"
     },
     {
-      "id": 822,
-      "nm": "阎良",
-      "py": "yanliang"
+      "value": 822,
+      "label": "阎良",
+      "spell": "yanliang"
     },
     {
-      "id": 817,
-      "nm": "汤阴",
-      "py": "tangyin"
+      "value": 817,
+      "label": "汤阴",
+      "spell": "tangyin"
     },
     {
-      "id": 816,
-      "nm": "滑县",
-      "py": "huaxian"
+      "value": 816,
+      "label": "滑县",
+      "spell": "huaxian"
     },
     {
-      "id": 819,
-      "nm": "石泉",
-      "py": "shiquan"
+      "value": 819,
+      "label": "石泉",
+      "spell": "shiquan"
     },
     {
-      "id": 818,
-      "nm": "新安",
-      "py": "xinan"
+      "value": 818,
+      "label": "新安",
+      "spell": "xinan"
     },
     {
-      "id": 829,
-      "nm": "原阳",
-      "py": "yuanyang"
+      "value": 829,
+      "label": "原阳",
+      "spell": "yuanyang"
     },
     {
-      "id": 828,
-      "nm": "新乡县",
-      "py": "xinxiangxian"
+      "value": 828,
+      "label": "新乡县",
+      "spell": "xinxiangxian"
     },
     {
-      "id": 831,
-      "nm": "监利",
-      "py": "jianli"
+      "value": 831,
+      "label": "监利",
+      "spell": "jianli"
     },
     {
-      "id": 830,
-      "nm": "单县",
-      "py": "shanxian"
+      "value": 830,
+      "label": "单县",
+      "spell": "shanxian"
     },
     {
-      "id": 825,
-      "nm": "惠安",
-      "py": "huian"
+      "value": 825,
+      "label": "惠安",
+      "spell": "huian"
     },
     {
-      "id": 824,
-      "nm": "泗洪",
-      "py": "sihong"
+      "value": 824,
+      "label": "泗洪",
+      "spell": "sihong"
     },
     {
-      "id": 827,
-      "nm": "封丘",
-      "py": "fengqiu"
+      "value": 827,
+      "label": "封丘",
+      "spell": "fengqiu"
     },
     {
-      "id": 826,
-      "nm": "卫辉",
-      "py": "weihui"
+      "value": 826,
+      "label": "卫辉",
+      "spell": "weihui"
     },
     {
-      "id": 804,
-      "nm": "上高",
-      "py": "shanggao"
+      "value": 804,
+      "label": "上高",
+      "spell": "shanggao"
     },
     {
-      "id": 805,
-      "nm": "平潭",
-      "py": "pingtan"
+      "value": 805,
+      "label": "平潭",
+      "spell": "pingtan"
     },
     {
-      "id": 806,
-      "nm": "怀仁",
-      "py": "huairen"
+      "value": 806,
+      "label": "怀仁",
+      "spell": "huairen"
     },
     {
-      "id": 807,
-      "nm": "安平",
-      "py": "anping"
+      "value": 807,
+      "label": "安平",
+      "spell": "anping"
     },
     {
-      "id": 800,
-      "nm": "辉县",
-      "py": "huixian"
+      "value": 800,
+      "label": "辉县",
+      "spell": "huixian"
     },
     {
-      "id": 801,
-      "nm": "昌黎",
-      "py": "changli"
+      "value": 801,
+      "label": "昌黎",
+      "spell": "changli"
     },
     {
-      "id": 802,
-      "nm": "宣威",
-      "py": "xuanwei"
+      "value": 802,
+      "label": "宣威",
+      "spell": "xuanwei"
     },
     {
-      "id": 803,
-      "nm": "易县",
-      "py": "yixian"
+      "value": 803,
+      "label": "易县",
+      "spell": "yixian"
     },
     {
-      "id": 812,
-      "nm": "藤县",
-      "py": "tengxian"
+      "value": 812,
+      "label": "藤县",
+      "spell": "tengxian"
     },
     {
-      "id": 813,
-      "nm": "宁晋",
-      "py": "ningjin"
+      "value": 813,
+      "label": "宁晋",
+      "spell": "ningjin"
     },
     {
-      "id": 814,
-      "nm": "宜阳",
-      "py": "yiyangyy"
+      "value": 814,
+      "label": "宜阳",
+      "spell": "yiyangyy"
     },
     {
-      "id": 815,
-      "nm": "林州",
-      "py": "linzhou"
+      "value": 815,
+      "label": "林州",
+      "spell": "linzhou"
     },
     {
-      "id": 808,
-      "nm": "临潼",
-      "py": "lintong"
+      "value": 808,
+      "label": "临潼",
+      "spell": "lintong"
     },
     {
-      "id": 809,
-      "nm": "蓝田",
-      "py": "lantian"
+      "value": 809,
+      "label": "蓝田",
+      "spell": "lantian"
     },
     {
-      "id": 810,
-      "nm": "霞浦",
-      "py": "xiapu"
+      "value": 810,
+      "label": "霞浦",
+      "spell": "xiapu"
     },
     {
-      "id": 811,
-      "nm": "岑溪",
-      "py": "cenxi"
+      "value": 811,
+      "label": "岑溪",
+      "spell": "cenxi"
     },
     {
-      "id": 791,
-      "nm": "临漳",
-      "py": "linzhang"
+      "value": 791,
+      "label": "临漳",
+      "spell": "linzhang"
     },
     {
-      "id": 790,
-      "nm": "太谷",
-      "py": "taigu"
+      "value": 790,
+      "label": "太谷",
+      "spell": "taigu"
     },
     {
-      "id": 789,
-      "nm": "灵石",
-      "py": "lingshi"
+      "value": 789,
+      "label": "灵石",
+      "spell": "lingshi"
     },
     {
-      "id": 788,
-      "nm": "金堂",
-      "py": "jintang"
+      "value": 788,
+      "label": "金堂",
+      "spell": "jintang"
     },
     {
-      "id": 787,
-      "nm": "共青城",
-      "py": "gongqingcheng"
+      "value": 787,
+      "label": "共青城",
+      "spell": "gongqingcheng"
     },
     {
-      "id": 786,
-      "nm": "鲁山",
-      "py": "lushanls"
+      "value": 786,
+      "label": "鲁山",
+      "spell": "lushanls"
     },
     {
-      "id": 785,
-      "nm": "郏县",
-      "py": "jiaxian"
+      "value": 785,
+      "label": "郏县",
+      "spell": "jiaxian"
     },
     {
-      "id": 784,
-      "nm": "叶县",
-      "py": "yexian"
+      "value": 784,
+      "label": "叶县",
+      "spell": "yexian"
     },
     {
-      "id": 799,
-      "nm": "户县",
-      "py": "huxian"
+      "value": 799,
+      "label": "户县",
+      "spell": "huxian"
     },
     {
-      "id": 798,
-      "nm": "成安",
-      "py": "chengan"
+      "value": 798,
+      "label": "成安",
+      "spell": "chengan"
     },
     {
-      "id": 797,
-      "nm": "绥中",
-      "py": "suizhong"
+      "value": 797,
+      "label": "绥中",
+      "spell": "suizhong"
     },
     {
-      "id": 796,
-      "nm": "神木市",
-      "py": "shenmushi"
+      "value": 796,
+      "label": "神木市",
+      "spell": "shelabelushi"
     },
     {
-      "id": 795,
-      "nm": "长垣",
-      "py": "changyuan"
+      "value": 795,
+      "label": "长垣",
+      "spell": "changyuan"
     },
     {
-      "id": 794,
-      "nm": "和县",
-      "py": "hexian"
+      "value": 794,
+      "label": "和县",
+      "spell": "hexian"
     },
     {
-      "id": 793,
-      "nm": "含山",
-      "py": "hanshan"
+      "value": 793,
+      "label": "含山",
+      "spell": "hanshan"
     },
     {
-      "id": 792,
-      "nm": "肥乡区",
-      "py": "feixiangqu"
+      "value": 792,
+      "label": "肥乡区",
+      "spell": "feixiangqu"
     },
     {
-      "id": 774,
-      "nm": "繁昌",
-      "py": "fanchang"
+      "value": 774,
+      "label": "繁昌",
+      "spell": "fanchang"
     },
     {
-      "id": 775,
-      "nm": "南陵",
-      "py": "nanling"
+      "value": 775,
+      "label": "南陵",
+      "spell": "nanling"
     },
     {
-      "id": 772,
-      "nm": "汉阴",
-      "py": "hanyin"
+      "value": 772,
+      "label": "汉阴",
+      "spell": "hanyin"
     },
     {
-      "id": 773,
-      "nm": "芜湖县",
-      "py": "wuhuxian"
+      "value": 773,
+      "label": "芜湖县",
+      "spell": "wuhuxian"
     },
     {
-      "id": 770,
-      "nm": "阳城",
-      "py": "yangcheng"
+      "value": 770,
+      "label": "阳城",
+      "spell": "yangcheng"
     },
     {
-      "id": 771,
-      "nm": "高安",
-      "py": "gaoan"
+      "value": 771,
+      "label": "高安",
+      "spell": "gaoan"
     },
     {
-      "id": 768,
-      "nm": "涉县",
-      "py": "shexian"
+      "value": 768,
+      "label": "涉县",
+      "spell": "shexian"
     },
     {
-      "id": 769,
-      "nm": "无为",
-      "py": "wuweiww"
+      "value": 769,
+      "label": "无为",
+      "spell": "wuweiww"
     },
     {
-      "id": 782,
-      "nm": "天台",
-      "py": "tiantai"
+      "value": 782,
+      "label": "天台",
+      "spell": "tiantai"
     },
     {
-      "id": 783,
-      "nm": "宝丰",
-      "py": "baofeng"
+      "value": 783,
+      "label": "宝丰",
+      "spell": "baofeng"
     },
     {
-      "id": 780,
-      "nm": "广德",
-      "py": "guangde"
+      "value": 780,
+      "label": "广德",
+      "spell": "guangde"
     },
     {
-      "id": 781,
-      "nm": "宁国",
-      "py": "ningguo"
+      "value": 781,
+      "label": "宁国",
+      "spell": "ningguo"
     },
     {
-      "id": 778,
-      "nm": "云阳",
-      "py": "yunyang"
+      "value": 778,
+      "label": "云阳",
+      "spell": "yunyang"
     },
     {
-      "id": 779,
-      "nm": "宁阳",
-      "py": "ningyang"
+      "value": 779,
+      "label": "宁阳",
+      "spell": "ningyang"
     },
     {
-      "id": 776,
-      "nm": "襄垣",
-      "py": "xiangyuan"
+      "value": 776,
+      "label": "襄垣",
+      "spell": "xiangyuan"
     },
     {
-      "id": 777,
-      "nm": "平原",
-      "py": "pingyuan"
+      "value": 777,
+      "label": "平原",
+      "spell": "pingyuan"
     },
     {
-      "id": 881,
-      "nm": "河口",
-      "py": "hekou"
+      "value": 881,
+      "label": "河口",
+      "spell": "hekou"
     },
     {
-      "id": 880,
-      "nm": "垦利",
-      "py": "kenli"
+      "value": 880,
+      "label": "垦利",
+      "spell": "kenli"
     },
     {
-      "id": 883,
-      "nm": "曹县",
-      "py": "caoxian"
+      "value": 883,
+      "label": "曹县",
+      "spell": "caoxian"
     },
     {
-      "id": 882,
-      "nm": "巨野",
-      "py": "juye"
+      "value": 882,
+      "label": "巨野",
+      "spell": "juye"
     },
     {
-      "id": 885,
-      "nm": "西平",
-      "py": "xiping"
+      "value": 885,
+      "label": "西平",
+      "spell": "xiping"
     },
     {
-      "id": 884,
-      "nm": "郓城",
-      "py": "yunchengxian"
+      "value": 884,
+      "label": "郓城",
+      "spell": "yunchengxian"
     },
     {
-      "id": 887,
-      "nm": "泌阳",
-      "py": "biyang"
+      "value": 887,
+      "label": "泌阳",
+      "spell": "biyang"
     },
     {
-      "id": 886,
-      "nm": "上蔡",
-      "py": "shangcai"
+      "value": 886,
+      "label": "上蔡",
+      "spell": "shangcai"
     },
     {
-      "id": 889,
-      "nm": "临猗",
-      "py": "linyixian"
+      "value": 889,
+      "label": "临猗",
+      "spell": "linyixian"
     },
     {
-      "id": 888,
-      "nm": "富顺",
-      "py": "fushunxian"
+      "value": 888,
+      "label": "富顺",
+      "spell": "fushunxian"
     },
     {
-      "id": 891,
-      "nm": "准格尔旗",
-      "py": "zhungeerqi"
+      "value": 891,
+      "label": "准格尔旗",
+      "spell": "zhungeerqi"
     },
     {
-      "id": 893,
-      "nm": "平山",
-      "py": "pingshan"
+      "value": 893,
+      "label": "平山",
+      "spell": "pingshan"
     },
     {
-      "id": 892,
-      "nm": "新乐",
-      "py": "xinle"
+      "value": 892,
+      "label": "新乐",
+      "spell": "xinle"
     },
     {
-      "id": 895,
-      "nm": "遂昌",
-      "py": "suichang"
+      "value": 895,
+      "label": "遂昌",
+      "spell": "suichang"
     },
     {
-      "id": 894,
-      "nm": "辉南",
-      "py": "huinan"
+      "value": 894,
+      "label": "辉南",
+      "spell": "huinan"
     },
     {
-      "id": 864,
-      "nm": "淇县",
-      "py": "qixian"
+      "value": 864,
+      "label": "淇县",
+      "spell": "qixian"
     },
     {
-      "id": 865,
-      "nm": "全椒",
-      "py": "quanjiao"
+      "value": 865,
+      "label": "全椒",
+      "spell": "quanjiao"
     },
     {
-      "id": 866,
-      "nm": "高陵",
-      "py": "gaoling"
+      "value": 866,
+      "label": "高陵",
+      "spell": "gaoling"
     },
     {
-      "id": 867,
-      "nm": "洪洞",
-      "py": "hongtong"
+      "value": 867,
+      "label": "洪洞",
+      "spell": "hongtong"
     },
     {
-      "id": 868,
-      "nm": "柳河",
-      "py": "liuhe"
+      "value": 868,
+      "label": "柳河",
+      "spell": "liuhe"
     },
     {
-      "id": 869,
-      "nm": "抚松",
-      "py": "fusong"
+      "value": 869,
+      "label": "抚松",
+      "spell": "fusong"
     },
     {
-      "id": 870,
-      "nm": "西乡",
-      "py": "xixiang"
+      "value": 870,
+      "label": "西乡",
+      "spell": "xixiang"
     },
     {
-      "id": 871,
-      "nm": "江津",
-      "py": "jiangjin"
+      "value": 871,
+      "label": "江津",
+      "spell": "jiangjin"
     },
     {
-      "id": 872,
-      "nm": "渑池",
-      "py": "mianchi"
+      "value": 872,
+      "label": "渑池",
+      "spell": "mianchi"
     },
     {
-      "id": 873,
-      "nm": "安宁",
-      "py": "anning"
+      "value": 873,
+      "label": "安宁",
+      "spell": "anning"
     },
     {
-      "id": 874,
-      "nm": "达拉特旗",
-      "py": "dalateqi"
+      "value": 874,
+      "label": "达拉特旗",
+      "spell": "dalateqi"
     },
     {
-      "id": 875,
-      "nm": "睢宁",
-      "py": "suiningxian"
+      "value": 875,
+      "label": "睢宁",
+      "spell": "suiningxian"
     },
     {
-      "id": 876,
-      "nm": "玉山",
-      "py": "yushan"
+      "value": 876,
+      "label": "玉山",
+      "spell": "yushan"
     },
     {
-      "id": 877,
-      "nm": "茌平",
-      "py": "chiping"
+      "value": 877,
+      "label": "茌平",
+      "spell": "chiping"
     },
     {
-      "id": 878,
-      "nm": "阳谷",
-      "py": "yanggu"
+      "value": 878,
+      "label": "阳谷",
+      "spell": "yanggu"
     },
     {
-      "id": 879,
-      "nm": "土默特右旗",
-      "py": "tumoteyouqi"
+      "value": 879,
+      "label": "土默特右旗",
+      "spell": "tumoteyouqi"
     },
     {
-      "id": 851,
-      "nm": "横店",
-      "py": "hengdian"
+      "value": 851,
+      "label": "横店",
+      "spell": "hengdian"
     },
     {
-      "id": 850,
-      "nm": "乌拉特前旗",
-      "py": "wltqq"
+      "value": 850,
+      "label": "乌拉特前旗",
+      "spell": "wltqq"
     },
     {
-      "id": 849,
-      "nm": "濮阳县",
-      "py": "puyangxian"
+      "value": 849,
+      "label": "濮阳县",
+      "spell": "puyangxian"
     },
     {
-      "id": 848,
-      "nm": "眉县",
-      "py": "meixian"
+      "value": 848,
+      "label": "眉县",
+      "spell": "meixian"
     },
     {
-      "id": 854,
-      "nm": "高阳",
-      "py": "gaoyang"
+      "value": 854,
+      "label": "高阳",
+      "spell": "gaoyang"
     },
     {
-      "id": 853,
-      "nm": "徐闻",
-      "py": "xuwen"
+      "value": 853,
+      "label": "徐闻",
+      "spell": "xuwen"
     },
     {
-      "id": 852,
-      "nm": "博兴",
-      "py": "boxing"
+      "value": 852,
+      "label": "博兴",
+      "spell": "boxing"
     },
     {
-      "id": 859,
-      "nm": "虞城",
-      "py": "yuchengxian"
+      "value": 859,
+      "label": "虞城",
+      "spell": "yuchengxian"
     },
     {
-      "id": 858,
-      "nm": "柘城",
-      "py": "zhecheng"
+      "value": 858,
+      "label": "柘城",
+      "spell": "zhecheng"
     },
     {
-      "id": 857,
-      "nm": "夏邑",
-      "py": "xiayi"
+      "value": 857,
+      "label": "夏邑",
+      "spell": "xiayi"
     },
     {
-      "id": 856,
-      "nm": "华亭",
-      "py": "huating"
+      "value": 856,
+      "label": "华亭",
+      "spell": "huating"
     },
     {
-      "id": 863,
-      "nm": "浚县",
-      "py": "xunxian"
+      "value": 863,
+      "label": "浚县",
+      "spell": "xunxian"
     },
     {
-      "id": 862,
-      "nm": "丰县",
-      "py": "fengxian"
+      "value": 862,
+      "label": "丰县",
+      "spell": "fengxian"
     },
     {
-      "id": 861,
-      "nm": "扶风",
-      "py": "fufeng"
+      "value": 861,
+      "label": "扶风",
+      "spell": "fufeng"
     },
     {
-      "id": 860,
-      "nm": "民权",
-      "py": "minquan"
+      "value": 860,
+      "label": "民权",
+      "spell": "minquan"
     },
     {
-      "id": 834,
-      "nm": "邹城",
-      "py": "zoucheng"
+      "value": 834,
+      "label": "邹城",
+      "spell": "zoucheng"
     },
     {
-      "id": 835,
-      "nm": "郸城",
-      "py": "dancheng"
+      "value": 835,
+      "label": "郸城",
+      "spell": "dancheng"
     },
     {
-      "id": 832,
-      "nm": "韩城",
-      "py": "hancheng"
+      "value": 832,
+      "label": "韩城",
+      "spell": "hancheng"
     },
     {
-      "id": 833,
-      "nm": "沛县",
-      "py": "peixian"
+      "value": 833,
+      "label": "沛县",
+      "spell": "peixian"
     },
     {
-      "id": 838,
-      "nm": "孟津",
-      "py": "mengjin"
+      "value": 838,
+      "label": "孟津",
+      "spell": "mengjin"
     },
     {
-      "id": 839,
-      "nm": "鹿邑",
-      "py": "luyi"
+      "value": 839,
+      "label": "鹿邑",
+      "spell": "luyi"
     },
     {
-      "id": 836,
-      "nm": "大荔",
-      "py": "dalixian"
+      "value": 836,
+      "label": "大荔",
+      "spell": "dalixian"
     },
     {
-      "id": 837,
-      "nm": "蒲城",
-      "py": "pucheng"
+      "value": 837,
+      "label": "蒲城",
+      "spell": "pucheng"
     },
     {
-      "id": 842,
-      "nm": "盘州市",
-      "py": "panzhoushi"
+      "value": 842,
+      "label": "盘州市",
+      "spell": "panzhoushi"
     },
     {
-      "id": 843,
-      "nm": "盱眙",
-      "py": "xuyi"
+      "value": 843,
+      "label": "盱眙",
+      "spell": "xuyi"
     },
     {
-      "id": 840,
-      "nm": "沈丘",
-      "py": "shenqiu"
+      "value": 840,
+      "label": "沈丘",
+      "spell": "shenqiu"
     },
     {
-      "id": 841,
-      "nm": "赵县",
-      "py": "zhaoxian"
+      "value": 841,
+      "label": "赵县",
+      "spell": "zhaoxian"
     },
     {
-      "id": 846,
-      "nm": "牟平",
-      "py": "muping"
+      "value": 846,
+      "label": "牟平",
+      "spell": "muping"
     },
     {
-      "id": 847,
-      "nm": "平江",
-      "py": "pingjiang"
+      "value": 847,
+      "label": "平江",
+      "spell": "pingjiang"
     },
     {
-      "id": 844,
-      "nm": "安溪",
-      "py": "anxi"
+      "value": 844,
+      "label": "安溪",
+      "spell": "anxi"
     },
     {
-      "id": 845,
-      "nm": "三门",
-      "py": "sanmen"
+      "value": 845,
+      "label": "三门",
+      "spell": "salabelen"
     },
     {
-      "id": 956,
-      "nm": "金湖",
-      "py": "jinhu"
+      "value": 956,
+      "label": "金湖",
+      "spell": "jinhu"
     },
     {
-      "id": 957,
-      "nm": "香河",
-      "py": "xianghe"
+      "value": 957,
+      "label": "香河",
+      "spell": "xianghe"
     },
     {
-      "id": 958,
-      "nm": "于都",
-      "py": "yudu"
+      "value": 958,
+      "label": "于都",
+      "spell": "yudu"
     },
     {
-      "id": 959,
-      "nm": "信丰",
-      "py": "xinfeng"
+      "value": 959,
+      "label": "信丰",
+      "spell": "xinfeng"
     },
     {
-      "id": 952,
-      "nm": "博山",
-      "py": "boshan"
+      "value": 952,
+      "label": "博山",
+      "spell": "boshan"
     },
     {
-      "id": 953,
-      "nm": "什邡",
-      "py": "shifang"
+      "value": 953,
+      "label": "什邡",
+      "spell": "shifang"
     },
     {
-      "id": 954,
-      "nm": "长汀",
-      "py": "changting"
+      "value": 954,
+      "label": "长汀",
+      "spell": "changting"
     },
     {
-      "id": 955,
-      "nm": "上杭",
-      "py": "shanghang"
+      "value": 955,
+      "label": "上杭",
+      "spell": "shanghang"
     },
     {
-      "id": 948,
-      "nm": "江都",
-      "py": "jiangdu"
+      "value": 948,
+      "label": "江都",
+      "spell": "jiangdu"
     },
     {
-      "id": 949,
-      "nm": "浠水",
-      "py": "xishui"
+      "value": 949,
+      "label": "浠水",
+      "spell": "xishui"
     },
     {
-      "id": 950,
-      "nm": "平邑",
-      "py": "pingyi"
+      "value": 950,
+      "label": "平邑",
+      "spell": "pingyi"
     },
     {
-      "id": 951,
-      "nm": "临沭",
-      "py": "linshu"
+      "value": 951,
+      "label": "临沭",
+      "spell": "linshu"
     },
     {
-      "id": 944,
-      "nm": "蒙阴",
-      "py": "mengyin"
+      "value": 944,
+      "label": "蒙阴",
+      "spell": "mengyin"
     },
     {
-      "id": 945,
-      "nm": "大洼",
-      "py": "dawa"
+      "value": 945,
+      "label": "大洼",
+      "spell": "dawa"
     },
     {
-      "id": 946,
-      "nm": "璧山",
-      "py": "bishan"
+      "value": 946,
+      "label": "璧山",
+      "spell": "bishan"
     },
     {
-      "id": 947,
-      "nm": "铜梁",
-      "py": "tongliang"
+      "value": 947,
+      "label": "铜梁",
+      "spell": "tongliang"
     },
     {
-      "id": 941,
-      "nm": "莒南",
-      "py": "junan"
+      "value": 941,
+      "label": "莒南",
+      "spell": "junan"
     },
     {
-      "id": 940,
-      "nm": "沂水",
-      "py": "yishui"
+      "value": 940,
+      "label": "沂水",
+      "spell": "yishui"
     },
     {
-      "id": 943,
-      "nm": "沂南",
-      "py": "yinan"
+      "value": 943,
+      "label": "沂南",
+      "spell": "yinan"
     },
     {
-      "id": 942,
-      "nm": "郯城",
-      "py": "tancheng"
+      "value": 942,
+      "label": "郯城",
+      "spell": "tancheng"
     },
     {
-      "id": 937,
-      "nm": "扶沟",
-      "py": "fugou"
+      "value": 937,
+      "label": "扶沟",
+      "spell": "fugou"
     },
     {
-      "id": 936,
-      "nm": "西华",
-      "py": "xihua"
+      "value": 936,
+      "label": "西华",
+      "spell": "xihua"
     },
     {
-      "id": 939,
-      "nm": "兰陵",
-      "py": "lanling"
+      "value": 939,
+      "label": "兰陵",
+      "spell": "lanling"
     },
     {
-      "id": 938,
-      "nm": "龙游",
-      "py": "longyou"
+      "value": 938,
+      "label": "龙游",
+      "spell": "longyou"
     },
     {
-      "id": 935,
-      "nm": "栾川",
-      "py": "luanchuan"
+      "value": 935,
+      "label": "栾川",
+      "spell": "luanchuan"
     },
     {
-      "id": 934,
-      "nm": "雷州",
-      "py": "leizhou"
+      "value": 934,
+      "label": "雷州",
+      "spell": "leizhou"
     },
     {
-      "id": 929,
-      "nm": "清河",
-      "py": "qinghe"
+      "value": 929,
+      "label": "清河",
+      "spell": "qinghe"
     },
     {
-      "id": 928,
-      "nm": "洪湖",
-      "py": "honghu"
+      "value": 928,
+      "label": "洪湖",
+      "spell": "honghu"
     },
     {
-      "id": 931,
-      "nm": "内丘",
-      "py": "neiqiu"
+      "value": 931,
+      "label": "内丘",
+      "spell": "neiqiu"
     },
     {
-      "id": 930,
-      "nm": "隆尧",
-      "py": "longyao"
+      "value": 930,
+      "label": "隆尧",
+      "spell": "longyao"
     },
     {
-      "id": 926,
-      "nm": "围场",
-      "py": "weichang"
+      "value": 926,
+      "label": "围场",
+      "spell": "weichang"
     },
     {
-      "id": 927,
-      "nm": "江油",
-      "py": "jiangyou"
+      "value": 927,
+      "label": "江油",
+      "spell": "jiangyou"
     },
     {
-      "id": 924,
-      "nm": "丰宁",
-      "py": "fengning"
+      "value": 924,
+      "label": "丰宁",
+      "spell": "fengning"
     },
     {
-      "id": 925,
-      "nm": "宽城",
-      "py": "kuancheng"
+      "value": 925,
+      "label": "宽城",
+      "spell": "kuancheng"
     },
     {
-      "id": 922,
-      "nm": "青田",
-      "py": "qingtian"
+      "value": 922,
+      "label": "青田",
+      "spell": "qingtian"
     },
     {
-      "id": 920,
-      "nm": "薛城",
-      "py": "xuecheng"
+      "value": 920,
+      "label": "薛城",
+      "spell": "xuecheng"
     },
     {
-      "id": 921,
-      "nm": "佛冈",
-      "py": "fogang"
+      "value": 921,
+      "label": "佛冈",
+      "spell": "fogang"
     },
     {
-      "id": 918,
-      "nm": "京山",
-      "py": "jingshan"
+      "value": 918,
+      "label": "京山",
+      "spell": "jingshan"
     },
     {
-      "id": 919,
-      "nm": "陵川",
-      "py": "lingchuan"
+      "value": 919,
+      "label": "陵川",
+      "spell": "lingchuan"
     },
     {
-      "id": 916,
-      "nm": "费县",
-      "py": "feixian"
+      "value": 916,
+      "label": "费县",
+      "spell": "feixian"
     },
     {
-      "id": 917,
-      "nm": "任丘",
-      "py": "renqiu"
+      "value": 917,
+      "label": "任丘",
+      "spell": "renqiu"
     },
     {
-      "id": 914,
-      "nm": "栖霞",
-      "py": "qixia"
+      "value": 914,
+      "label": "栖霞",
+      "spell": "qixia"
     },
     {
-      "id": 915,
-      "nm": "彬县",
-      "py": "binxian"
+      "value": 915,
+      "label": "彬县",
+      "spell": "binxian"
     },
     {
-      "id": 912,
-      "nm": "龙泉",
-      "py": "longquan"
+      "value": 912,
+      "label": "龙泉",
+      "spell": "longquan"
     },
     {
-      "id": 913,
-      "nm": "缙云",
-      "py": "jinyun"
+      "value": 913,
+      "label": "缙云",
+      "spell": "jinyun"
     },
     {
-      "id": 911,
-      "nm": "公安",
-      "py": "gongan"
+      "value": 911,
+      "label": "公安",
+      "spell": "gongan"
     },
     {
-      "id": 910,
-      "nm": "大竹",
-      "py": "dazhu"
+      "value": 910,
+      "label": "大竹",
+      "spell": "dazhu"
     },
     {
-      "id": 909,
-      "nm": "城固",
-      "py": "chenggu"
+      "value": 909,
+      "label": "城固",
+      "spell": "chenggu"
     },
     {
-      "id": 908,
-      "nm": "杨凌",
-      "py": "yangling"
+      "value": 908,
+      "label": "杨凌",
+      "spell": "yangling"
     },
     {
-      "id": 907,
-      "nm": "石岛",
-      "py": "shidao"
+      "value": 907,
+      "label": "石岛",
+      "spell": "shvalueao"
     },
     {
-      "id": 906,
-      "nm": "绵竹",
-      "py": "mianzhu"
+      "value": 906,
+      "label": "绵竹",
+      "spell": "mianzhu"
     },
     {
-      "id": 905,
-      "nm": "临邑",
-      "py": "linyily"
+      "value": 905,
+      "label": "临邑",
+      "spell": "linyily"
     },
     {
-      "id": 904,
-      "nm": "武城",
-      "py": "wucheng"
+      "value": 904,
+      "label": "武城",
+      "spell": "wucheng"
     },
     {
-      "id": 903,
-      "nm": "新昌",
-      "py": "xinchang"
+      "value": 903,
+      "label": "新昌",
+      "spell": "xinchang"
     },
     {
-      "id": 902,
-      "nm": "利津",
-      "py": "lijin"
+      "value": 902,
+      "label": "利津",
+      "spell": "lijin"
     },
     {
-      "id": 901,
-      "nm": "伊金霍洛旗",
-      "py": "yijinhuoluoqi"
+      "value": 901,
+      "label": "伊金霍洛旗",
+      "spell": "yijinhuoluoqi"
     },
     {
-      "id": 900,
-      "nm": "金乡",
-      "py": "jinxiang"
+      "value": 900,
+      "label": "金乡",
+      "spell": "jinxiang"
     },
     {
-      "id": 899,
-      "nm": "嘉祥",
-      "py": "jiaxiang"
+      "value": 899,
+      "label": "嘉祥",
+      "spell": "jiaxiang"
     },
     {
-      "id": 898,
-      "nm": "汶上",
-      "py": "wenshang"
+      "value": 898,
+      "label": "汶上",
+      "spell": "wenshang"
     },
     {
-      "id": 897,
-      "nm": "微山",
-      "py": "weishan"
+      "value": 897,
+      "label": "微山",
+      "spell": "weishan"
     },
     {
-      "id": 896,
-      "nm": "梁山",
-      "py": "liangshanxian"
+      "value": 896,
+      "label": "梁山",
+      "spell": "liangshanxian"
     },
     {
-      "id": 1017,
-      "nm": "泗水",
-      "py": "sishui"
+      "value": 1017,
+      "label": "泗水",
+      "spell": "sishui"
     },
     {
-      "id": 1018,
-      "nm": "赤水",
-      "py": "chishui"
+      "value": 1018,
+      "label": "赤水",
+      "spell": "chishui"
     },
     {
-      "id": 1019,
-      "nm": "无极",
-      "py": "wuji"
+      "value": 1019,
+      "label": "无极",
+      "spell": "wuji"
     },
     {
-      "id": 1020,
-      "nm": "青县",
-      "py": "qingxian"
+      "value": 1020,
+      "label": "青县",
+      "spell": "qingxian"
     },
     {
-      "id": 1021,
-      "nm": "淅川",
-      "py": "xichuan"
+      "value": 1021,
+      "label": "淅川",
+      "spell": "xichuan"
     },
     {
-      "id": 1022,
-      "nm": "社旗",
-      "py": "sheqi"
+      "value": 1022,
+      "label": "社旗",
+      "spell": "sheqi"
     },
     {
-      "id": 1023,
-      "nm": "万荣",
-      "py": "wanrong"
+      "value": 1023,
+      "label": "万荣",
+      "spell": "wanrong"
     },
     {
-      "id": 1008,
-      "nm": "安化",
-      "py": "anhua"
+      "value": 1008,
+      "label": "安化",
+      "spell": "anhua"
     },
     {
-      "id": 1009,
-      "nm": "桃源",
-      "py": "taoyuanxian"
+      "value": 1009,
+      "label": "桃源",
+      "spell": "taoyuanxian"
     },
     {
-      "id": 1010,
-      "nm": "澧县",
-      "py": "lixian"
+      "value": 1010,
+      "label": "澧县",
+      "spell": "lixian"
     },
     {
-      "id": 1011,
-      "nm": "辽中",
-      "py": "liaozhong"
+      "value": 1011,
+      "label": "辽中",
+      "spell": "liaozhong"
     },
     {
-      "id": 1013,
-      "nm": "南和",
-      "py": "nanhe"
+      "value": 1013,
+      "label": "南和",
+      "spell": "nanhe"
     },
     {
-      "id": 1014,
-      "nm": "舞阳",
-      "py": "wuyang"
+      "value": 1014,
+      "label": "舞阳",
+      "spell": "wuyang"
     },
     {
-      "id": 1015,
-      "nm": "商河",
-      "py": "shanghe"
+      "value": 1015,
+      "label": "商河",
+      "spell": "shanghe"
     },
     {
-      "id": 1001,
-      "nm": "金沙",
-      "py": "jinsha"
+      "value": 1001,
+      "label": "金沙",
+      "spell": "jinsha"
     },
     {
-      "id": 1003,
-      "nm": "泾县",
-      "py": "jingxian"
+      "value": 1003,
+      "label": "泾县",
+      "spell": "jingxian"
     },
     {
-      "id": 1002,
-      "nm": "开阳",
-      "py": "kaiyang"
+      "value": 1002,
+      "label": "开阳",
+      "spell": "kaiyang"
     },
     {
-      "id": 1005,
-      "nm": "怀宁",
-      "py": "huaining"
+      "value": 1005,
+      "label": "怀宁",
+      "spell": "huaining"
     },
     {
-      "id": 1004,
-      "nm": "潜山",
-      "py": "qianshan"
+      "value": 1004,
+      "label": "潜山",
+      "spell": "qianshan"
     },
     {
-      "id": 1007,
-      "nm": "织金",
-      "py": "zhijin"
+      "value": 1007,
+      "label": "织金",
+      "spell": "zhijin"
     },
     {
-      "id": 1006,
-      "nm": "威宁",
-      "py": "weining"
+      "value": 1006,
+      "label": "威宁",
+      "spell": "weining"
     },
     {
-      "id": 993,
-      "nm": "常山",
-      "py": "changshan"
+      "value": 993,
+      "label": "常山",
+      "spell": "changshan"
     },
     {
-      "id": 992,
-      "nm": "射洪",
-      "py": "shehong"
+      "value": 992,
+      "label": "射洪",
+      "spell": "shehong"
     },
     {
-      "id": 995,
-      "nm": "武鸣",
-      "py": "wuming"
+      "value": 995,
+      "label": "武鸣",
+      "spell": "wuming"
     },
     {
-      "id": 994,
-      "nm": "宾阳",
-      "py": "binyang"
+      "value": 994,
+      "label": "宾阳",
+      "spell": "binyang"
     },
     {
-      "id": 997,
-      "nm": "芷江",
-      "py": "zhijiangtongzu"
+      "value": 997,
+      "label": "芷江",
+      "spell": "zhijiangtongzu"
     },
     {
-      "id": 996,
-      "nm": "溆浦",
-      "py": "xupu"
+      "value": 996,
+      "label": "溆浦",
+      "spell": "xupu"
     },
     {
-      "id": 999,
-      "nm": "东光",
-      "py": "dongguang"
+      "value": 999,
+      "label": "东光",
+      "spell": "dongguang"
     },
     {
-      "id": 998,
-      "nm": "庆云",
-      "py": "qingyun"
+      "value": 998,
+      "label": "庆云",
+      "spell": "qingyun"
     },
     {
-      "id": 987,
-      "nm": "平遥",
-      "py": "pingyao"
+      "value": 987,
+      "label": "平遥",
+      "spell": "pingyao"
     },
     {
-      "id": 985,
-      "nm": "周至",
-      "py": "zhouzhi"
+      "value": 985,
+      "label": "周至",
+      "spell": "zhouzhi"
     },
     {
-      "id": 990,
-      "nm": "开化",
-      "py": "kaihua"
+      "value": 990,
+      "label": "开化",
+      "spell": "kaihua"
     },
     {
-      "id": 991,
-      "nm": "平果",
-      "py": "pingguo"
+      "value": 991,
+      "label": "平果",
+      "spell": "pingguo"
     },
     {
-      "id": 988,
-      "nm": "如东",
-      "py": "rudong"
+      "value": 988,
+      "label": "如东",
+      "spell": "rudong"
     },
     {
-      "id": 989,
-      "nm": "恩平",
-      "py": "enping"
+      "value": 989,
+      "label": "恩平",
+      "spell": "enping"
     },
     {
-      "id": 978,
-      "nm": "敦化",
-      "py": "dunhua"
+      "value": 978,
+      "label": "敦化",
+      "spell": "dunhua"
     },
     {
-      "id": 979,
-      "nm": "内黄",
-      "py": "neihuang"
+      "value": 979,
+      "label": "内黄",
+      "spell": "neihuang"
     },
     {
-      "id": 976,
-      "nm": "涟水",
-      "py": "lianshui"
+      "value": 976,
+      "label": "涟水",
+      "spell": "lianshui"
     },
     {
-      "id": 977,
-      "nm": "珲春",
-      "py": "hunchun"
+      "value": 977,
+      "label": "珲春",
+      "spell": "hunchun"
     },
     {
-      "id": 982,
-      "nm": "舒城",
-      "py": "shucheng"
+      "value": 982,
+      "label": "舒城",
+      "spell": "shucheng"
     },
     {
-      "id": 980,
-      "nm": "凤台",
-      "py": "fengtai"
+      "value": 980,
+      "label": "凤台",
+      "spell": "fengtai"
     },
     {
-      "id": 981,
-      "nm": "长寿",
-      "py": "changshou"
+      "value": 981,
+      "label": "长寿",
+      "spell": "changshou"
     },
     {
-      "id": 971,
-      "nm": "大邑",
-      "py": "dayi"
+      "value": 971,
+      "label": "大邑",
+      "spell": "dayi"
     },
     {
-      "id": 970,
-      "nm": "潮安",
-      "py": "chaoan"
+      "value": 970,
+      "label": "潮安",
+      "spell": "chaoan"
     },
     {
-      "id": 975,
-      "nm": "霍邱",
-      "py": "huoqiu"
+      "value": 975,
+      "label": "霍邱",
+      "spell": "huoqiu"
     },
     {
-      "id": 974,
-      "nm": "砀山",
-      "py": "dangshan"
+      "value": 974,
+      "label": "砀山",
+      "spell": "dangshan"
     },
     {
-      "id": 973,
-      "nm": "武义",
-      "py": "wuyi"
+      "value": 973,
+      "label": "武义",
+      "spell": "wuyi"
     },
     {
-      "id": 972,
-      "nm": "平阳",
-      "py": "pingyang"
+      "value": 972,
+      "label": "平阳",
+      "spell": "pingyang"
     },
     {
-      "id": 963,
-      "nm": "集美",
-      "py": "jimei"
+      "value": 963,
+      "label": "集美",
+      "spell": "jimei"
     },
     {
-      "id": 962,
-      "nm": "同安",
-      "py": "tongan"
+      "value": 962,
+      "label": "同安",
+      "spell": "tongan"
     },
     {
-      "id": 961,
-      "nm": "新蔡",
-      "py": "xincai"
+      "value": 961,
+      "label": "新蔡",
+      "spell": "xincai"
     },
     {
-      "id": 960,
-      "nm": "平舆",
-      "py": "pingyu"
+      "value": 960,
+      "label": "平舆",
+      "spell": "pingyu"
     },
     {
-      "id": 967,
-      "nm": "瓦房店",
-      "py": "wafangdian"
+      "value": 967,
+      "label": "瓦房店",
+      "spell": "wafangdian"
     },
     {
-      "id": 966,
-      "nm": "汝阳",
-      "py": "ruyang"
+      "value": 966,
+      "label": "汝阳",
+      "spell": "ruyang"
     },
     {
-      "id": 965,
-      "nm": "嵩县",
-      "py": "songxian"
+      "value": 965,
+      "label": "嵩县",
+      "spell": "songxian"
     },
     {
-      "id": 964,
-      "nm": "海沧",
-      "py": "haicang"
+      "value": 964,
+      "label": "海沧",
+      "spell": "haicang"
     },
     {
-      "id": 1100,
-      "nm": "长丰县",
-      "py": "changfengxian"
+      "value": 1100,
+      "label": "长丰县",
+      "spell": "changfengxian"
     },
     {
-      "id": 1101,
-      "nm": "容县",
-      "py": "rongxian"
+      "value": 1101,
+      "label": "容县",
+      "spell": "rongxian"
     },
     {
-      "id": 1102,
-      "nm": "博白县",
-      "py": "bobaixian"
+      "value": 1102,
+      "label": "博白县",
+      "spell": "bobaixian"
     },
     {
-      "id": 1103,
-      "nm": "潢川县",
-      "py": "huangchuanxian"
+      "value": 1103,
+      "label": "潢川县",
+      "spell": "huangchuanxian"
     },
     {
-      "id": 1096,
-      "nm": "攸县",
-      "py": "youxian"
+      "value": 1096,
+      "label": "攸县",
+      "spell": "youxian"
     },
     {
-      "id": 1097,
-      "nm": "茶陵",
-      "py": "chalingxian"
+      "value": 1097,
+      "label": "茶陵",
+      "spell": "chalingxian"
     },
     {
-      "id": 1098,
-      "nm": "博罗县",
-      "py": "boluoxian"
+      "value": 1098,
+      "label": "博罗县",
+      "spell": "boluoxian"
     },
     {
-      "id": 1099,
-      "nm": "永顺县",
-      "py": "yongshunxian"
+      "value": 1099,
+      "label": "永顺县",
+      "spell": "yongshunxian"
     },
     {
-      "id": 1092,
-      "nm": "常宁市",
-      "py": "changningshi"
+      "value": 1092,
+      "label": "常宁市",
+      "spell": "changningshi"
     },
     {
-      "id": 1093,
-      "nm": "资兴市",
-      "py": "zixingshi"
+      "value": 1093,
+      "label": "资兴市",
+      "spell": "zixingshi"
     },
     {
-      "id": 1094,
-      "nm": "永兴县",
-      "py": "yongxingxian"
+      "value": 1094,
+      "label": "永兴县",
+      "spell": "yongxingxian"
     },
     {
-      "id": 1095,
-      "nm": "汝城县",
-      "py": "ruchengxian"
+      "value": 1095,
+      "label": "汝城县",
+      "spell": "ruchengxian"
     },
     {
-      "id": 1088,
-      "nm": "衡阳县",
-      "py": "hengyangxian"
+      "value": 1088,
+      "label": "衡阳县",
+      "spell": "hengyangxian"
     },
     {
-      "id": 1089,
-      "nm": "祁东县",
-      "py": "qidongxian"
+      "value": 1089,
+      "label": "祁东县",
+      "spell": "qvalueongxian"
     },
     {
-      "id": 1090,
-      "nm": "衡山县",
-      "py": "hengshanxian"
+      "value": 1090,
+      "label": "衡山县",
+      "spell": "hengshanxian"
     },
     {
-      "id": 1091,
-      "nm": "衡东县",
-      "py": "hengdongxian"
+      "value": 1091,
+      "label": "衡东县",
+      "spell": "hengdongxian"
     },
     {
-      "id": 1116,
-      "nm": "蒙自市",
-      "py": "mengzishi"
+      "value": 1116,
+      "label": "蒙自市",
+      "spell": "mengzishi"
     },
     {
-      "id": 1119,
-      "nm": "临澧",
-      "py": "linli"
+      "value": 1119,
+      "label": "临澧",
+      "spell": "linli"
     },
     {
-      "id": 1118,
-      "nm": "石门",
-      "py": "shimen"
+      "value": 1118,
+      "label": "石门",
+      "spell": "shimen"
     },
     {
-      "id": 1113,
-      "nm": "桑植",
-      "py": "sangzhi"
+      "value": 1113,
+      "label": "桑植",
+      "spell": "sangzhi"
     },
     {
-      "id": 1112,
-      "nm": "宁陵",
-      "py": "ninglingxian"
+      "value": 1112,
+      "label": "宁陵",
+      "spell": "ninglingxian"
     },
     {
-      "id": 1115,
-      "nm": "杞县",
-      "py": "qixiankaifeng"
+      "value": 1115,
+      "label": "杞县",
+      "spell": "qixiankaifeng"
     },
     {
-      "id": 1114,
-      "nm": "荣昌区",
-      "py": "rongchangqu"
+      "value": 1114,
+      "label": "荣昌区",
+      "spell": "rongchangqu"
     },
     {
-      "id": 1109,
-      "nm": "尉氏县",
-      "py": "weishixian"
+      "value": 1109,
+      "label": "尉氏县",
+      "spell": "weishixian"
     },
     {
-      "id": 1108,
-      "nm": "商城县",
-      "py": "shangchengxian"
+      "value": 1108,
+      "label": "商城县",
+      "spell": "shangchengxian"
     },
     {
-      "id": 1111,
-      "nm": "通许县",
-      "py": "tongxuxian"
+      "value": 1111,
+      "label": "通许县",
+      "spell": "tongxuxian"
     },
     {
-      "id": 1110,
-      "nm": "兰考县",
-      "py": "lankaoxian"
+      "value": 1110,
+      "label": "兰考县",
+      "spell": "lankaoxian"
     },
     {
-      "id": 1105,
-      "nm": "贺兰县",
-      "py": "helanxian"
+      "value": 1105,
+      "label": "贺兰县",
+      "spell": "helanxian"
     },
     {
-      "id": 1104,
-      "nm": "固始县",
-      "py": "gushixian"
+      "value": 1104,
+      "label": "固始县",
+      "spell": "gushixian"
     },
     {
-      "id": 1107,
-      "nm": "庆安县",
-      "py": "qinganxian"
+      "value": 1107,
+      "label": "庆安县",
+      "spell": "qinganxian"
     },
     {
-      "id": 1106,
-      "nm": "平罗县",
-      "py": "pingluoxian"
+      "value": 1106,
+      "label": "平罗县",
+      "spell": "pingluoxian"
     },
     {
-      "id": 1134,
-      "nm": "鄄城县",
-      "py": "juanchengxian"
+      "value": 1134,
+      "label": "鄄城县",
+      "spell": "juanchengxian"
     },
     {
-      "id": 1135,
-      "nm": "通榆县",
-      "py": "tongyuxian"
+      "value": 1135,
+      "label": "通榆县",
+      "spell": "tongyuxian"
     },
     {
-      "id": 1132,
-      "nm": "通海县",
-      "py": "tonghaixian"
+      "value": 1132,
+      "label": "通海县",
+      "spell": "tonghaixian"
     },
     {
-      "id": 1133,
-      "nm": "灵丘县",
-      "py": "lingqiuxian"
+      "value": 1133,
+      "label": "灵丘县",
+      "spell": "lingqiuxian"
     },
     {
-      "id": 1130,
-      "nm": "海伦市",
-      "py": "hailunshi"
+      "value": 1130,
+      "label": "海伦市",
+      "spell": "hailunshi"
     },
     {
-      "id": 1131,
-      "nm": "青冈县",
-      "py": "qinggangxian"
+      "value": 1131,
+      "label": "青冈县",
+      "spell": "qinggangxian"
     },
     {
-      "id": 1128,
-      "nm": "武隆县",
-      "py": "wulongxian"
+      "value": 1128,
+      "label": "武隆县",
+      "spell": "wulongxian"
     },
     {
-      "id": 1129,
-      "nm": "秀山土家族苗族自治县",
-      "py": "xiushantujiazumiaozuzizh"
+      "value": 1129,
+      "label": "秀山土家族苗族自治县",
+      "spell": "xiushantujiazumiaozuzizh"
     },
     {
-      "id": 1126,
-      "nm": "阿勒泰市",
-      "py": "aletaishi"
+      "value": 1126,
+      "label": "阿勒泰市",
+      "spell": "aletaishi"
     },
     {
-      "id": 1127,
-      "nm": "酉阳土家族苗族自治县",
-      "py": "youyangtujiazumiaozuzizh"
+      "value": 1127,
+      "label": "酉阳土家族苗族自治县",
+      "spell": "youyangtujiazumiaozuzizh"
     },
     {
-      "id": 1124,
-      "nm": "汉南区",
-      "py": "hannanqu"
+      "value": 1124,
+      "label": "汉南区",
+      "spell": "hannanqu"
     },
     {
-      "id": 1125,
-      "nm": "南郑区",
-      "py": "nanzhengxian"
+      "value": 1125,
+      "label": "南郑区",
+      "spell": "nanzhengxian"
     },
     {
-      "id": 1122,
-      "nm": "蒙城",
-      "py": "mengcheng"
+      "value": 1122,
+      "label": "蒙城",
+      "spell": "mengcheng"
     },
     {
-      "id": 1123,
-      "nm": "新洲区",
-      "py": "xinzhouqu"
+      "value": 1123,
+      "label": "新洲区",
+      "spell": "xinzhouqu"
     },
     {
-      "id": 1120,
-      "nm": "鄯善县",
-      "py": "shanshanxian"
+      "value": 1120,
+      "label": "鄯善县",
+      "spell": "shanshanxian"
     },
     {
-      "id": 1121,
-      "nm": "利辛",
-      "py": "lixin"
+      "value": 1121,
+      "label": "利辛",
+      "spell": "lixin"
     },
     {
-      "id": 1151,
-      "nm": "应县",
-      "py": "yingxian"
+      "value": 1151,
+      "label": "应县",
+      "spell": "yingxian"
     },
     {
-      "id": 1150,
-      "nm": "苍溪县",
-      "py": "cangxixian"
+      "value": 1150,
+      "label": "苍溪县",
+      "spell": "cangxixian"
     },
     {
-      "id": 1149,
-      "nm": "仙游县",
-      "py": "xianyouxian"
+      "value": 1149,
+      "label": "仙游县",
+      "spell": "xianyouxian"
     },
     {
-      "id": 1147,
-      "nm": "洛川县",
-      "py": "luochuanxian"
+      "value": 1147,
+      "label": "洛川县",
+      "spell": "luochuanxian"
     },
     {
-      "id": 1146,
-      "nm": "靖边",
-      "py": "jingbian"
+      "value": 1146,
+      "label": "靖边",
+      "spell": "jingbian"
     },
     {
-      "id": 1145,
-      "nm": "合江县",
-      "py": "hejiangxian"
+      "value": 1145,
+      "label": "合江县",
+      "spell": "hejiangxian"
     },
     {
-      "id": 1144,
-      "nm": "泸县",
-      "py": "luxian"
+      "value": 1144,
+      "label": "泸县",
+      "spell": "luxian"
     },
     {
-      "id": 1143,
-      "nm": "溧水区",
-      "py": "lishuiqu"
+      "value": 1143,
+      "label": "溧水区",
+      "spell": "lishuiqu"
     },
     {
-      "id": 1142,
-      "nm": "肥西县",
-      "py": "feixixian"
+      "value": 1142,
+      "label": "肥西县",
+      "spell": "feixixian"
     },
     {
-      "id": 1141,
-      "nm": "北镇市",
-      "py": "beizhenshi"
+      "value": 1141,
+      "label": "北镇市",
+      "spell": "beizhenshi"
     },
     {
-      "id": 1140,
-      "nm": "扎兰屯市",
-      "py": "zhalantunshi"
+      "value": 1140,
+      "label": "扎兰屯市",
+      "spell": "zhalantunshi"
     },
     {
-      "id": 1139,
-      "nm": "岐山县",
-      "py": "qishanxian"
+      "value": 1139,
+      "label": "岐山县",
+      "spell": "qishanxian"
     },
     {
-      "id": 1138,
-      "nm": "禄丰县",
-      "py": "lufengxian"
+      "value": 1138,
+      "label": "禄丰县",
+      "spell": "lufengxian"
     },
     {
-      "id": 1137,
-      "nm": "新野",
-      "py": "xinye"
+      "value": 1137,
+      "label": "新野",
+      "spell": "xinye"
     },
     {
-      "id": 1136,
-      "nm": "唐河",
-      "py": "tanghe"
+      "value": 1136,
+      "label": "唐河",
+      "spell": "tanghe"
     },
     {
-      "id": 1032,
-      "nm": "江川县",
-      "py": "jiangchuanxian"
+      "value": 1032,
+      "label": "江川县",
+      "spell": "jiangchuanxian"
     },
     {
-      "id": 1033,
-      "nm": "兴国县",
-      "py": "xingguoxian"
+      "value": 1033,
+      "label": "兴国县",
+      "spell": "xingguoxian"
     },
     {
-      "id": 1034,
-      "nm": "罗平县",
-      "py": "luopingxian"
+      "value": 1034,
+      "label": "罗平县",
+      "spell": "luopingxian"
     },
     {
-      "id": 1035,
-      "nm": "道县",
-      "py": "daoxian"
+      "value": 1035,
+      "label": "道县",
+      "spell": "daoxian"
     },
     {
-      "id": 1036,
-      "nm": "新田",
-      "py": "xintian"
+      "value": 1036,
+      "label": "新田",
+      "spell": "xintian"
     },
     {
-      "id": 1037,
-      "nm": "涟源市",
-      "py": "lianyuanshi"
+      "value": 1037,
+      "label": "涟源市",
+      "spell": "lianyuanshi"
     },
     {
-      "id": 1038,
-      "nm": "江华瑶族自治县",
-      "py": "jianghuayaozuzizhixian"
+      "value": 1038,
+      "label": "江华瑶族自治县",
+      "spell": "jianghuayaozuzizhixian"
     },
     {
-      "id": 1039,
-      "nm": "深州市",
-      "py": "shenzhoushi"
+      "value": 1039,
+      "label": "深州市",
+      "spell": "shenzhoushi"
     },
     {
-      "id": 1024,
-      "nm": "泗县",
-      "py": "sixian"
+      "value": 1024,
+      "label": "泗县",
+      "spell": "sixian"
     },
     {
-      "id": 1025,
-      "nm": "万载",
-      "py": "wanzai"
+      "value": 1025,
+      "label": "万载",
+      "spell": "wanzai"
     },
     {
-      "id": 1026,
-      "nm": "新干",
-      "py": "xingan"
+      "value": 1026,
+      "label": "新干",
+      "spell": "xingan"
     },
     {
-      "id": 1027,
-      "nm": "宜丰",
-      "py": "yifeng"
+      "value": 1027,
+      "label": "宜丰",
+      "spell": "yifeng"
     },
     {
-      "id": 1028,
-      "nm": "吉安县",
-      "py": "jianxian"
+      "value": 1028,
+      "label": "吉安县",
+      "spell": "jianxian"
     },
     {
-      "id": 1029,
-      "nm": "吉水县",
-      "py": "jishuixian"
+      "value": 1029,
+      "label": "吉水县",
+      "spell": "jishuixian"
     },
     {
-      "id": 1030,
-      "nm": "泰和县",
-      "py": "taihexian"
+      "value": 1030,
+      "label": "泰和县",
+      "spell": "taihexian"
     },
     {
-      "id": 1031,
-      "nm": "奉新",
-      "py": "fengxin"
+      "value": 1031,
+      "label": "奉新",
+      "spell": "fengxin"
     },
     {
-      "id": 1049,
-      "nm": "武平县",
-      "py": "wupingxian"
+      "value": 1049,
+      "label": "武平县",
+      "spell": "wupingxian"
     },
     {
-      "id": 1048,
-      "nm": "漳平",
-      "py": "zhangping"
+      "value": 1048,
+      "label": "漳平",
+      "spell": "zhangping"
     },
     {
-      "id": 1051,
-      "nm": "祥云县",
-      "py": "xiangyunxian"
+      "value": 1051,
+      "label": "祥云县",
+      "spell": "xiangyunxian"
     },
     {
-      "id": 1050,
-      "nm": "寻乌县",
-      "py": "xunwuxian"
+      "value": 1050,
+      "label": "寻乌县",
+      "spell": "xunwuxian"
     },
     {
-      "id": 1053,
-      "nm": "南部县",
-      "py": "nanbuxian"
+      "value": 1053,
+      "label": "南部县",
+      "spell": "nanbuxian"
     },
     {
-      "id": 1052,
-      "nm": "方城",
-      "py": "fangcheng"
+      "value": 1052,
+      "label": "方城",
+      "spell": "fangcheng"
     },
     {
-      "id": 1055,
-      "nm": "商水县",
-      "py": "shangshuixian"
+      "value": 1055,
+      "label": "商水县",
+      "spell": "shangshuixian"
     },
     {
-      "id": 1054,
-      "nm": "太康县",
-      "py": "taikangxian"
+      "value": 1054,
+      "label": "太康县",
+      "spell": "taikangxian"
     },
     {
-      "id": 1041,
-      "nm": "铜鼓",
-      "py": "tonggu"
+      "value": 1041,
+      "label": "铜鼓",
+      "spell": "tonggu"
     },
     {
-      "id": 1040,
-      "nm": "庐江县",
-      "py": "lujiangxian"
+      "value": 1040,
+      "label": "庐江县",
+      "spell": "lujiangxian"
     },
     {
-      "id": 1043,
-      "nm": "营山县",
-      "py": "yingshanxian"
+      "value": 1043,
+      "label": "营山县",
+      "spell": "yingshanxian"
     },
     {
-      "id": 1042,
-      "nm": "怀远县",
-      "py": "huaiyuanxian"
+      "value": 1042,
+      "label": "怀远县",
+      "spell": "huaiyuanxian"
     },
     {
-      "id": 1045,
-      "nm": "上林县",
-      "py": "shanglinxian"
+      "value": 1045,
+      "label": "上林县",
+      "spell": "shanglinxian"
     },
     {
-      "id": 1044,
-      "nm": "田东县",
-      "py": "tiandongxian"
+      "value": 1044,
+      "label": "田东县",
+      "spell": "tiandongxian"
     },
     {
-      "id": 1047,
-      "nm": "永安",
-      "py": "yongan"
+      "value": 1047,
+      "label": "永安",
+      "spell": "yongan"
     },
     {
-      "id": 1046,
-      "nm": "威县",
-      "py": "weixian"
+      "value": 1046,
+      "label": "威县",
+      "spell": "weixian"
     },
     {
-      "id": 1066,
-      "nm": "富源县",
-      "py": "fuyuanxian"
+      "value": 1066,
+      "label": "富源县",
+      "spell": "fuyuanxian"
     },
     {
-      "id": 1067,
-      "nm": "遂川",
-      "py": "suichuan"
+      "value": 1067,
+      "label": "遂川",
+      "spell": "suichuan"
     },
     {
-      "id": 1064,
-      "nm": "隆回",
-      "py": "longhui"
+      "value": 1064,
+      "label": "隆回",
+      "spell": "longhui"
     },
     {
-      "id": 1065,
-      "nm": "会泽县",
-      "py": "huizexian"
+      "value": 1065,
+      "label": "会泽县",
+      "spell": "huizexian"
     },
     {
-      "id": 1070,
-      "nm": "分宜",
-      "py": "fenyi"
+      "value": 1070,
+      "label": "分宜",
+      "spell": "fenyi"
     },
     {
-      "id": 1071,
-      "nm": "上栗",
-      "py": "shangli"
+      "value": 1071,
+      "label": "上栗",
+      "spell": "shangli"
     },
     {
-      "id": 1068,
-      "nm": "安福",
-      "py": "anfu"
+      "value": 1068,
+      "label": "安福",
+      "spell": "anfu"
     },
     {
-      "id": 1069,
-      "nm": "永丰",
-      "py": "yongfeng"
+      "value": 1069,
+      "label": "永丰",
+      "spell": "yongfeng"
     },
     {
-      "id": 1058,
-      "nm": "鄢陵",
-      "py": "yanling"
+      "value": 1058,
+      "label": "鄢陵",
+      "spell": "yanling"
     },
     {
-      "id": 1059,
-      "nm": "晋宁区",
-      "py": "jinningqu"
+      "value": 1059,
+      "label": "晋宁区",
+      "spell": "jinningqu"
     },
     {
-      "id": 1056,
-      "nm": "临颍",
-      "py": "linying"
+      "value": 1056,
+      "label": "临颍",
+      "spell": "linying"
     },
     {
-      "id": 1057,
-      "nm": "襄城县",
-      "py": "xiangchengxian"
+      "value": 1057,
+      "label": "襄城县",
+      "spell": "xiangchengxian"
     },
     {
-      "id": 1062,
-      "nm": "双峰",
-      "py": "shuangfeng"
+      "value": 1062,
+      "label": "双峰",
+      "spell": "shuangfeng"
     },
     {
-      "id": 1063,
-      "nm": "新宁",
-      "py": "xinning"
+      "value": 1063,
+      "label": "新宁",
+      "spell": "xinning"
     },
     {
-      "id": 1060,
-      "nm": "蓝山",
-      "py": "lanshan"
+      "value": 1060,
+      "label": "蓝山",
+      "spell": "lanshan"
     },
     {
-      "id": 1061,
-      "nm": "江永",
-      "py": "jiangyong"
+      "value": 1061,
+      "label": "江永",
+      "spell": "jiangyong"
     },
     {
-      "id": 1083,
-      "nm": "隆化县",
-      "py": "longhuaxian"
+      "value": 1083,
+      "label": "隆化县",
+      "spell": "longhuaxian"
     },
     {
-      "id": 1082,
-      "nm": "献县",
-      "py": "xianxian"
+      "value": 1082,
+      "label": "献县",
+      "spell": "xianxian"
     },
     {
-      "id": 1081,
-      "nm": "肃宁县",
-      "py": "suningxian"
+      "value": 1081,
+      "label": "肃宁县",
+      "spell": "suningxian"
     },
     {
-      "id": 1080,
-      "nm": "河间市",
-      "py": "hejianshi"
+      "value": 1080,
+      "label": "河间市",
+      "spell": "hejianshi"
     },
     {
-      "id": 1087,
-      "nm": "洛宁",
-      "py": "luoningxian"
+      "value": 1087,
+      "label": "洛宁",
+      "spell": "luoningxian"
     },
     {
-      "id": 1086,
-      "nm": "合浦县",
-      "py": "hepuxian"
+      "value": 1086,
+      "label": "合浦县",
+      "spell": "hepuxian"
     },
     {
-      "id": 1085,
-      "nm": "建水县",
-      "py": "jianshuixian"
+      "value": 1085,
+      "label": "建水县",
+      "spell": "jianshuixian"
     },
     {
-      "id": 1084,
-      "nm": "扶绥县",
-      "py": "fusuixian"
+      "value": 1084,
+      "label": "扶绥县",
+      "spell": "fusuixian"
     },
     {
-      "id": 1075,
-      "nm": "南皮县",
-      "py": "nanpixian"
+      "value": 1075,
+      "label": "南皮县",
+      "spell": "nanpixian"
     },
     {
-      "id": 1074,
-      "nm": "泊头市",
-      "py": "botou"
+      "value": 1074,
+      "label": "泊头市",
+      "spell": "botou"
     },
     {
-      "id": 1073,
-      "nm": "芦溪",
-      "py": "luxi"
+      "value": 1073,
+      "label": "芦溪",
+      "spell": "luxi"
     },
     {
-      "id": 1072,
-      "nm": "永新",
-      "py": "yongxin"
+      "value": 1072,
+      "label": "永新",
+      "spell": "yongxin"
     },
     {
-      "id": 1079,
-      "nm": "卢氏县",
-      "py": "lushixian"
+      "value": 1079,
+      "label": "卢氏县",
+      "spell": "lushixian"
     },
     {
-      "id": 1078,
-      "nm": "慈利",
-      "py": "cili"
+      "value": 1078,
+      "label": "慈利",
+      "spell": "cili"
     },
     {
-      "id": 1077,
-      "nm": "莎车县",
-      "py": "shachexian"
+      "value": 1077,
+      "label": "莎车县",
+      "spell": "shachexian"
     },
     {
-      "id": 1076,
-      "nm": "大安市",
-      "py": "daanshi"
+      "value": 1076,
+      "label": "大安市",
+      "spell": "daanshi"
     },
     {
-      "id": 1220,
-      "nm": "青阳县",
-      "py": "qingyangxian"
+      "value": 1220,
+      "label": "青阳县",
+      "spell": "qingyangxian"
     },
     {
-      "id": 1223,
-      "nm": "武冈市",
-      "py": "wugangshi"
+      "value": 1223,
+      "label": "武冈市",
+      "spell": "wugangshi"
     },
     {
-      "id": 1222,
-      "nm": "明水县",
-      "py": "mingshuixian"
+      "value": 1222,
+      "label": "明水县",
+      "spell": "mingshuixian"
     },
     {
-      "id": 1217,
-      "nm": "望奎县",
-      "py": "wangkuixian"
+      "value": 1217,
+      "label": "望奎县",
+      "spell": "wangkuixian"
     },
     {
-      "id": 1216,
-      "nm": "米易县",
-      "py": "miyixian"
+      "value": 1216,
+      "label": "米易县",
+      "spell": "miyixian"
     },
     {
-      "id": 1219,
-      "nm": "闽侯县",
-      "py": "minhouxian"
+      "value": 1219,
+      "label": "闽侯县",
+      "spell": "minhouxian"
     },
     {
-      "id": 1218,
-      "nm": "宜良县",
-      "py": "yiliangxian"
+      "value": 1218,
+      "label": "宜良县",
+      "spell": "yiliangxian"
     },
     {
-      "id": 1229,
-      "nm": "阿荣旗",
-      "py": "arongqi"
+      "value": 1229,
+      "label": "阿荣旗",
+      "spell": "arongqi"
     },
     {
-      "id": 1228,
-      "nm": "山丹县",
-      "py": "shandanxian"
+      "value": 1228,
+      "label": "山丹县",
+      "spell": "shandanxian"
     },
     {
-      "id": 1231,
-      "nm": "丰都",
-      "py": "fengdu"
+      "value": 1231,
+      "label": "丰都",
+      "spell": "fengdu"
     },
     {
-      "id": 1230,
-      "nm": "奉节",
-      "py": "fengjie"
+      "value": 1230,
+      "label": "奉节",
+      "spell": "fengjie"
     },
     {
-      "id": 1225,
-      "nm": "陆川县",
-      "py": "luchuanxian"
+      "value": 1225,
+      "label": "陆川县",
+      "spell": "luchuanxian"
     },
     {
-      "id": 1224,
-      "nm": "宁远县",
-      "py": "ningyuanxian"
+      "value": 1224,
+      "label": "宁远县",
+      "spell": "ningyuanxian"
     },
     {
-      "id": 1227,
-      "nm": "康县",
-      "py": "kangxian"
+      "value": 1227,
+      "label": "康县",
+      "spell": "kangxian"
     },
     {
-      "id": 1226,
-      "nm": "平南县",
-      "py": "pingnanxian"
+      "value": 1226,
+      "label": "平南县",
+      "spell": "pingnanxian"
     },
     {
-      "id": 1239,
-      "nm": "光山县",
-      "py": "guangshanxian"
+      "value": 1239,
+      "label": "光山县",
+      "spell": "guangshanxian"
     },
     {
-      "id": 1232,
-      "nm": "彭水苗族土家族自治县",
-      "py": "pengshuizizhixian"
+      "value": 1232,
+      "label": "彭水苗族土家族自治县",
+      "spell": "pengshuizizhixian"
     },
     {
-      "id": 1233,
-      "nm": "大厂回族自治县",
-      "py": "dachangzizhixian"
+      "value": 1233,
+      "label": "大厂回族自治县",
+      "spell": "dachangzizhixian"
     },
     {
-      "id": 1234,
-      "nm": "横山区",
-      "py": "hengshanqu"
+      "value": 1234,
+      "label": "横山区",
+      "spell": "hengshanqu"
     },
     {
-      "id": 1244,
-      "nm": "孝昌县",
-      "py": "xiaochangxian"
+      "value": 1244,
+      "label": "孝昌县",
+      "spell": "xiaochangxian"
     },
     {
-      "id": 1245,
-      "nm": "安陆市",
-      "py": "anlushi"
+      "value": 1245,
+      "label": "安陆市",
+      "spell": "anlushi"
     },
     {
-      "id": 1246,
-      "nm": "镇雄县",
-      "py": "zhenxiongxian"
+      "value": 1246,
+      "label": "镇雄县",
+      "spell": "zhenxiongxian"
     },
     {
-      "id": 1247,
-      "nm": "临泉县",
-      "py": "linquanxian"
+      "value": 1247,
+      "label": "临泉县",
+      "spell": "linquanxian"
     },
     {
-      "id": 1240,
-      "nm": "绥宁县",
-      "py": "suiningxiansnx"
+      "value": 1240,
+      "label": "绥宁县",
+      "spell": "suiningxiansnx"
     },
     {
-      "id": 1241,
-      "nm": "肥东县",
-      "py": "feidongxian"
+      "value": 1241,
+      "label": "肥东县",
+      "spell": "fevalueongxian"
     },
     {
-      "id": 1242,
-      "nm": "定远县",
-      "py": "dingyuanxian"
+      "value": 1242,
+      "label": "定远县",
+      "spell": "dingyuanxian"
     },
     {
-      "id": 1243,
-      "nm": "大悟县",
-      "py": "dawuxia"
+      "value": 1243,
+      "label": "大悟县",
+      "spell": "dawuxia"
     },
     {
-      "id": 1255,
-      "nm": "武定",
-      "py": "wuding"
+      "value": 1255,
+      "label": "武定",
+      "spell": "wuding"
     },
     {
-      "id": 1254,
-      "nm": "禄劝彝族苗族自治县",
-      "py": "luquanxian"
+      "value": 1254,
+      "label": "禄劝彝族苗族自治县",
+      "spell": "luquanxian"
     },
     {
-      "id": 1250,
-      "nm": "遂平",
-      "py": "suiping"
+      "value": 1250,
+      "label": "遂平",
+      "spell": "suiping"
     },
     {
-      "id": 1249,
-      "nm": "双城",
-      "py": "shuangcheng"
+      "value": 1249,
+      "label": "双城",
+      "spell": "shuangcheng"
     },
     {
-      "id": 1248,
-      "nm": "息县",
-      "py": "xixian"
+      "value": 1248,
+      "label": "息县",
+      "spell": "xixian"
     },
     {
-      "id": 1263,
-      "nm": "九台",
-      "py": "jiutai"
+      "value": 1263,
+      "label": "九台",
+      "spell": "jiutai"
     },
     {
-      "id": 1262,
-      "nm": "瑞丽",
-      "py": "ruili"
+      "value": 1262,
+      "label": "瑞丽",
+      "spell": "ruili"
     },
     {
-      "id": 1261,
-      "nm": "萧县",
-      "py": "xiaoxian"
+      "value": 1261,
+      "label": "萧县",
+      "spell": "xiaoxian"
     },
     {
-      "id": 1260,
-      "nm": "清镇",
-      "py": "qingzhen"
+      "value": 1260,
+      "label": "清镇",
+      "spell": "qingzhen"
     },
     {
-      "id": 1259,
-      "nm": "中宁县",
-      "py": "zhongningxian"
+      "value": 1259,
+      "label": "中宁县",
+      "spell": "zhongningxian"
     },
     {
-      "id": 1258,
-      "nm": "普兰店",
-      "py": "pulandian"
+      "value": 1258,
+      "label": "普兰店",
+      "spell": "pulandian"
     },
     {
-      "id": 1256,
-      "nm": "屯昌县",
-      "py": "tunchangxian"
+      "value": 1256,
+      "label": "屯昌县",
+      "spell": "tunchangxian"
     },
     {
-      "id": 1270,
-      "nm": "嵩明县",
-      "py": "songmingxian"
+      "value": 1270,
+      "label": "嵩明县",
+      "spell": "songmingxian"
     },
     {
-      "id": 1271,
-      "nm": "德惠市",
-      "py": "dehuishi"
+      "value": 1271,
+      "label": "德惠市",
+      "spell": "dehuishi"
     },
     {
-      "id": 1268,
-      "nm": "大足区",
-      "py": "dazuqu"
+      "value": 1268,
+      "label": "大足区",
+      "spell": "dazuqu"
     },
     {
-      "id": 1269,
-      "nm": "澄迈县",
-      "py": "chengmaixian"
+      "value": 1269,
+      "label": "澄迈县",
+      "spell": "chengmaixian"
     },
     {
-      "id": 1266,
-      "nm": "清徐",
-      "py": "qingxu"
+      "value": 1266,
+      "label": "清徐",
+      "spell": "qingxu"
     },
     {
-      "id": 1267,
-      "nm": "迁西县",
-      "py": "qianxixian"
+      "value": 1267,
+      "label": "迁西县",
+      "spell": "qianxixian"
     },
     {
-      "id": 1264,
-      "nm": "南川",
-      "py": "nanchuan"
+      "value": 1264,
+      "label": "南川",
+      "spell": "nanchuan"
     },
     {
-      "id": 1265,
-      "nm": "綦江",
-      "py": "qijiang"
+      "value": 1265,
+      "label": "綦江",
+      "spell": "qijiang"
     },
     {
-      "id": 1276,
-      "nm": "企石镇",
-      "py": "qishizhen"
+      "value": 1276,
+      "label": "企石镇",
+      "spell": "qishizhen"
     },
     {
-      "id": 1277,
-      "nm": "谢岗镇",
-      "py": "xiegangzhen"
+      "value": 1277,
+      "label": "谢岗镇",
+      "spell": "xiegangzhen"
     },
     {
-      "id": 1274,
-      "nm": "固安县",
-      "py": "guanxian"
+      "value": 1274,
+      "label": "固安县",
+      "spell": "guanxian"
     },
     {
-      "id": 1275,
-      "nm": "东坑镇",
-      "py": "dongkengzhen"
+      "value": 1275,
+      "label": "东坑镇",
+      "spell": "dongkengzhen"
     },
     {
-      "id": 1272,
-      "nm": "石林彝族自治县",
-      "py": "shilinxian"
+      "value": 1272,
+      "label": "石林彝族自治县",
+      "spell": "shilinxian"
     },
     {
-      "id": 1273,
-      "nm": "玉田县",
-      "py": "yutianxian"
+      "value": 1273,
+      "label": "玉田县",
+      "spell": "yutianxian"
     },
     {
-      "id": 1153,
-      "nm": "嘉鱼县",
-      "py": "jiayuxian"
+      "value": 1153,
+      "label": "嘉鱼县",
+      "spell": "jiayuxian"
     },
     {
-      "id": 1152,
-      "nm": "凤翔县",
-      "py": "fengxiangxian"
+      "value": 1152,
+      "label": "凤翔县",
+      "spell": "fengxiangxian"
     },
     {
-      "id": 1155,
-      "nm": "绥德县",
-      "py": "suidexian"
+      "value": 1155,
+      "label": "绥德县",
+      "spell": "suvalueexian"
     },
     {
-      "id": 1157,
-      "nm": "长清区",
-      "py": "changqingqu"
+      "value": 1157,
+      "label": "长清区",
+      "spell": "changqingqu"
     },
     {
-      "id": 1156,
-      "nm": "平阴县",
-      "py": "pingyinxian"
+      "value": 1156,
+      "label": "平阴县",
+      "spell": "pingyinxian"
     },
     {
-      "id": 1159,
-      "nm": "阳山县",
-      "py": "yangshanxian"
+      "value": 1159,
+      "label": "阳山县",
+      "spell": "yangshanxian"
     },
     {
-      "id": 1158,
-      "nm": "沙县",
-      "py": "shaxian"
+      "value": 1158,
+      "label": "沙县",
+      "spell": "shaxian"
     },
     {
-      "id": 1160,
-      "nm": "榆树市",
-      "py": "yushushi"
+      "value": 1160,
+      "label": "榆树市",
+      "spell": "yushushi"
     },
     {
-      "id": 1163,
-      "nm": "罗定市",
-      "py": "luodingshi"
+      "value": 1163,
+      "label": "罗定市",
+      "spell": "luodingshi"
     },
     {
-      "id": 1162,
-      "nm": "沅陵县",
-      "py": "yuanlingxian"
+      "value": 1162,
+      "label": "沅陵县",
+      "spell": "yuanlingxian"
     },
     {
-      "id": 1165,
-      "nm": "北安市",
-      "py": "beianshi"
+      "value": 1165,
+      "label": "北安市",
+      "spell": "beianshi"
     },
     {
-      "id": 1164,
-      "nm": "崇明区",
-      "py": "chongmingqu"
+      "value": 1164,
+      "label": "崇明区",
+      "spell": "chongmingqu"
     },
     {
-      "id": 1167,
-      "nm": "新津县",
-      "py": "xinjinxian"
+      "value": 1167,
+      "label": "新津县",
+      "spell": "xinjinxian"
     },
     {
-      "id": 1166,
-      "nm": "嫩江县",
-      "py": "nenjiangxian"
+      "value": 1166,
+      "label": "嫩江县",
+      "spell": "nenjiangxian"
     },
     {
-      "id": 1168,
-      "nm": "定安县",
-      "py": "dinganxian"
+      "value": 1168,
+      "label": "定安县",
+      "spell": "dinganxian"
     },
     {
-      "id": 1169,
-      "nm": "永登县",
-      "py": "yongdengxian"
+      "value": 1169,
+      "label": "永登县",
+      "spell": "yongdengxian"
     },
     {
-      "id": 1170,
-      "nm": "琼中",
-      "py": "qiongzhong"
+      "value": 1170,
+      "label": "琼中",
+      "spell": "qiongzhong"
     },
     {
-      "id": 1171,
-      "nm": "乐东",
-      "py": "ledong"
+      "value": 1171,
+      "label": "乐东",
+      "spell": "ledong"
     },
     {
-      "id": 1172,
-      "nm": "额敏县",
-      "py": "eminxian"
+      "value": 1172,
+      "label": "额敏县",
+      "spell": "eminxian"
     },
     {
-      "id": 1174,
-      "nm": "光泽",
-      "py": "guangze"
+      "value": 1174,
+      "label": "光泽",
+      "spell": "guangze"
     },
     {
-      "id": 1175,
-      "nm": "平陆县",
-      "py": "pingluxian"
+      "value": 1175,
+      "label": "平陆县",
+      "spell": "pingluxian"
     },
     {
-      "id": 1176,
-      "nm": "深泽县",
-      "py": "shenzexian"
+      "value": 1176,
+      "label": "深泽县",
+      "spell": "shenzexian"
     },
     {
-      "id": 1177,
-      "nm": "垫江",
-      "py": "dianjiang"
+      "value": 1177,
+      "label": "垫江",
+      "spell": "dianjiang"
     },
     {
-      "id": 1178,
-      "nm": "梁平",
-      "py": "liangping"
+      "value": 1178,
+      "label": "梁平",
+      "spell": "liangping"
     },
     {
-      "id": 1179,
-      "nm": "忠县",
-      "py": "zhongxian"
+      "value": 1179,
+      "label": "忠县",
+      "spell": "zhongxian"
     },
     {
-      "id": 1180,
-      "nm": "石柱",
-      "py": "shizhu"
+      "value": 1180,
+      "label": "石柱",
+      "spell": "shizhu"
     },
     {
-      "id": 1181,
-      "nm": "鱼台县",
-      "py": "yutaixian"
+      "value": 1181,
+      "label": "鱼台县",
+      "spell": "yutaixian"
     },
     {
-      "id": 1182,
-      "nm": "宜州区",
-      "py": "yizhouqu"
+      "value": 1182,
+      "label": "宜州区",
+      "spell": "yizhouqu"
     },
     {
-      "id": 1183,
-      "nm": "临高县",
-      "py": "lingaoxian"
+      "value": 1183,
+      "label": "临高县",
+      "spell": "lingaoxian"
     },
     {
-      "id": 1187,
-      "nm": "五常市",
-      "py": "wuchangshi"
+      "value": 1187,
+      "label": "五常市",
+      "spell": "wuchangshi"
     },
     {
-      "id": 1186,
-      "nm": "义马市",
-      "py": "yimashi"
+      "value": 1186,
+      "label": "义马市",
+      "spell": "yimashi"
     },
     {
-      "id": 1185,
-      "nm": "环县",
-      "py": "huanxian"
+      "value": 1185,
+      "label": "环县",
+      "spell": "huanxian"
     },
     {
-      "id": 1184,
-      "nm": "罗源县",
-      "py": "luoyuanxian"
+      "value": 1184,
+      "label": "罗源县",
+      "spell": "luoyuanxian"
     },
     {
-      "id": 1189,
-      "nm": "邵武",
-      "py": "shaowu"
+      "value": 1189,
+      "label": "邵武",
+      "spell": "shaowu"
     },
     {
-      "id": 1188,
-      "nm": "祁县",
-      "py": "jzqixian"
+      "value": 1188,
+      "label": "祁县",
+      "spell": "jzqixian"
     },
     {
-      "id": 1195,
-      "nm": "福安",
-      "py": "fuan"
+      "value": 1195,
+      "label": "福安",
+      "spell": "fuan"
     },
     {
-      "id": 1194,
-      "nm": "精河县",
-      "py": "jinghexian"
+      "value": 1194,
+      "label": "精河县",
+      "spell": "jinghexian"
     },
     {
-      "id": 1193,
-      "nm": "巴彦县",
-      "py": "bayanxian"
+      "value": 1193,
+      "label": "巴彦县",
+      "spell": "bayanxian"
     },
     {
-      "id": 1192,
-      "nm": "寿县",
-      "py": "shouxian"
+      "value": 1192,
+      "label": "寿县",
+      "spell": "shouxian"
     },
     {
-      "id": 1199,
-      "nm": "盂县",
-      "py": "yuxian"
+      "value": 1199,
+      "label": "盂县",
+      "spell": "yuxian"
     },
     {
-      "id": 1198,
-      "nm": "永嘉县",
-      "py": "yongjiaxian"
+      "value": 1198,
+      "label": "永嘉县",
+      "spell": "yongjiaxian"
     },
     {
-      "id": 1197,
-      "nm": "靖西市",
-      "py": "jingxixian"
+      "value": 1197,
+      "label": "靖西市",
+      "spell": "jingxixian"
     },
     {
-      "id": 1196,
-      "nm": "柘荣",
-      "py": "zherong"
+      "value": 1196,
+      "label": "柘荣",
+      "spell": "zherong"
     },
     {
-      "id": 1202,
-      "nm": "福鼎市",
-      "py": "fudingshi"
+      "value": 1202,
+      "label": "福鼎市",
+      "spell": "fudingshi"
     },
     {
-      "id": 1203,
-      "nm": "东明县",
-      "py": "dongmingxian"
+      "value": 1203,
+      "label": "东明县",
+      "spell": "dongmingxian"
     },
     {
-      "id": 1200,
-      "nm": "中江县",
-      "py": "zhongjiangxian"
+      "value": 1200,
+      "label": "中江县",
+      "spell": "zhongjiangxian"
     },
     {
-      "id": 1201,
-      "nm": "成武县",
-      "py": "chengwuxian"
+      "value": 1201,
+      "label": "成武县",
+      "spell": "chengwuxian"
     },
     {
-      "id": 1206,
-      "nm": "黄陵县",
-      "py": "huanglingxian"
+      "value": 1206,
+      "label": "黄陵县",
+      "spell": "huanglingxian"
     },
     {
-      "id": 1207,
-      "nm": "旺苍县",
-      "py": "wangcangxian"
+      "value": 1207,
+      "label": "旺苍县",
+      "spell": "wangcangxian"
     },
     {
-      "id": 1204,
-      "nm": "定陶区",
-      "py": "dingtaoqu"
+      "value": 1204,
+      "label": "定陶区",
+      "spell": "dingtaoqu"
     },
     {
-      "id": 1205,
-      "nm": "澄江县",
-      "py": "chengjiangxian"
+      "value": 1205,
+      "label": "澄江县",
+      "spell": "chengjiangxian"
     },
     {
-      "id": 1210,
-      "nm": "勐腊县",
-      "py": "menglaxian"
+      "value": 1210,
+      "label": "勐腊县",
+      "spell": "menglaxian"
     },
     {
-      "id": 1211,
-      "nm": "三台县",
-      "py": "santaixian"
+      "value": 1211,
+      "label": "三台县",
+      "spell": "santaixian"
     },
     {
-      "id": 1208,
-      "nm": "定边县",
-      "py": "dingbianxian"
+      "value": 1208,
+      "label": "定边县",
+      "spell": "dingbianxian"
     },
     {
-      "id": 1209,
-      "nm": "府谷县",
-      "py": "fuguxian"
+      "value": 1209,
+      "label": "府谷县",
+      "spell": "fuguxian"
     },
     {
-      "id": 1214,
-      "nm": "平昌县",
-      "py": "pingchangxian"
+      "value": 1214,
+      "label": "平昌县",
+      "spell": "pingchangxian"
     },
     {
-      "id": 1215,
-      "nm": "通江县",
-      "py": "tongjiangxian"
+      "value": 1215,
+      "label": "通江县",
+      "spell": "tongjiangxian"
     },
     {
-      "id": 1212,
-      "nm": "安州区",
-      "py": "anzhouqu"
+      "value": 1212,
+      "label": "安州区",
+      "spell": "anzhouqu"
     },
     {
-      "id": 1213,
-      "nm": "旬阳县",
-      "py": "xunyangxian"
+      "value": 1213,
+      "label": "旬阳县",
+      "spell": "xunyangxian"
     },
     {
-      "id": 1280,
-      "nm": "阿城区",
-      "py": "achengqu"
+      "value": 1280,
+      "label": "阿城区",
+      "spell": "achengqu"
     },
     {
-      "id": 1281,
-      "nm": "灵武市",
-      "py": "lingwushi"
+      "value": 1281,
+      "label": "灵武市",
+      "spell": "lingwushi"
     },
     {
-      "id": 8001,
-      "nm": "华容",
-      "py": "huarong"
+      "value": 8001,
+      "label": "华容",
+      "spell": "huarong"
     }
   ]
 }

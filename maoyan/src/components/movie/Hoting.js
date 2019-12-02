@@ -15,9 +15,7 @@ export default class Hoting extends React.Component{
     }
 
     async componentDidMount() {
-
         const {data} = await axios.get("/ajax/movieOnInfoList")
-        console.log(data.movieList)
         this.setState({
             movieList:data.movieList,
         })

@@ -2,7 +2,8 @@ import React from 'react'
 import axios from 'axios'
 import DetailHeader from "../common/DetailHeader";
 import '../../assets/css/movieDetail/movieDetail.css'
-import {withRouter} from 'react-router-dom'
+import {withRouter} from 'react-router-dom';
+import Advert from "../common/Advert";
 
 class MovieDetail extends React.Component {
     constructor(props) {
@@ -16,7 +17,7 @@ class MovieDetail extends React.Component {
     render(props) {
         const movieDetail = this.state.movieDetail
         return (
-            <>
+            <><Advert ></Advert>
                 <DetailHeader pageTitle={movieDetail.nm}></DetailHeader>
                 {this.state.movieDetail.img ?
                     <div className="movie-detail">

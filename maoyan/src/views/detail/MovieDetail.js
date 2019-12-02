@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import "../../assets/css/detail/movieDetail.css";
 import Discussion from "../../components/discussion/Discussion";
+import Advert from "../../components/common/Advert"
 
 export default class MovieDetail extends React.Component {
   constructor() {
@@ -13,6 +14,8 @@ export default class MovieDetail extends React.Component {
   }
   render() {
     return this.state.detailMovie.img ? (
+      <div>
+        <Advert></Advert>
       <div className="movie-page">
         <div
           className={"movie-info"}
@@ -106,6 +109,7 @@ export default class MovieDetail extends React.Component {
           </div>
         </div>
         <Discussion/>
+      </div>
       </div>
     ) : null;
   }

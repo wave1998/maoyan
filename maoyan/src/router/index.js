@@ -2,7 +2,7 @@ import Home from '../views/Home'
 import Login from "../views/Login";
 import NotFound from "../views/NotFound";
 import Search from "../views/search/Search";
-import Location from "../views/Location";
+import Location from "../views/CityList";
 import CinemaDetail from "../views/detail/CinemaDetail";
 import MovieDetail from "../views/detail/MovieDetail";
 import MyOrder from "../views/my/MyOrder";

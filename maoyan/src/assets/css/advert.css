@@ -1,0 +1,50 @@
+.download-app-bar {
+     z-index: 100;
+     position:relative;
+     height: 63px;
+     background-color: #fff;
+     border-bottom: 1px solid #e6e6e6;
+     /* top:50px; */
+     width: 100%;
+ }
+ .download-app-bar .app-name-desc {
+     position: absolute;
+     left: 66px;
+     top: 13px;
+     text-align: left;
+ }
+ .download-app-bar .app-name-desc .app-name {
+     font-size: 17px;
+     color: #222;
+     line-height: 23px;
+ }
+ .download-app-bar .app-name-desc .app-desc {
+     font-size: 12px;
+     color: #999;
+ }
+ .btn-open-app {
+     position: absolute;
+     right: 15px;
+     top: 17px;
+     width: 68px;
+     height: 30px;
+     line-height: 30px;
+     text-align: center;
+     background: #ef4238;
+     border-radius: 3px;
+     font-size: 13px;
+     color: #fff;
+ }
+ .download-app-bar img.logo {
+     position: absolute;
+     left: 15px;
+     top: 11px;
+     width: 44px;
+     height: 44px;
+ }
+ .footer-wrap{
+display:none;
+ }
+ .footer-box{
+display:block;
+ }

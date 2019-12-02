@@ -6,6 +6,7 @@
 /*    right: 0;*/
 /*    position: fixed;*/
 /*}*/
+/*@import '~antd/dist/antd.css';*/
 .list .wrap_content{
     overflow: hidden;
     height: 100%;

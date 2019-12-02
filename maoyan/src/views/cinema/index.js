@@ -4,11 +4,14 @@ import CommonHeader from '../../components/common/CommonHeader'
 import CinemaList from "../../components/cinema/CinemaList";
 import NavWrap from '../../components/cinema/NavWrap'
 import "../../assets/css/cinema/cinema.css"
+import store from '../../store'
 export default class Cinema extends React.Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state={
-            cinemaList:[]
+            cinemaList:[],
+            cityId:store.getState().city.presentCityId,
+            cityName:store.getState().city.presentCityName,
         }
     }
     render() {
@@ -19,8 +22,8 @@ export default class Cinema extends React.Component{
                     <div className="cinemaSearch">
                         <div className="gray-bg">
                             {/*下面这个div有一个点击事件，跳转到城市列表*/}
-                            <div className="entry-city">
-                                <span>{"城市名"}</span>
+                            <div className="entry-city" onClick={()=>this.props.history.push("/location")}>
+                                <span>{this.state.cityName}</span>
                                 {/*<i className="yo-ico">&#xf033;</i>*/}
                             </div>
                             {/*下面这个点击跳转到搜索影院界面*/}
@@ -39,7 +42,15 @@ export default class Cinema extends React.Component{
         )
     }
     async componentDidMount() {
-        const {data} =  await axios.get("/ajax/cinemaList?day=2019-11-27&offset=0&limit=20&reqId=1574855060728&cityId=73")
+        const {data} =  await axios.get("/ajax/cinemaList",{
+            params:{
+                day:2019-11-27,
+                offset:0,
+                limit:20,
+                reqId:1574855060728,
+                cityId: this.state.cityId,
+            }
+        })
         console.log(data.cinemas)
         this.setState({
             cinemaList:data.cinemas

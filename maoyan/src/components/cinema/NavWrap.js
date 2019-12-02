@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../assets/css/cinema/navWrap.css'
 import Brand from "./navWrap/Brand";
-import HallType from "./navWrap/HallType.js";
+import HallType from "../../components/cinema/navWrap/HallType";
 import AllCity from "./navWrap/AllCity";
 
 class NavWrap extends React.Component {
