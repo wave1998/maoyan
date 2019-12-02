@@ -4,7 +4,7 @@ import Swiper from "swiper/js/swiper.js";
 import 'swiper/css/swiper.min.css'
 import DetailHeader from "../../components/common/DetailHeader";
 import '../../assets/css/detail/cinemaDetail.css'
-import LittleEat from "../../components/common/LittleEat";
+import Littleeat from "../../components/common/Littleeat";
 
 export default class CinemaDetail extends React.Component {
     constructor(props) {
@@ -155,7 +155,7 @@ export default class CinemaDetail extends React.Component {
                     }
                     </div>
                 </div>
-                <LittleEat cinemaId={this.state.cinemaId}></LittleEat>
+                <Littleeat cinemaId={this.state.cinemaId}></Littleeat>
             </div>
         )
     }

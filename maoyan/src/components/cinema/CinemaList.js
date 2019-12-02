@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../assets/css/cinema/cinemaList.css"
-import Eat from "../common/LittleEat"
+import Eat from "../common/Littleeat"
 import {withRouter} from 'react-router-dom'
 
 class CinemaList extends React.Component {

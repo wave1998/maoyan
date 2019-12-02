@@ -2,7 +2,7 @@ import React, {Fragment} from "react"
 import axios from "axios"
 import "../../assets/css/eat/eat.css"
 
-class LittleEat extends React.Component {
+class Littleeat extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -40,4 +40,4 @@ class LittleEat extends React.Component {
     }
 }
 
-export default LittleEat
+export default Littleeat
