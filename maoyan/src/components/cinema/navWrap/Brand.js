@@ -1,11 +1,13 @@
 import React from 'react'
 import "../../../assets/css/cinema/navWrap/brand.css"
 import axios from 'axios'
+import store from '../../../store'
 class Brand extends React.Component{
     constructor(){
         super()
         this.state={
-            brandSubItems:[]
+            brandSubItems:[],
+            chosen:0,
         }
     }
     render() {
@@ -14,20 +16,41 @@ class Brand extends React.Component{
                     <div>
                         {
                             this.state.brandSubItems?
-                                this.state.brandSubItems.map(v=>
-                                    <div className={"item"} key={v.id}>
+                                this.state.brandSubItems.map((v,index)=>
+                                    <div onClick={this.changeBrand.bind(this,index,v.id)}
+                                        className={this.state.chosen===index?"item chosen":"item"}
+                                         key={v.id}>
                                         <span className={"brand-name"} style={{textAlign:"left"}}>{v.name}</span>
                                         <span className={"brand-count"}>{v.count}</span>
                                     </div>
-                                ) :null
+                                ):null
                         }
                     </div>
                 </div>
         )
     }
+    changeBrand(index,brandId){
+        this.setState({
+            chosen:index,
+        })
+        store.dispatch({
+            type:"CHANGE_BRAND",
+            payload:{
+                brandId,
+            }
+        })
+        this.props.getCinemaList.call(this.props.cinemaThis);
+        this.props.NavWrapThis.setState({
+            allCity:false,
+            closeTab:false,
+        })
+    }
     async componentDidMount() {
-        const {data} = await axios.get("/ajax/filterCinemas?ci=1")
-        console.log(data.brand.subItems)
+        const {data} = await axios.get("/ajax/filterCinemas",{
+            params:{
+                ci:store.getState().cinema.presentCityId
+            }
+        })
         this.setState({
             brandSubItems:data.brand.subItems
         })

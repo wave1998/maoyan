@@ -83,7 +83,6 @@ export default class Cinema extends React.Component{
                 cityId: store.getState().cinema.presentCityId,
             }
         })
-        console.log(data.cinemas)
         this.setState({
             cinemaList:data.cinemas
         })

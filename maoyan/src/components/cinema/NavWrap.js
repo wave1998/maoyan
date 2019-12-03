@@ -26,8 +26,8 @@ class NavWrap extends React.Component {
                 {
                     this.state.closeTab?
                     <div className={"closeTab"}>
-                        {this.state.brand?<Brand></Brand>:null}
-                        {this.state.hallType?<HallType></HallType>:null}
+                        {this.state.brand?<Brand getCinemaList={this.props.getCinemaList} cinemaThis={this.props.cinemaThis} NavWrapThis={this}></Brand>:null}
+                        {this.state.hallType?<HallType getCinemaList={this.props.getCinemaList} cinemaThis={this.props.cinemaThis} NavWrapThis={this}></HallType>:null}
                         {this.state.allCity?<AllCity getCinemaList={this.props.getCinemaList} cinemaThis={this.props.cinemaThis} NavWrapThis={this}></AllCity>:null}
                     </div>:null
                 }

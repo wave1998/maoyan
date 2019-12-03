@@ -25,8 +25,15 @@ export default function (state=initstate,{type,payload}) {
     }
     if(type==="CHANGE_STATION"){
         state.stationId = payload.stationId;
-        state.serviceId=-1;
+        state.districtId=-1;
         state.areaId=-1;
+    }
+    if(type==="CHANGE_BRAND"){
+        state.brandId=payload.brandId
+    }
+    if(type==="CHANGE_HALLTYPE"){
+        state.hallType=payload.hallTypeId;
+        state.serviceId=payload.serviceId;
     }
     return state;
 }

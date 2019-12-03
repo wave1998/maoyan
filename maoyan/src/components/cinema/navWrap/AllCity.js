@@ -112,7 +112,6 @@ class AllCity extends React.Component{
                 districtId,
             }
         })
-        console.log(store.getState().cinema.districtId)
     }
     changeArea(index,areaId){
         this.setState({
@@ -146,7 +145,6 @@ class AllCity extends React.Component{
                 lineId,
             }
         })
-        console.log(store.getState().cinema.districtId)
     }
     changeStation(index,stationId){
         this.setState({
@@ -158,9 +156,11 @@ class AllCity extends React.Component{
                 stationId,
             }
         })
-        // console.log(this.props.cinemaThis,this)
-        // this.props.cinemaThis.forceUpdate();//强制刷新
-        // this.props.history.push("/movie")
+        this.props.getCinemaList.call(this.props.cinemaThis);
+        this.props.NavWrapThis.setState({
+            allCity:false,
+            closeTab:false,
+        })
     }
 
     async componentDidMount() {
@@ -170,7 +170,6 @@ class AllCity extends React.Component{
             subwaySubItems:data.subway.subItems
         });
     }
-    // districtId:store.getState().cinema.districtId,
-    // areaId:store.getState().cinema.areaId,
+
 }
 export default withRouter(AllCity);

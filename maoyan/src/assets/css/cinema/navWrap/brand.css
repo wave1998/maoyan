@@ -15,7 +15,10 @@
     width: 100%;
     margin-left: 0;
 }
-.brand-content .item:before{
+ .brand-content .item.chosen span{
+     color:red;
+ }
+ .brand-content .item:before{
     content: "";
     display: block;
     position: absolute;
