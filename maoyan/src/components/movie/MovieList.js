@@ -1,14 +1,19 @@
 import React, {Fragment} from 'react'
 import { withRouter } from 'react-router-dom'
-import '../../assets/movie/movieList.css'
+import '../../assets/movie/movieList.css' 
+import IScroll from 'iscroll/build/iscroll-probe'; 
+
 
 
 class MovieList extends React.Component {
     constructor(props){
         super(props)
         this.state={
-            ToUrl:this.props.ToUrl || "/movie/cinema/"
-        }
+        
+            ToUrl:this.props.ToUrl || "/movie/cinema/",
+            
+        };
+       
     }
     render(props) {
         return (
@@ -58,5 +63,11 @@ class MovieList extends React.Component {
             ):null
     )
 }
+
+
+//组件初始化完毕时触发
+
+
+
 }
 export default withRouter(MovieList)

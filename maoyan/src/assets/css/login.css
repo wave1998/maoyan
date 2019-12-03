@@ -1,0 +1,150 @@
+.header{
+    width: 100%;
+    height:50px;
+    background: rgb(228, 5, 5);
+    overflow: hidden;
+}
+.header .iconfont{
+    width: 52.5rem;
+    background: white;
+    float: left;
+}
+.header .title{
+    width:320.5px ;
+    height: 100%;
+    float: right;
+}
+.header .title h1{
+    line-height: 50px;
+    color:white;
+    font-size:18px;
+    margin-left: 120px;
+}
+.tab{
+    width: 100%;
+   
+}
+.tab ul{
+    width: 355px;
+    margin: auto;
+    height: 40px;
+    overflow: hidden;
+    border-bottom: 4px solid #ccc ;
+}
+.tab ul li{
+    width: 177.5px;
+    height: 100%;
+    float: left;
+    z-index: 5;
+}
+.tab ul li h2{
+    font-size: 0.25rem;
+    text-align: center;
+    line-height: 40px;
+}
+.tab ol li{
+    width: 100%;
+    /* height: 43px; */
+    margin-top: 4px;
+}
+.tab ol .current input{
+    width: 355px;
+    height: 43px;
+    border:none;
+    margin: auto;
+    border-bottom: 1px solid #ccc;
+}
+.tab ol .current input::placeholder{
+    font-size:16px;
+    margin-left: 20px;
+}
+.tab ol .current button{
+    width:355px;
+    height: 30px;
+    margin: 10px;
+    background: red;
+    color: white;
+    border-style: none;
+}
+/* .tab ol li{
+    display: none;
+} */
+.tab ol li.current{
+    display:block;
+}
+.tab ul li .current{
+    border-bottom:4px solid #FFC300;
+    display:block;
+}
+.tab2{
+    width: 100%;
+    height: 43.5px;
+    border-bottom: 1px solid #ccc;
+    overflow:hidden;
+}
+.tab2 input{
+    width:270px;
+    height: 30px;
+    margin-top: 5px;
+    border:none; 
+    background: rgb(240, 240, 240);  
+    border-radius: 4px;
+    margin-left:15px;
+    float: left;
+    
+}
+.tab2 input::placeholder{
+    font-size: 14px;
+}
+.tab2 p{
+    width: 80px;
+    height: 30px;
+    background: rgb(224, 224, 224);
+    float: left;
+    font-size:14px;
+    margin-top: 5px;
+    border-radius: 2px;
+    line-height: 30px;
+    color:rgb(141, 140, 140);
+}
+.tab3{
+    width: 100%;
+    height: 43.5px;
+    border-bottom: 1px solid #ccc;
+}
+.tab3 input{
+    border:none;
+    width:345px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 14px;
+    background: rgb(240, 240, 240);
+    border-radius: 4px;
+}
+.tab ol:last-child button{
+    width:355px;
+    height: 30px;
+    border:none;
+    font-size: 14px;
+    margin-top: 10px;
+    color:rgb(141, 140, 140);
+}
+.footer{
+    width:355px;
+    height: 35px;
+    /* margin-top: 130px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    font-size: 13px;
+    line-height: 35px;
+    color: #FE8C00;
+}
+.phone{
+    font-size: 14px;
+}
+.phone a{
+    color: red;
+}

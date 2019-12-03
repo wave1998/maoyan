@@ -35,8 +35,9 @@ export default class Search extends React.Component {
 
                 <DetailHeader></DetailHeader>
                 <div className="but">
-                    <input type="text" className="but1" value={this.state.cinemaValue} placeholder="搜影院" onChange={(e) => { this.fn(e) }} />
-                    <span onClick={() => { this.props.history.push("/cinema") }}>取消</span>
+                    <span class="iconfont icon-RectangleCopy but-left"></span>
+                    <input type="text" className="but1" value={this.state.cinemaValue} placeholder="搜影院、收电影" onChange={(e) => { this.fn(e) }} />
+                    <span onClick={() => { this.props.history.go("-1") }}>取消</span>
                 </div>
                 {this.state.list ?
                     this.state.list.map((v, index) => (

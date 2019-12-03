@@ -8,12 +8,16 @@
     "element-react": "^1.4.34",
     "element-theme-default": "^1.4.13",
     "element-ui": "^2.13.0",
+    "iscroll": "^5.2.0",
     "lib-flexible": "^0.3.2",
     "postcss-px2rem": "^0.3.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-iscroll": "^2.0.3",
+    "react-pullload": "^1.2.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "reactjs-iscroll": "^0.3.2",
     "swiper": "^5.2.1"
   },
   "scripts": {

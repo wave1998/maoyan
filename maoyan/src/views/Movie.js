@@ -52,7 +52,7 @@ class Movie extends React.Component {
 
   
     render() {
-         let {isMoblie,show} = this.state;
+         let {show} = this.state;
         return (
            
             <div> 

@@ -1,0 +1,31 @@
+.mybox{
+     width: 100%;
+     height:100%;
+}
+.no-data{
+    position: absolute;
+    width: 100%;
+     height:100%;
+     background:rgb(238, 238, 238)
+     
+}
+.wrapper{
+     background: url(https://p1.meituan.net/scarlett/619365fa618b995528b049dff0505aa518739.png) no-repeat center top;
+     position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: -2rem;
+     background-size: 3rem 3rem;
+     height:139px ;
+}
+.tip-text {
+     display: block;
+     padding-top: 3.5rem;
+     font-size: .45rem;
+     height: .56rem;
+     line-height: .56rem;
+     color: #999;}
+     
+
