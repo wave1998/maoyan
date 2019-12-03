@@ -124,6 +124,11 @@ class AllCity extends React.Component{
                 areaId,
             }
         })
+        this.props.getCinemaList.call(this.props.cinemaThis);
+        this.props.NavWrapThis.setState({
+            allCity:false,
+            closeTab:false,
+        })
         // console.log(this.props.cinemaThis,this)
         // this.props.cinemaThis.forceUpdate();//强制刷新
     }
@@ -157,8 +162,6 @@ class AllCity extends React.Component{
         // this.props.cinemaThis.forceUpdate();//强制刷新
         // this.props.history.push("/movie")
     }
-
-
 
     async componentDidMount() {
         const {data} = await axios.get("/ajax/filterCinemas?ci="+this.state.cityId)

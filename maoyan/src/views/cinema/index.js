@@ -12,6 +12,13 @@ export default class Cinema extends React.Component{
             cinemaList:[],
             cityId:store.getState().cinema.presentCityId,
             cityName:store.getState().cinema.presentCityName,
+            districtId:store.getState().cinema.districtId,
+            lineId:store.getState().cinema.lineId,
+            hallType:store.getState().cinema.hallType,
+            brandId:store.getState().cinema.brandId,
+            serviceId:store.getState().cinema.serviceId,
+            areaId:store.getState().cinema.areaId,
+            stationId:store.getState().cinema.stationId,
         }
     }
     render() {
@@ -33,7 +40,7 @@ export default class Cinema extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <NavWrap></NavWrap>
+                    <NavWrap getCinemaList={this.getCinemaList} cinemaThis={this}></NavWrap>
                     <div className="cinemaList">
                         <CinemaList cinemaList={this.state.cinemaList}></CinemaList>
                 </div>
@@ -41,20 +48,48 @@ export default class Cinema extends React.Component{
             </div>
         )
     }
-    async componentDidMount() {
+
+
+
+        // day=2019-12-03
+        // &offset=0
+    // &limit=20
+    // &districtId=-1
+    // &lineId=-1
+    // &hallType=-1
+    // &brandId=-1
+    // &serviceId=-1
+    // &areaId=-1
+    // &stationId=-1
+    // &item=
+    // &updateShowDay=true
+    // &reqId=1575358966441
+        // &cityId=1
+    async  getCinemaList(){
         const {data} =  await axios.get("/ajax/cinemaList",{
             params:{
-                day:2019-11-27,
+                day:"2019-12-03",
                 offset:0,
                 limit:20,
-                reqId:1574855060728,
-                cityId: this.state.cityId,
+                districtId:store.getState().cinema.districtId,
+                lineId:store.getState().cinema.lineId,
+                hallType:store.getState().cinema.hallType,
+                brandId:store.getState().cinema.brandId,
+                serviceId:store.getState().cinema.serviceId,
+                areaId:store.getState().cinema.areaId,
+                stationId:store.getState().cinema.stationId,
+                updateShowDay:true,
+                reqId:1575358966441,
+                cityId: store.getState().cinema.presentCityId,
             }
         })
         console.log(data.cinemas)
         this.setState({
             cinemaList:data.cinemas
         })
+    }
+    componentDidMount() {
+        this.getCinemaList()
     }
 
 }
