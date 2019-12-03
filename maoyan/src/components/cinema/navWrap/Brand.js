@@ -43,6 +43,7 @@ class Brand extends React.Component{
         this.props.NavWrapThis.setState({
             allCity:false,
             closeTab:false,
+            brandText: this.state.brandSubItems.find(v=>v.id===brandId).name
         })
     }
     async componentDidMount() {

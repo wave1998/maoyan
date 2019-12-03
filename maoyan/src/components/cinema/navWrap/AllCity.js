@@ -127,9 +127,8 @@ class AllCity extends React.Component{
         this.props.NavWrapThis.setState({
             allCity:false,
             closeTab:false,
+            areaText: this.state.districtSubItems2.find(v=>v.id===areaId).name
         })
-        // console.log(this.props.cinemaThis,this)
-        // this.props.cinemaThis.forceUpdate();//强制刷新
     }
 
         // 地铁路线改变
@@ -160,6 +159,7 @@ class AllCity extends React.Component{
         this.props.NavWrapThis.setState({
             allCity:false,
             closeTab:false,
+            areaText: this.state.subwaySubItems2.find(v=>v.id===stationId).name
         })
     }
 
