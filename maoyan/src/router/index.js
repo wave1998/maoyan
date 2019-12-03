@@ -8,6 +8,7 @@ import MovieDetail from "../views/detail/MovieDetail";
 import MyOrder from "../views/my/MyOrder";
 import MovieCinema from "../views/detail/MovieCinema";
 import Discuss from '../views/Discuss'
+import Seat from "../views/cinema/Seat";
 
 const mainRouter = [
     
@@ -71,6 +72,13 @@ const mainRouter = [
         component:Discuss,
         exact:false,
         title:"评论详情",
+    },
+
+    {
+        pathname:"/seat/:cityId/:ci/:seqNo",
+        component:Seat,
+        exact:false,
+        title:"选座",
     },
 ]
 export default mainRouter

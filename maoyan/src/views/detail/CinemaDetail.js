@@ -120,7 +120,7 @@ export default class CinemaDetail extends React.Component {
                     <div className={"list-wrap"}>{
                         this.state.plist.length >= 1 ?
                             this.state.plist.map((v, index) =>
-                                <div className="item-outer" key={index}>
+                                <div className="item-outer" key={index} onClick={()=>this.props.history.push("/seat/1/1/201912070008990")}>
                                     <div className="item">
                                         <div className="time-block">
                                             <div className="begin">{v.tm}</div>

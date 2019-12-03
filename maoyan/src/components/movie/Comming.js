@@ -21,7 +21,6 @@ export default class Comming extends React.Component{
         )
     }
 
-
     async componentDidMount() {
         const {data} = await axios.get("/ajax/comingList"+{
             params:{

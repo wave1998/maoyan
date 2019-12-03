@@ -1,0 +1,210 @@
+.selectSeat {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.selectSeat div{
+    box-sizing: border-box;
+}
+.selectSeat .header {
+    width: 100%;
+    height: 60Px;
+    padding: 0.8rem 0.5rem 0.1rem 0.8rem;
+    border-bottom: 5px solid #f0f0f0;
+}
+.selectSeat  .movieTitle{
+    color: #333;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.selectSeat  .desc {
+    height: 21px;
+    line-height: 21px;
+    color: #777;
+    font-size: 13px;
+    margin-top: 9px;
+    text-align: left;
+    margin-left: 15px;
+}
+.selectSeat  .desc .time{
+    padding-right: 0.4rem;
+    float: left;
+}
+
+.selectSeat  .desc .lang .language{
+    padding-right: 0.2rem;
+    float: left;
+}
+
+.selectSeat .seatCon {
+    width: 100%;
+    height: auto;
+    background-color: #f2f1f6;
+}
+.selectSeat .hallCon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20Px;
+}
+.selectSeat .hallCon .hallName{
+    color: #777;
+    width: 60%;
+    height: 20Px;
+    line-height: 20Px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #e3e3e3;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.seatMore {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50vh;
+    align-items: center;
+}
+.seatMore .rowList {
+    width: 10Px;
+    color: #fff;
+    font-size: 16px;
+    height: auto;
+    background-color: #edecf0;
+}
+.seatMore .rowList .numberId{
+    width:5Px;
+    font-size: 13px;
+    color: #777;
+    text-align: center;
+    height: 15Px;
+    line-height: 15Px;
+    margin: 14px 0px;
+}
+
+.seatMore .Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    overflow: scroll;
+}
+.seatMore .Container .rowWrap {
+    display: flex;
+    flex-direction: row;
+    height: 15Px;
+    line-height: 15Px;
+    margin: 7px 0px;
+}
+
+.seatMore .Container .rowWrap .seatWrap {
+    width: 18Px;
+    height: 15Px;
+    line-height: 15Px;
+    margin: 0 5px;
+}
+
+.seatMore .Container .rowWrap .seatWrap Image,.seatMore .Container .rowWrap .seatWrap img{
+    width: 18Px;
+    height: 15Px;
+}
+.selectSeat .type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.selectSeat .type .item {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 5px;
+    background: none;
+    border-bottom: 0;
+    padding: 0;
+}
+
+.selectSeat .type .item img{
+    width: 17px;
+    height: 15px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.selectSeat .type .item .word{
+    color: #777;
+    padding-left: 2.5px;
+    display: inline-block;
+}
+
+.selectSeat .comment {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.selectSeat .comment .title{
+    color: #333;
+    /*height: 30Px;*/
+    /*line-height: 30Px;*/
+    font-size: 16px;
+    padding-left: 14px;
+    float:left;
+    width: auto;
+    margin:6px;
+}
+
+.selectSeat .comment .btn {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+}
+
+.selectSeat .comment .btn .btnItem{
+    color: #333;
+    text-align: center;
+    border:1px solid #d7d7d7;
+
+    float: left;
+    margin-left: 8px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.selectSeat .buyBtn{
+    width: 95%;
+    height: 40Px;
+    margin: 10px auto;
+    font-size: 17px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40Px;
+    background-color: #ffddb2;
+    color: #fff;
+}
+
+.hide{
+    display: none !important;
+}
+.selectSeat .active{
+    background-color:#f90 !important;
+}
+/*::-webkit-scrollbar {*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    color: transparent;*/
+/*}*/
