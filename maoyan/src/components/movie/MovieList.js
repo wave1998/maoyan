@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react'
+import React from 'react'
 import { withRouter } from 'react-router-dom'
 import '../../assets/movie/movieList.css' 
 import IScroll from 'iscroll/build/iscroll-probe'; 
@@ -7,7 +7,7 @@ import IScroll from 'iscroll/build/iscroll-probe';
 
 class MovieList extends React.Component {
     constructor(props){
-        super(props)
+        super(props);
         this.state={
         
             ToUrl:this.props.ToUrl || "/movie/cinema/",
@@ -20,7 +20,7 @@ class MovieList extends React.Component {
             this.props.movieList?
                 this.props.movieList.map(v =>
                     <div key={v.id} onClick={()=>{this.props.history.push({pathname:this.state.ToUrl + v.id})}}>
-                        <div className="movie-list">
+                        <div className="movie-list" style={{height:"2.4rem"}}>
                             <div className="movie-img">
                                 <img src={v.img.replace("w.h", "128.180")} alt={"电影封面"}/>
                             </div>

@@ -20,7 +20,7 @@ class Home extends React.Component{
             <div>
                <Switch>
                    <Route path={"/"} component={Movie} exact></Route>
-                   <Route path={"/cinema"} component={Cinema} exact></Route>
+                   <Route path={"/cinema"} component={Cinema} ></Route>
                    <Route path={"/my"} component={My} exact></Route>
                </Switch>
                

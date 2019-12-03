@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/movie/movie.css';
 import Hoting from "../components/movie/Hoting";
 import Comming from "../components/movie/Comming";
+import LocationModule from "../components/common/LocationModule";
 import CommonHeader from "../components/common/CommonHeader";
 import Advert from "../components/common/Advert";
 class Movie extends React.Component {
@@ -64,6 +65,7 @@ class Movie extends React.Component {
                <Advert ></Advert> : ''}
                     <ul className="topNav">
                     <li onClick={()=>{this.props.history.push("/location")}}>北京<span className="iconfont icon-xiala"></span></li>
+                    {/*    <LocationModule></LocationModule>*/}
                     <li>
                         <ul className="topNav-ul">
                         <li className={this.state.showHot===1?'active':''} onClick={()=>this.setState({showHot:1})}>正在热映</li>

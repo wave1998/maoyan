@@ -3,9 +3,8 @@ import axios from 'axios'
 import Swiper from "swiper/js/swiper.js";
 import 'swiper/css/swiper.min.css';
 import DetailHeader from "../../components/common/DetailHeader";
-import '../../assets/css/detail/cinemaDetail.css';
-import LittleEat from "../../components/common/Littleeat.js";
-import Advert from "../../components/common/Advert";
+import '../../assets/css/detail/cinemaDetail.css'
+import Littleeat from "../../components/common/Littleeat";
 
 export default class CinemaDetail extends React.Component {
     constructor(props) {
@@ -26,7 +25,7 @@ export default class CinemaDetail extends React.Component {
         return (
             <div className={"cinemaDetail"}>
                 <DetailHeader pageTitle={this.state.pageTitle}></DetailHeader>
-                <Advert ></Advert>
+                
                 <div className="cinema-info">
                     <div className="title line-ellipsis">{this.state.pageTitle}</div>
                     <div className="location line-ellipsis">{this.state.cinemaAddr}</div>
@@ -157,7 +156,7 @@ export default class CinemaDetail extends React.Component {
                     }
                     </div>
                 </div>
-                <LittleEat cinemaId={this.state.cinemaId}></LittleEat>
+                <Littleeat cinemaId={this.state.cinemaId}></Littleeat>
             </div>
         )
     }

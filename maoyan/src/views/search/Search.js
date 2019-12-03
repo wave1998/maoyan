@@ -4,8 +4,6 @@ import "../../assets/css/search/search.css"
 import "../../assets/css/cinema/cinemaList.css"
 import DetailHeader from '../../components/common/DetailHeader'
 
-// import DatePicker from 'antd/es/date-picker'; // 加载 JS
-// import 'antd/es/date-picker/style/css'; // 加载 CSS
 
 function debounce(fn) {
     let timeoutId
@@ -121,7 +119,7 @@ export default class Search extends React.Component {
         axios.get(`/ajax/search?kw=${e}&cityId=1&stype=-1`)
             .then(({ data }) => {
                 if (data.cinemas || data.movies) {
-                    console.log(data)
+                  //  console.log(data)
                     this.setState({
                         list: data.cinemas?data.cinemas.list:null,
                         lists: data.movies?data.movies.list:null

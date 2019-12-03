@@ -1,7 +1,6 @@
 import React from 'react'
 import MovieList from "./MovieList";
 import axios from 'axios';
-import ReactPullLoad,{STATS} from 'react-pullload';
 import Swiper from './Swiper';
 
 export default class Comming extends React.Component{
