@@ -5,10 +5,13 @@ import Comming from "../components/movie/Comming";
 import LocationModule from "../components/common/LocationModule";
 import CommonHeader from "../components/common/CommonHeader";
 import Advert from "../components/common/Advert";
+import store from "../store";
 class Movie extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+        cityId:store.getState().cinema.presentCityId,
+        cityName:store.getState().cinema.presentCityName,
         isMoblie:false,
         currentNum: 0,
         show: true,
@@ -55,7 +58,6 @@ class Movie extends React.Component {
     render() {
          let {show} = this.state;
         return (
-           
             <div> 
                 <div className="top"> 
                     <CommonHeader pageTitle={"猫眼电影"}></CommonHeader>
@@ -64,7 +66,7 @@ class Movie extends React.Component {
                 show?
                <Advert ></Advert> : ''}
                     <ul className="topNav">
-                    <li onClick={()=>{this.props.history.push("/location")}}>北京<span className="iconfont icon-xiala"></span></li>
+                    <li onClick={()=>{this.props.history.push("/location")}}>{this.state.cityName}<span className="iconfont icon-xiala"></span></li>
                     {/*    <LocationModule></LocationModule>*/}
                     <li>
                         <ul className="topNav-ul">

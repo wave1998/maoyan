@@ -1,8 +1,8 @@
-import city from './city'
+import cinema from './cinema'
 import {
     combineReducers
 } from "redux";
 
 export default combineReducers({
-    city
+    cinema
 });

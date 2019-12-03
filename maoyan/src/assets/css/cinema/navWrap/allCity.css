@@ -68,6 +68,10 @@
     background: #f5f5f5;
     border-bottom: 0;
 }
+.filter-list .item.chosen .item-name,.filter-list .item.chosen .item-count{
+    color: #f03d37;
+    background: #f5f5f5;
+}
 .item-name{
     width: 80%;
     font-size: 14px;

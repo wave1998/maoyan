@@ -2,6 +2,7 @@ import React from 'react'
 import MovieList from "./MovieList";
 import axios from 'axios';
 import Swiper from './Swiper';
+import store from '../../store'
 
 export default class Comming extends React.Component{
     constructor(){
@@ -22,8 +23,14 @@ export default class Comming extends React.Component{
 
 
     async componentDidMount() {
-        const {data} = await axios.get("/ajax/comingList?ci=238&token=&limit=10")
-        console.log(data.comming)
+        const {data} = await axios.get("/ajax/comingList"+{
+            params:{
+                ci:store.getState().cinema.presentCityId,
+                limit:10
+            }
+
+        })
+        console.log(store.getState().cinema.presentCityId)
         this.setState({
             movieList:data.coming,
         })

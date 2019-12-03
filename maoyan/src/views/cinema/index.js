@@ -10,8 +10,8 @@ export default class Cinema extends React.Component{
         super(props);
         this.state={
             cinemaList:[],
-            cityId:store.getState().city.presentCityId,
-            cityName:store.getState().city.presentCityName,
+            cityId:store.getState().cinema.presentCityId,
+            cityName:store.getState().cinema.presentCityName,
         }
     }
     render() {

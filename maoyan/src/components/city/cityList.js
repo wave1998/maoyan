@@ -49,7 +49,7 @@ class CityList extends React.Component {
     }
     changeCity(id,e){
         console.log(e.target.innerText)
-        this.props.history.push(  '/cinema' )
+        this.props.history.go(-1)
         store.dispatch({
             type:'CHANGE_CITY',
             payload:{
@@ -60,7 +60,7 @@ class CityList extends React.Component {
     }
     changeCity2(rowData) {
         const {value} = cityList.cts.find(v => v.label === rowData)
-        this.props.history.push(  '/cinema' )
+        this.props.history.go(-1)
         store.dispatch({
             type:'CHANGE_CITY',
             payload:{
